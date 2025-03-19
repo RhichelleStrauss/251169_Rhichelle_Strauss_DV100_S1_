@@ -119,28 +119,39 @@ body{
 
   nav{
     background-color: #ffffff97;
-    margin-top: 1em;
+    margin-top: 2em;
     width: 90%;
+    top: 20px;
 
-    display: block;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    
     margin-left: auto;
     margin-right: auto;
-    border-radius: 40px;
+    border-radius: 30px;
 
-    padding: 10px;
+
+    padding: 5px;
   }
 
 
   .navBar{
     overflow: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
     
   }
 
   .navBar a{
     float: left;
-    color: black;
+    color: #000000a3;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px;
+
+    top: 20px;
 
     text-decoration: none;
   }
@@ -151,8 +162,13 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-
     font-size: 18px;
+
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center
+
+    
   }
 
   .navBar a:hover{
@@ -164,14 +180,12 @@ body{
 }
 
 .headerContainer{
-  height: 100vh;
+  height: 101vh;
   
   position: relative;
   text-align: center;
 
 }
-
-
 
 
 .bottomTopLeft{
@@ -208,7 +222,7 @@ header{
 }
 
 .featuredTripHeader{
-  height: 100vh;
+  height: 101vh;
   background-size: cover;
 
   position: relative;
@@ -293,10 +307,77 @@ h1{
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-
-  display: inline-block;
-  text-align: center;
   font-size: 20px;
   text-decoration: none;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+.shuttlesHeader{
+  height: 100vh;
+  background-size: cover;
+
+  position: relative;
+  text-align: center;
+
+  background-color: #ffffff;
+}
+
+.shuttlesHeader img{
+  position: absolute;
+
+  top: 50px;
+  right: 20px;
+
+  padding: 14px 16px;
+}
+
+.shuttles{
+  position:absolute;
+  top: 80px;
+  left: 150px;
+  
+
+  font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: #55daeb;
+}
+
+h2{
+  position: absolute;
+  top: 75px;
+  left: 144px;
+
+  font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    color: #45016d;
+
+  text-align: left;
+  width: 600px;
+  word-wrap: break-word
+}
+
+.aboutShuttles p {
+  position: absolute;
+  top: 260px;
+  left: 145px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000a3;
+
+  text-align: left;
+  width: 470px;
+  word-wrap: break-word
+
+}
+
