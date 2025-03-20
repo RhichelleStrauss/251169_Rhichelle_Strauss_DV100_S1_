@@ -158,6 +158,7 @@ body{
 
   .navBarRight{
     float: center;
+    
 
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -316,8 +317,15 @@ h1{
   text-align: center;
 }
 
+.buttonBook:hover{
+  background-color: #ffffff;
+  color: #e51728;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
 .shuttlesHeader{
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
 
   position: relative;
@@ -338,7 +346,7 @@ h1{
 .shuttles{
   position:absolute;
   top: 80px;
-  left: 150px;
+  left: 145px;
   
 
   font-family: "Poppins", sans-serif;
@@ -380,4 +388,584 @@ h2{
   word-wrap: break-word
 
 }
+
+.upcomingTripsHeader{
+  position: relative;
+  height: 120vh;
+  width: 100%;
+  background-size: cover;
+  background-color: #45016d;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+
+}
+
+.upcomingTrip{
+  position: absolute;
+
+  top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #55daeb;
+}
+
+.upcomingTripLook{
+  position: absolute;
+  top: 80px;
+
+  flex-wrap: wrap;
+  width: 60%;
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color: #ffffff;
+}
+
+.planetCardsMars{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.classicMars{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.classicMars img{
+  width: 278px;
+  height: 278px;
+
+  position: absolute;
+  top: 250px;
+  left: 150px;
+
+  object-fit: cover;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+h3{
+  aspect-ratio: 1/1;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex-wrap: wrap;
+
+  top: 520px;
+  left: 180px;
+  width: 15%;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  font-size: 18px;
+  color: #ffffff;
+
+}
+
+.classicMarsExp p{
+  aspect-ratio: 1/1;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex-wrap: wrap;
+
+  top: 575px;
+  left: 130px;
+  width: 20%;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.planetCardsNept{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.neptCosmic{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.neptCosmic img{
+  width: 278px;
+  height: 278px;
+
+  position: absolute;
+  top: 250px;
+  left: 465px;
+
+  object-fit: cover;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.neptCosmicFlight{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+h4{
+  aspect-ratio: 1/1;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex-wrap: wrap;
+
+  top: 510px;
+  left: 515px;
+  width: 12%;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.neptCosmicFlight p{
+  aspect-ratio: 1/1;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex-wrap: wrap;
+
+  top: 575px;
+  left: 450px;
+  width: 20%;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.planetCardsGiant{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+}
+
+.jupiterGiant{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+}
+
+.jupiterGiant img{
+  width: 278px;
+  height: 278px;
+
+  position: absolute;
+  top: 250px;
+  right: 460px;
+
+  object-fit: cover;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.giantJourney{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+}
+
+h5{
+  aspect-ratio: 1/1;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  flex-wrap: wrap;
+
+  top: 510px;
+  right: 505px;
+  width: 12%;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.giantJourney p{
+  aspect-ratio: 1/1;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex-wrap: wrap;
+
+  top: 575px;
+  right: 450px;
+  width: 20%;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.planetCardsSaturn{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+}
+
+.saturnRing {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+}
+
+.saturnRing img{
+  width: 278px;
+  height: 278px;
+
+  position: absolute;
+  top: 250px;
+  right: 150px;
+
+  object-fit: cover;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.saturnRingFlight{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+}
+
+h6{
+  aspect-ratio: 1/1;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  flex-wrap: wrap;
+
+  top: 495px;
+  right: 195px;
+  width: 12%;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.saturnRingFlight p{
+  aspect-ratio: 1/1;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  flex-wrap: wrap;
+
+  top: 575px;
+  right: 140px;
+  width: 20%;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 16px;
+  color: #ffffff;
+
+}
+
+.buttonBookTrip{
+  position: absolute;
+  bottom: 90px;
+
+  width: 270px;
+  height: 70px;
+
+  background-color: #e51728;
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 0%;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.buttonBookTrip:hover{
+  background-color: #ffffff;
+  color: #e51728;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.footerFlexContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+
+  background-color: #ffffff;
+  height: 60vh;
+  margin: 0%;
+}
+
+.logoFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  
+}
+
+.logoFooter img{
+  width: 266px;
+  height: 48px;
+
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  top: 80px;
+  left: 100px;
+}
+
+.logoFooter p{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  top: 120px;
+  left: 100px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000a3;
+
+  width: 20%;
+}
+
+.companyColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+}
+
+.company{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  top: 80px;
+  right: 20px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #000;
+}
+
+.footerCenter{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+#homeFooter{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+
+  top: 150px;
+  right: 58px;
+
+  
+}
+
+#homeFooter a{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  text-decoration: none;
+  color: #000000a3;
+  font-size: 18px;
+}
+
+#flightsFooter{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+
+  top: 190px;
+  right: 55px;
+}
+
+
+#flightsFooter a{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  text-decoration: none;
+  color: #000000a3;
+  font-size: 18px;
+}
+
+#contactFooter{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  
+
+  top: 230px;
+  right: 40px;
+}
+
+#contactFooter a{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  text-decoration: none;
+  color: #000000a3;
+  font-size: 18px;
+  width: 150%;
+
+}
+
+.socialMedia{
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+}
+
+.socialMedia p{
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+  position: absolute;
+
+
+  top: 70px;
+  right: 100px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #000;
+
+}
+
+
+
+.instagram {
+  
+
+}
+
+
+
 
