@@ -118,46 +118,26 @@ body{
   }
 
   nav{
-    background-color: #ffffff97;
     margin-top: 2em;
     width: 90%;
-    top: 20px;
-
-    display: flexbox;
-    flex-direction: row;
-    justify-content: center;
-    
+    height: 80px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-
-
-    padding: 5px;
+    background-color: #ffffff97;
   }
 
-
-  .navBar{
-    overflow: hidden;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  
 
   .navBar a{
-    float: left;
+    
     color: #000000a3;
-    text-align: center;
-    padding: 12px;
-
-    top: 20px;
-
-    text-decoration: none;
-  }
-
-  .navBarRight{
-    float: center;
     
 
     font-family: "Poppins", sans-serif;
@@ -165,11 +145,24 @@ body{
     font-style: normal;
     font-size: 18px;
 
-    display: flexbox;
-    flex-direction: row;
-    justify-content: center
+    text-decoration: none;
+    padding: 0px 40px;
+  }
 
+  .navBarRight{
+    color: #000000a3;
+    text-align: center;
     
+    width: 40%;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+
+    text-decoration: none;
+    
+
   }
 
   .navBar a:hover{
@@ -214,7 +207,7 @@ body{
     color: #45016d;
 }
 
-header{
+.homeHeader{
   height: 120vh;
   background-image: url(../assets/img/homePageHeader.png);
   background-repeat: no-repeat;
@@ -793,7 +786,7 @@ h6{
   position: relative;
 
   background-color: #ffffff;
-  height: 60vh;
+  height: 40vh;
   margin: 0%;
 }
 
@@ -938,6 +931,10 @@ h6{
   flex-direction: row;
   align-items: right;
   justify-content: right;
+  position: absolute;
+
+  top: 140px;
+  right: 200px;
 }
 
 .socialMedia p{
@@ -947,25 +944,149 @@ h6{
   justify-content: right;
   position: absolute;
 
-
-  top: 70px;
-  right: 100px;
-
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
-  color: #000;
+
+
+  bottom:  20px;
+  right: 200px;
+  width: 200px;
+}
+
+.socialMediaImg {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+  position: absolute;
+
+  top: 120px;
+  right: 265px;
+}
+
+.footerBottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+hr{
+  width: 80%;
+}
+
+.footerBottomLeft{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: absolute;
+  
+  left: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000a3;
+  padding-top: 30px;
 
 }
 
+.footerBottomRight{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+ position: relative;
+}
 
 
-.instagram {
+.terms{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: absolute;
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000a3;
   
 
+  left:  250px;
+  width: 200px;
 }
 
+.privacy{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: absolute;
 
 
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000a3;
+  
+  left:  450px;
+  width: 250px;
+}
+
+#homeFooter a:hover{
+  color: #e51728;
+}
+
+#homeFooter a.active{ 
+color: #e51728;
+}
+
+#flightsFooter a:hover{
+  color: #e51728;
+}
+
+#flightsFooter a.active{
+  color: #e51728;
+}
+
+#contactFooter a:hover{
+  color: #e51728;
+}
+
+#contactFooter a.active{
+  color: #e51728;
+}
+
+.flightsHeader{
+  height: 50vh;
+  position: relative;
+  
+  background-image: url(../assets/img/headerbackBack.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  
+}
+.flightsBook{
+  position: absolute;
+  
+  font-family: 'PorterSans';
+  font-size: 48px;
+  color: #ffffff;
+
+  bottom: 90px;
+  left: 450px;
+
+}
+
+.selectBar{
+  height: 15vh;
+  background-color: #45016d;
+}
 
