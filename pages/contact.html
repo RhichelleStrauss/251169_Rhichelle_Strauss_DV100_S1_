@@ -18,20 +18,37 @@
     <body> 
          
             <header>
-              <nav> 
-                <div class="navBar">
-                <a href="index.html"> <img src="../assets/img/logo.png" height="48px" width="266px"></a>  
                 
-                <div class="navBarRight">
-                       <a href="../index.html">Home</a>
-                       <a href="flights.html">Flights</a>
-                       <a class="active" href="contact.html">Contact</a>
-                </div>
-                            
-                        
-
-                    </div>
-              </nav>
+                    <nav class="navBarPages navbar-expand-lg justify-content-center ">
+                        <div class="navBarContainer container-fluid justify-content-center">
+                            <div class="navBar collapse navbar-collapse flex-row" id="navbarSupportedContent">
+                              <a class="navBarLogo navbar-brand" href="../index.html"><img src="../assets/img/logo.png" height="48px" width="266px"> </a>
+                              
+                            <ul class="navBarCenter navbar-nav m-auto ">
+                              <li class="navBarCenterHome nav-item mx-3">
+                                <a class="navBarHome nav-link "  href="../index.html">Home</a>
+                              </li>
+                              <li class="navBarCenterFlights nav-item mx-3">
+                                <a class="navBarFlights nav-link active-link" href="../pages/flights.html">Flights</a>
+                              </li>
+                              
+                              <li class="navBarCenterContact nav-item mx-3">
+                                <a class="navBarContact nav-link" href="contact.html">Contact</a>
+                              </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <div class="searchBar input-group">
+                                    <span class="searchBarMag input-group-text">
+                                
+                                <img src="../assets/img/search.svg" alt="Search" width="16" height="16" >
+                                    </span>
+                              <input class="searchBarText form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </nav> 
+            </header>
               <section class="footer"> 
                 <div class="footerFlexContainer">
     

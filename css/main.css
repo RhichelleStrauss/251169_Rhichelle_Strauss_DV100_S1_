@@ -230,20 +230,20 @@ body{
     font-size: 40px;
     color: #45016d;
 }
-.input-group-text {
+.searchBarMag {
   background: white; /* Match input field */
   border-right: none; /* Remove right border */
   
 }
 
-.form-control {
+.searchBarText {
   border-left: none; /* Remove left border */
   box-shadow: none; /* Remove default focus glow */
   font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 .active-link {
@@ -260,25 +260,57 @@ body{
   overflow: hidden;
 }
 
-.featuredTripHeader{
+.featuredTripHeader {
   height: 101vh;
   background-size: cover;
 
   position: relative;
-  text-align: center;
-
+  width: 100%; 
   background-color: #45016d;
-
 }
+
+/*.carouselContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.featuredTripArrows {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.arrow {
+  position: absolute;
+  width: 20px; 
+  height: auto;
+  cursor: pointer;
+}
+
+.arrow.left {
+  left: -60px; 
+}
+
+.arrow.right {
+  right: -60px; 
+}*/
+
+
+
 
 .featuredTripHeader img{
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
   left: 100px;
   
 
   padding: 14px 16px;
 }
+
+
 
 .featuredTrip{
   position:absolute;
@@ -295,7 +327,7 @@ body{
 
 h1{
   position: absolute;
-  top: 90px;
+  top: 130px;
   right: 120px;
 
   font-family: "Poppins", sans-serif;
@@ -396,7 +428,7 @@ h1{
 
 h2{
   position: absolute;
-  top: 75px;
+  top: 100px;
   left: 144px;
 
   font-family: "Poppins", sans-serif;
@@ -511,7 +543,7 @@ h3{
   justify-content: left;
   flex-wrap: wrap;
 
-  top: 520px;
+  top: 540px;
   left: 180px;
   width: 15%;
 
@@ -534,8 +566,8 @@ h3{
   justify-content: left;
   flex-wrap: wrap;
 
-  top: 575px;
-  left: 130px;
+  top: 585px;
+  left: 135px;
   width: 20%;
 
   text-align: center;
@@ -593,7 +625,7 @@ h4{
   justify-content: left;
   flex-wrap: wrap;
 
-  top: 510px;
+  top: 535px;
   left: 515px;
   width: 12%;
 
@@ -615,7 +647,7 @@ h4{
   justify-content: left;
   flex-wrap: wrap;
 
-  top: 575px;
+  top: 585px;
   left: 450px;
   width: 20%;
 
@@ -674,7 +706,7 @@ h5{
   justify-content: right;
   flex-wrap: wrap;
 
-  top: 510px;
+  top: 535px;
   right: 505px;
   width: 12%;
 
@@ -696,7 +728,7 @@ h5{
   justify-content: left;
   flex-wrap: wrap;
 
-  top: 575px;
+  top: 585px;
   right: 450px;
   width: 20%;
 
@@ -755,7 +787,7 @@ h6{
   justify-content: right;
   flex-wrap: wrap;
 
-  top: 495px;
+  top: 535px;
   right: 195px;
   width: 12%;
 
@@ -777,7 +809,7 @@ h6{
   justify-content: right;
   flex-wrap: wrap;
 
-  top: 575px;
+  top: 585px;
   right: 140px;
   width: 20%;
 
@@ -862,7 +894,7 @@ h6{
   flex-direction: column;
   justify-content: left;
 
-  top: 120px;
+  top: 150px;
   left: 100px;
 
   font-family: "Poppins", sans-serif;
@@ -1021,6 +1053,8 @@ h6{
 
 hr{
   width: 80%;
+  margin: 0 auto; 
+    border: 1px solid #00000086; 
 }
 
 .footerBottomLeft{
