@@ -118,31 +118,23 @@ body{
   }
 
   nav{
-    
-    
-    display: block;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
   }
 
   .navBarPages{
-    margin-top: 2em;
+    margin-top: 2em; 
     width: 90%;
     height: 80px;
-    display: block;
+    
     margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
-
+    margin-right: auto; /*allows the navbar to be centered by setting the margin to auto*/
+    border-radius: 30px; /*rounding the navbar to make it look like the design given*/
 
     display: flex;
-    justify-content: center;
     align-items: center;
-
     background-color: #ffffffa9;
     
   }
@@ -150,16 +142,16 @@ body{
   .navBarFlights{
     color: #000000a3;
     
-
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
     padding-right: 10px;
-    width: 80%;
+    width: 80%; 
     
-
     text-decoration: none;
+    /*font size, color, and spacing to ensure the flights text is centered and in proportion. no text decoration, otherwise there is a link 
+    line on the bottom of the flights*/
   }
 
   .navBarHome{
@@ -187,6 +179,47 @@ body{
 
     text-decoration: none;
   }
+  .searchBarCart {
+    background: rgb(255, 255, 255); /* Match input field */
+    border: none;
+    padding: 8px 12px;
+    /* Push cart icon to the right */
+    position: relative; /* Needed for absolute positioning of badge */
+}
+.cart {
+  
+  padding: 4px 6px;
+  min-width: 18px;
+  top: -5px; /* Adjust position */
+  right: 10px;
+  border: none;
+}
+
+.searchBarMag {
+  background: white; /* Match input field */
+  border-right: none; /* Remove right border */
+  
+}
+
+.searchBarText {
+  border-left: none; /* Remove left border */
+  box-shadow: none; /* Remove default focus glow */
+  font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 18px;
+
+    padding-left: 10px; /* Space between input and search icon */
+    
+}
+
+
+.form-control {
+  border: none; /* Remove input border */
+  box-shadow: none; /* Remove focus outline */
+  padding-right: 40px; /* Add padding so text doesn't overlap with cart */
+}
 
 
   .navBarCenter a:hover{
@@ -196,7 +229,10 @@ body{
 .navBarCenter a.active{ 
   color: #e51728;
 }
-
+.active-link {
+  color:#e51728;
+  
+}
 .headerContainer{
   height: 101vh;
   
@@ -229,28 +265,8 @@ body{
     font-style: normal;
     font-size: 40px;
     color: #45016d;
-}
-.searchBarMag {
-  background: white; /* Match input field */
-  border-right: none; /* Remove right border */
-  
-}
 
-.searchBarText {
-  border-left: none; /* Remove left border */
-  box-shadow: none; /* Remove default focus glow */
-  font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: #000000;
-    font-size: 18px;
-    
 }
-.active-link {
-  color:#e51728;
-  
-}
-
 
 .homeHeader{
   height: 120vh;
@@ -1167,5 +1183,90 @@ color: #e51728;
 .selectBar{
   height: 15vh;
   background-color: #45016d;
+}
+
+.contactHeader{
+  height: 50vh;
+  position: relative;
+  
+  background-image: url(../assets/img/headerbackBack.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  
+}
+.contactUs{
+  position: absolute;
+  
+  font-family: 'PorterSans';
+  font-size: 48px;
+  color: #ffffff;
+
+  bottom: 90px;
+  left: 510px;
+
+}
+
+.aboutUs {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+  background-color: #ffffff;
+  
+}
+
+.aboutRedPlanetVentures {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 50px;
+}
+
+.textAbout {
+  flex: 1;
+  text-align: left;
+}
+
+.aboutUsHeading {
+  margin-bottom: 5px; 
+  margin-top: -20px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #55daeb;
+  
+}
+
+.redPlanetVentures {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #45016d;
+}
+
+.textAbout p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #00000086;
+  margin-top: 20px;
+
+  line-height: 1.6;
+}
+
+.aboutImage {
+  width: 400px; 
+  height: auto;
+  flex-shrink: 0; 
 }
 
