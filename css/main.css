@@ -118,6 +118,18 @@ body{
   }
 
   nav{
+    
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .navBarPages{
     margin-top: 2em;
     width: 90%;
     height: 80px;
@@ -125,18 +137,17 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-    background-color: #ffffff97;
-  }
 
-.navBar{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffffa9;
+    
+  }
   
-
-  .navBar a{
-    
+  .navBarFlights{
     color: #000000a3;
     
 
@@ -144,32 +155,45 @@ body{
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
+    padding-right: 10px;
+    width: 80%;
+    
 
     text-decoration: none;
-    padding: 0px 40px;
   }
 
-  .navBarRight{
+  .navBarHome{
     color: #000000a3;
-    text-align: center;
     
-    width: 40%;
 
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
-
-    text-decoration: none;
+    width: 20%;
     
 
+    text-decoration: none;
+  }
+  .navBarContact{
+    color: #000000a3;
+    
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    width: 20%;
+
+    text-decoration: none;
   }
 
-  .navBar a:hover{
+
+  .navBarCenter a:hover{
     color: #e51728;
   }
 
-.navBar a.active{ 
+.navBarCenter a.active{ 
   color: #e51728;
 }
 
@@ -206,6 +230,27 @@ body{
     font-size: 40px;
     color: #45016d;
 }
+.input-group-text {
+  background: white; /* Match input field */
+  border-right: none; /* Remove right border */
+  
+}
+
+.form-control {
+  border-left: none; /* Remove left border */
+  box-shadow: none; /* Remove default focus glow */
+  font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 20px;
+    
+}
+.active-link {
+  color:#e51728;
+  
+}
+
 
 .homeHeader{
   height: 120vh;
