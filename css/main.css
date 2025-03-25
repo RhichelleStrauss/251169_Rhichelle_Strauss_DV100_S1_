@@ -1273,10 +1273,8 @@ color: #e51728;
 }
 
 .sliderFilter{
-
   background-color: #45016d;
   border: none;
-
 
   padding: 10px;
   display: flex;
@@ -1316,9 +1314,11 @@ color: #e51728;
 .grid:hover{
   background-color: #000000a3;
 }
+
 .grid img {
   filter: brightness(0) invert(1);
 }
+
 .listIcon{
   background-color: #45016d;
   border: none;
@@ -1332,6 +1332,7 @@ color: #e51728;
 .listIcon:hover{
   background-color:#000000a3
 }
+
 .listIcon img {
   filter: brightness(0) invert(1);
 }
@@ -1344,6 +1345,7 @@ color: #e51728;
 
   color: #ffffff;
 }
+
 .lineDivide {
   width: 4px;
   height: 24px;
@@ -1399,27 +1401,102 @@ color: #e51728;
   padding-left: 20px;
 
   font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    color: #45016d;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #45016d;
 
-    height: 50px;
-    width: 200px;
-    border-radius: 6px;
-    border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
 
-    background-color: #ffffffa9;
+  background-color: #ffffffa9;
 }
+
 .defaultButton:hover{
   color:#45016d;
   background-color:#000000a3;
   border: #ffffffa9;
 }
+
 .rightToolBar {
   margin-right: 80px;
-    margin-left: auto;
+  margin-left: auto;
+}
 
-   
-    
+.bookMarsFlight{
+  position: relative;
+  height: 100vh;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+
+.bookMarsFlight img{
+  margin-left: 140px;
+  margin-right: auto;
+}
+
+.classicMarsFlight{
+  position: absolute;
+  top: 60px;
+  right: 140px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color: #000000;
+
+}
+
+.marsPriceDiscounted{
+  position: absolute;
+  top: 140px;
+  right:704px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #00000082;
+}
+
+.marsPriceNormal{
+  position: absolute;
+  top: 140px;
+  right:520px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #00000082;
+  text-decoration: line-through;
+}
+
+.marsReviews{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.marsStarReviews{
+  
+
+  display: flex;
+  flex-direction: row;
+
+
+
+}
+
+  .icon {
+    filter: invert(8%) sepia(100%) saturate(6481%) hue-rotate(246deg) brightness(102%) contrast(143%);
 }
