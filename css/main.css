@@ -1180,10 +1180,6 @@ color: #e51728;
 
 }
 
-.selectBar{
-  height: 15vh;
-  background-color: #45016d;
-}
 
 .contactHeader{
   height: 50vh;
@@ -1270,3 +1266,160 @@ color: #e51728;
   flex-shrink: 0; 
 }
 
+.toolBar{
+  height: 15vh;
+  background-color: #45016d;
+  
+}
+
+.sliderFilter{
+
+  background-color: #45016d;
+  border: none;
+
+
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.sliderFilter:hover{
+  background-color: #000000a3;
+}
+
+.sliderFilter img {
+  filter: brightness(0) invert(1);
+}
+
+.filter{
+  font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+
+    color: #ffffff;
+}
+
+
+.grid{
+  background-color: #45016d;
+  border: none;
+
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.grid:hover{
+  background-color: #000000a3;
+}
+.grid img {
+  filter: brightness(0) invert(1);
+}
+.listIcon{
+  background-color: #45016d;
+  border: none;
+
+  padding: 10px;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+}
+
+.listIcon:hover{
+  background-color:#000000a3
+}
+.listIcon img {
+  filter: brightness(0) invert(1);
+}
+
+.results-content{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+.lineDivide {
+  width: 4px;
+  height: 24px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 15px;
+}
+
+.show{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+
+.showNumButton{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #45016d;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+    border: none;
+
+    background-color: #ffffffa9;
+}
+
+.showNumButton:hover{
+  color:#45016d;
+  background-color:#000000a3;
+  border: #ffffffa9;
+}
+
+.sortBy{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+
+.defaultButton{
+
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: right;
+  padding-left: 20px;
+
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #45016d;
+
+    height: 50px;
+    width: 200px;
+    border-radius: 6px;
+    border: none;
+
+    background-color: #ffffffa9;
+}
+.defaultButton:hover{
+  color:#45016d;
+  background-color:#000000a3;
+  border: #ffffffa9;
+}
+.rightToolBar {
+  margin-right: 80px;
+    margin-left: auto;
+
+   
+    
+}

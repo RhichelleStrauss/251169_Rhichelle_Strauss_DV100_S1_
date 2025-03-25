@@ -21,7 +21,9 @@
          
         <header class="flightsHeader">
             <nav class="navBarPages navbar-expand-lg justify-content-center ">
+
                 <div class="navBarContainer container-fluid justify-content-center">
+
                     <div class="navBar collapse navbar-collapse flex-row" id="navbarSupportedContent">
                       <a class="navBarLogo navbar-brand" href="../index.html"><img src="../assets/img/logo.png" height="48px" width="266px"> </a>
                       
@@ -29,6 +31,7 @@
                       <li class="navBarCenterHome nav-item mx-3">
                         <a class="navBarHome nav-link "  href="../index.html">Home</a>
                       </li>
+
                       <li class="navBarCenterFlights nav-item mx-3">
                         <a class="navBarFlights nav-link active-link" href="flights.html">Flights</a>
                       </li>
@@ -37,27 +40,80 @@
                         <a class="navBarContact nav-link" href="contact.html">Contact</a>
                       </li>
                     </ul>
+
                     <form class="d-flex" role="search">
                         <div class="searchBar input-group">
                             <span class="searchBarMag input-group-text">
-                        
                         <img src="../assets/img/search.svg" alt="Search" width="16" height="16" >
                             </span>
                       <input class="searchBarText form-control me-2" type="search" placeholder="Search" aria-label="Search">
                       </div>
                     </form>
+
                   </div>
                 </div>
               </nav> 
 
               <div class="flightsBook">Book a Flight</div>
+
             </header>
 
 
-              <section class="selectBar">
+              <section class="toolBar">
+                <nav class="toolBar navbar-expand-lg ">
+
+                    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+                    <div class="leftToolBar d-flex align-items-center gap-3">
+                      <button class="sliderFilter btn"><img src="../assets/img/sliders.svg" width="20px" height="20px"> 
+                        <span class="filter ms-2 filter-text">Filter</span>
+                    </button>
+
+                    <div class="gridButton">
+                        <button class="grid btn"><img src="../assets/img/ui-radios-grid.svg" width="20px" height="20px">
+                        </button>
+                    </div>
+
+                    <div class="listButton">
+                        <button class="listIcon btn"><img src="../assets/img/view-list.svg" width="20px" height="20px">
+                        </button>
+                    </div>
+
+                    <div class="lineDivide"></div>
+
+                    <span class="results-content">Showing 1-16 of 32 results</span>
+                </div>
+                  
+                    <div class="rightToolBar d-flex align-items-center gap-3 ms-auto">
+                        <span class="show">Show</span>
+                        <button class="showNumButton">6</button>
+
+                        <span class="sortBy">Sort By</span>
+                        <button class="defaultButton">Default</button>
+
+                      </div>
+                    </div>
+                  </nav>
 
               </section>
               
+              <section class="bookMarsFlight">
+                <div class="classicMarsFlight">The Classic Mars Experience</div>
+                <div class="marsPriceDiscounted">R25,000.00</div>
+                <div class="marsPriceNormal">R50,000.00</div> <!--"price normal" and "price discounted" differentiates between the 
+                striked through R50,000 indicating thats the normal price and the discounted price being the one without any 
+                decoration. This helps with the differentiation for the text-decoration too. -->
+
+                <div class="reviews">
+                    <div class="starReviews">
+                        <img src="../assets/img/star-fill.svg">
+                        <img src="../assets/img/star-fill.svg">
+                        <img src="../assets/img/star-fill.svg">
+                        <img src="../assets/img/star-fill.svg">
+                    </div>
+                </div>
+
+              </section>
 
               <!--<section class="footer"> 
                 <div class="footerFlexContainer">
