@@ -1444,9 +1444,6 @@ color: #e51728;
 }
 
 .marsFlightTitle{
-  
- 
-
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -1457,8 +1454,6 @@ color: #e51728;
 }
 
 .marsPriceDiscounted{
-  
-
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -1580,4 +1575,104 @@ color: #e51728;
   flex-direction: row;
   align-items: center;
   width: 10%;
+}
+
+.bookNeptuneFlight{
+  height: 100vh;
+  border: none;
+  background-color:#45016d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookNeptuneFlight{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookNeptuneFlightIMG{
+  margin-left: 130px;
+  margin-right: auto;
+}
+.neptuneFlightCard {
+  background-color: #45016d;
+  border: none;
+}
+
+.neptuneFlightTitle{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color:#ffffff;
+}
+
+.neptunePrice{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color:#55daeb;
+}
+.lineDivideReview{
+  width: 2px;
+  height: 30px;
+  background-color:#ffffff8c;
+  margin: 0 15px;
+}
+
+.neptuneStarReviews{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  
+}
+.custReview{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff8c;
+}
+.neptuneFlightDesc{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff;
+    font-size: 18px;
+    width: 80%;
+}
+
+.neptunenumOfFlights .btn{
+  background-color:#55daeb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 60px;
+  border-radius: 16px;
+}
+
+.lineDivideAddInfoNept{
+  border: none;
+    height: 1px;
+    background-color: #ffffff; 
+    margin: 20px 0;
+}
+.addInfoNeptune{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff8c;
+    font-size: 18px;
 }
