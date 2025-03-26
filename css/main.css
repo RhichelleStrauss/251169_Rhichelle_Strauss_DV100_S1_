@@ -1426,24 +1426,26 @@ color: #e51728;
 }
 
 .bookMarsFlight{
-  position: relative;
-  height: 100vh;
+  border: none;
   background-color: #ffffff;
 
   display: flex;
-  justify-content: row;
+  justify-content: center;
   align-items: center;
 }
-
+.marsFlightCard{
+  margin-top: 5%;
+  border: none;
+  margin-left: 2%;
+}
 .bookMarsFlight img{
-  margin-left: 140px;
+  margin-left: 100px;
   margin-right: auto;
 }
 
-.classicMarsFlight{
-  position: absolute;
-  top: 60px;
-  right: 140px;
+.marsFlightTitle{
+  
+ 
 
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -1455,9 +1457,7 @@ color: #e51728;
 }
 
 .marsPriceDiscounted{
-  position: absolute;
-  top: 140px;
-  right:704px;
+  
 
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -1468,10 +1468,7 @@ color: #e51728;
 }
 
 .marsPriceNormal{
-  position: absolute;
-  top: 140px;
-  right:520px;
-
+  padding-left: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -1481,22 +1478,106 @@ color: #e51728;
   text-decoration: line-through;
 }
 
-.marsReviews{
-  display: flex;
-  flex-direction: row;
-
+.lineDivideReview{
+  width: 2px;
+  height: 30px;
+  background-color: #00000086;
+  margin: 0 15px;
 }
 
-.marsStarReviews{
+.custReview{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00000082;
+}
+
+.marsFlightDesc{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#000000;
+    font-size: 18px;
+    width: 80%;
+}
+
+.numOfFlights .btn{
+  background-color: #45016d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 60px;
+  border-radius: 16px;
+}
+
+.bookFlight{
+  background-color:#e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 250px;
+  height: 60px;
+  border-radius: 16px;
+  margin-left: 3%;
+}
+
+.bookFlight:hover{
+  border-color: #e51728;
+  background-color:#ffffff;
+  color:#e51728;
+ 
+}
+.lineDivideAddInfo{
+  border: none;
+    height: 1px;
+    background-color: #0000006a; 
+    margin: 20px 0;
+    
+}
+
+.addInfoMars{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   
 
-  display: flex;
-  flex-direction: row;
-
-
-
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#0000006a;
+    font-size: 18px;
 }
 
-  .icon {
-    filter: invert(8%) sepia(100%) saturate(6481%) hue-rotate(246deg) brightness(102%) contrast(143%);
+.dividerInfo{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-left: 10%;
+}
+
+.addInfoValue{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  
+}
+
+.addInfoRow{
+  display: flex;
+  gap: 8px;
+}
+
+.addInfoLabel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
 }
