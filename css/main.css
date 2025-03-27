@@ -117,6 +117,8 @@ body{
     src: url(../assets/fonts/porter_sans_block/porter-sans-inline-block-webfont.woff);
   }
 
+
+/* Nav Bar Styling*/
   nav{
     margin-left: auto;
     margin-right: auto;
@@ -130,8 +132,8 @@ body{
     height: 80px;
     
     margin-left: auto;
-    margin-right: auto; /*allows the navbar to be centered by setting the margin to auto*/
-    border-radius: 30px; /*rounding the navbar to make it look like the design given*/
+    margin-right: auto; 
+    border-radius: 30px; 
 
     display: flex;
     align-items: center;
@@ -150,27 +152,23 @@ body{
     width: 80%; 
     
     text-decoration: none;
-    /*font size, color, and spacing to ensure the flights text is centered and in proportion. no text decoration, otherwise there is a link 
-    line on the bottom of the flights*/
   }
 
   .navBarHome{
     color: #000000a3;
     
-
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
     width: 20%;
     
-
     text-decoration: none;
   }
+
   .navBarContact{
     color: #000000a3;
     
-
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -179,49 +177,40 @@ body{
 
     text-decoration: none;
   }
+
   .searchBarCart {
-    background: rgb(255, 255, 255); /* Match input field */
+    background: rgb(255, 255, 255); 
     border: none;
     padding: 8px 12px;
-    /* Push cart icon to the right */
-    position: relative; /* Needed for absolute positioning of badge */
+    position: relative; 
 }
+
 .cart {
-  
   padding: 4px 6px;
   min-width: 18px;
-  top: -5px; /* Adjust position */
+  top: -5px;
   right: 10px;
   border: none;
 }
 
 .searchBarMag {
-  background: white; /* Match input field */
-  border-right: none; /* Remove right border */
+  background: white;
+  border-right: none; 
   
 }
 
 .searchBarText {
-  border-left: none; /* Remove left border */
-  box-shadow: none; /* Remove default focus glow */
+  border-left: none; 
+   
   font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: #000000;
     font-size: 18px;
 
-    padding-left: 10px; /* Space between input and search icon */
+    padding-left: 10px; 
     
 }
-
-
-.form-control {
-  border: none; /* Remove input border */
-  box-shadow: none; /* Remove focus outline */
-  padding-right: 40px; /* Add padding so text doesn't overlap with cart */
-}
-
-
   .navBarCenter a:hover{
     color: #e51728;
   }
@@ -233,6 +222,8 @@ body{
   color:#e51728;
   
 }
+
+/* Red Planet Ventures home Hero Section styling*/
 .headerContainer{
   height: 101vh;
   
@@ -240,7 +231,6 @@ body{
   text-align: center;
 
 }
-
 
 .bottomTopLeft{
   position: absolute;
@@ -315,25 +305,20 @@ body{
 }*/
 
 
-
-
+/* Featured Product - The classic Mars experience styling on home page*/
 .featuredTripHeader img{
   position: absolute;
   bottom: 40px;
   left: 100px;
   
-
   padding: 14px 16px;
 }
-
-
 
 .featuredTrip{
   position:absolute;
   top: 100px;
   right: 590px;
   
-
   font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -355,7 +340,6 @@ h1{
   text-align: left;
   width: 600px;
   word-wrap: break-word
-
 }
 
 .aboutTrip p{
@@ -374,8 +358,6 @@ h1{
   word-wrap: break-word
 
 }
-
-
 
 .buttonBook{
   position: absolute;
@@ -410,6 +392,7 @@ h1{
   cursor: pointer;
 }
 
+/*Shuttles and Shuttles description on home page styling*/
 .shuttlesHeader{
   height: 80vh;
   background-size: cover;
@@ -434,7 +417,6 @@ h1{
   top: 80px;
   left: 145px;
   
-
   font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -475,6 +457,7 @@ h2{
 
 }
 
+/* Featured Products cards on home page styling*/
 .upcomingTripsHeader{
   position: relative;
   height: 120vh;
@@ -489,7 +472,6 @@ h2{
   
   padding-top: 5px;
   padding-bottom: 5px;
-
 
 }
 
@@ -871,6 +853,7 @@ h6{
   cursor: pointer;
 }
 
+/* Footer for all pages styling*/
 .footerFlexContainer{
   display: flex;
   flex-direction: row;
@@ -961,8 +944,6 @@ h6{
 
   top: 150px;
   right: 58px;
-
-  
 }
 
 #homeFooter a{
@@ -1156,6 +1137,7 @@ color: #e51728;
   color: #e51728;
 }
 
+/* Header/Hero image's styling for flights page*/
 .flightsHeader{
   height: 50vh;
   position: relative;
@@ -1165,9 +1147,8 @@ color: #e51728;
   background-size: cover;
   overflow-y: hidden;
   overflow-x: hidden;
-
-  
 }
+
 .flightsBook{
   position: absolute;
   
@@ -1180,7 +1161,7 @@ color: #e51728;
 
 }
 
-
+/* Contact Page header image styling*/
 .contactHeader{
   height: 50vh;
   position: relative;
@@ -1190,9 +1171,10 @@ color: #e51728;
   background-size: cover;
   overflow-y: hidden;
   overflow-x: hidden;
-
   
 }
+
+/* About us section styling on the contact page*/
 .contactUs{
   position: absolute;
   
@@ -1202,7 +1184,6 @@ color: #e51728;
 
   bottom: 90px;
   left: 510px;
-
 }
 
 .aboutUs {
@@ -1266,10 +1247,10 @@ color: #e51728;
   flex-shrink: 0; 
 }
 
+/*ToolBar styling for the layout of the products/flights page styling*/
 .toolBar{
   height: 15vh;
   background-color: #45016d;
-  
 }
 
 .sliderFilter{
@@ -1299,7 +1280,6 @@ color: #e51728;
 
     color: #ffffff;
 }
-
 
 .grid{
   background-color: #45016d;
@@ -1425,6 +1405,7 @@ color: #e51728;
   margin-left: auto;
 }
 
+/*Mars Flight Product Cards Styling*/
 .bookMarsFlight{
   border: none;
   background-color: #ffffff;
@@ -1577,6 +1558,7 @@ color: #e51728;
   width: 10%;
 }
 
+/*Neptune's product cards styling*/
 .bookNeptuneFlight{
   height: 100vh;
   border: none;
