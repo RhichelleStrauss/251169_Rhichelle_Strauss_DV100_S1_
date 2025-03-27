@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0%;
+  
 }
 
 
@@ -181,12 +182,12 @@ body{
   .searchBarCart {
     background: rgb(255, 255, 255); 
     border: none;
-    padding: 8px 12px;
+    padding: 8px ;
     position: relative; 
 }
 
 .cart {
-  padding: 4px 6px;
+ 
   min-width: 18px;
   top: -5px;
   right: 10px;
@@ -201,16 +202,14 @@ body{
 
 .searchBarText {
   border-left: none; 
-   
+   width: 70px;
   font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: #000000;
-    font-size: 18px;
-
-    padding-left: 10px; 
-    
+    font-size: 16px;
 }
+
   .navBarCenter a:hover{
     color: #e51728;
   }
@@ -225,7 +224,7 @@ body{
 
 /* Red Planet Ventures home Hero Section styling*/
 .headerContainer{
-  height: 101vh;
+  height: 100vh;
   
   position: relative;
   text-align: center;
@@ -234,10 +233,11 @@ body{
 
 .bottomTopLeft{
   position: absolute;
-  bottom: 130px;
-  left: 16px;
+  bottom: 100px;
+  left: 80px;
   width: 600px;
   word-wrap: break-word;
+  text-align: left;
 
   font-family: 'PorterSans';
   font-size: 48px;
@@ -245,9 +245,12 @@ body{
 }
 
 .bottomBotLeft{
+  
   position:absolute;
-  bottom: 75px;
-  left: 28px;
+  bottom: 40px;
+  left: 80px;
+
+  text-align: left;
   
 
   font-family: "Poppins", sans-serif;
@@ -261,76 +264,42 @@ body{
 .homeHeader{
   height: 120vh;
   background-image: url(../assets/img/homePageHeader.png);
+  background-color: #45016d;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  width: 100%;
 }
 
 .featuredTripHeader {
-  height: 101vh;
-  background-size: cover;
-
-  position: relative;
-  width: 100%; 
+  
+   
   background-color: #45016d;
 }
 
-/*.carouselContainer {
-  position: relative;
-  display: inline-block;
-}
-
-.featuredTripArrows {
-  position: absolute;
-  top: 50%;
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-}
-
-.arrow {
-  position: absolute;
-  width: 20px; 
-  height: auto;
-  cursor: pointer;
-}
-
-.arrow.left {
-  left: -60px; 
-}
-
-.arrow.right {
-  right: -60px; 
-}*/
-
 
 /* Featured Product - The classic Mars experience styling on home page*/
-.featuredTripHeader img{
-  position: absolute;
-  bottom: 40px;
-  left: 100px;
-  
-  padding: 14px 16px;
+
+.tripHeaderCard{
+  border: none;
+  background-color: #45016d;
+  margin-left: 8%;
+  height: 100vh;
 }
 
-.featuredTrip{
-  position:absolute;
-  top: 100px;
-  right: 590px;
+.card-body{
+  margin-left: 8%;
+}
+.marsFeaturedTrip{
   
   font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     color: #55daeb;
 }
 
-h1{
-  position: absolute;
-  top: 130px;
-  right: 120px;
-
+.marsClassicExp{
   font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -342,11 +311,8 @@ h1{
   word-wrap: break-word
 }
 
-.aboutTrip p{
-  position: absolute;
-  top: 270px;
-  right: 250px;
-
+.marsFlightAbout{
+  margin-left: 7%;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -354,16 +320,14 @@ h1{
   color: #ffffff;
 
   text-align: left;
-  width: 470px;
+  width: 65%;
   word-wrap: break-word
 
 }
 
 .buttonBook{
-  position: absolute;
-  top: 500px;
-  right: 450px;
-
+  
+  margin-left: 8%;
   width: 270px;
   height: 70px;
 
@@ -899,10 +863,10 @@ h6{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   color: #000000a3;
 
-  width: 20%;
+  width: 15%;
 }
 
 .companyColumn{
@@ -920,7 +884,7 @@ h6{
   justify-content: left;
 
   top: 80px;
-  right: 20px;
+  right: 22px;
 
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -943,7 +907,7 @@ h6{
   justify-content: right;
 
   top: 150px;
-  right: 58px;
+  right: 65px;
 }
 
 #homeFooter a{
@@ -953,7 +917,7 @@ h6{
 
   text-decoration: none;
   color: #000000a3;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #flightsFooter{
@@ -963,7 +927,7 @@ h6{
   justify-content: right;
 
   top: 190px;
-  right: 55px;
+  right: 61px;
 }
 
 
@@ -974,7 +938,7 @@ h6{
 
   text-decoration: none;
   color: #000000a3;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #contactFooter{
@@ -985,7 +949,7 @@ h6{
   
 
   top: 230px;
-  right: 40px;
+  right: 48px;
 }
 
 #contactFooter a{
@@ -995,7 +959,7 @@ h6{
 
   text-decoration: none;
   color: #000000a3;
-  font-size: 18px;
+  font-size: 16px;
   width: 150%;
 
 }
@@ -1036,16 +1000,20 @@ h6{
   justify-content: right;
   position: absolute;
 
+  gap: 18px;
   top: 120px;
-  right: 265px;
+  right: 208px;
 }
-
+.redPlanetVenturesFooter{
+  background-color: #ffffff;
+}
 .footerBottom{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   position: relative;
+  background-color: #ffffff;
 }
 
 hr{
@@ -1064,7 +1032,7 @@ hr{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 14px;
   color: #000000a3;
   padding-top: 30px;
 
@@ -1088,7 +1056,7 @@ hr{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 14px;
   color: #000000a3;
   
 
@@ -1106,7 +1074,7 @@ hr{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 14px;
   color: #000000a3;
   
   left:  450px;
@@ -1143,6 +1111,7 @@ color: #e51728;
   position: relative;
   
   background-image: url(../assets/img/headerbackBack.png);
+  background-color: #45016d;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden;
@@ -1167,6 +1136,7 @@ color: #e51728;
   position: relative;
   
   background-image: url(../assets/img/headerbackBack.png);
+  background-color: #45016d;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden;
@@ -1407,6 +1377,7 @@ color: #e51728;
 
 /*Mars Flight Product Cards Styling*/
 .bookMarsFlight{
+  
   border: none;
   background-color: #ffffff;
 
@@ -1457,7 +1428,7 @@ color: #e51728;
 .lineDivideReview{
   width: 2px;
   height: 30px;
-  background-color: #00000086;
+  background-color:#00000086;
   margin: 0 15px;
 }
 
@@ -1465,7 +1436,8 @@ color: #e51728;
   font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #00000082;
+    color:#00000086;
+    font-size: 12px;
 }
 
 .marsFlightDesc{
@@ -1473,7 +1445,7 @@ color: #e51728;
     font-weight: 400;
     font-style: normal;
     color:#000000;
-    font-size: 18px;
+    font-size: 16px;
     width: 80%;
 }
 
@@ -1485,11 +1457,12 @@ color: #e51728;
   color: #ffffff;
 
   width: 40px;
-  height: 60px;
-  border-radius: 16px;
+  height: 70px;
+  border-radius: 12px;
 }
 
-.bookFlight{
+
+.bookFlightMars{
   background-color:#e51728;
   border-color: #e51728;
 
@@ -1498,13 +1471,13 @@ color: #e51728;
   font-style: normal;
   color: #ffffff;
 
-  width: 250px;
-  height: 60px;
-  border-radius: 16px;
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
   margin-left: 3%;
 }
 
-.bookFlight:hover{
+.bookFlightMars:hover{
   border-color: #e51728;
   background-color:#ffffff;
   color:#e51728;
@@ -1528,7 +1501,7 @@ color: #e51728;
     font-weight: 400;
     font-style: normal;
     color:#0000006a;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .dividerInfo{
@@ -1558,7 +1531,7 @@ color: #e51728;
   width: 10%;
 }
 
-/*Neptune's product cards styling*/
+/*Neptune's product cards*/
 .bookNeptuneFlight{
   height: 100vh;
   border: none;
@@ -1600,7 +1573,7 @@ color: #e51728;
 
   color:#55daeb;
 }
-.lineDivideReview{
+.lineDivideReviewNeptune{
   width: 2px;
   height: 30px;
   background-color:#ffffff8c;
@@ -1613,18 +1586,19 @@ color: #e51728;
   padding: 0;
   
 }
-.custReview{
+.custReviewNeptune{
   font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:#ffffff8c;
+    font-size: 12px;
 }
 .neptuneFlightDesc{
   font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:#ffffff;
-    font-size: 18px;
+    font-size: 16px;
     width: 80%;
 }
 
@@ -1636,8 +1610,29 @@ color: #e51728;
   color: #ffffff;
 
   width: 40px;
-  height: 60px;
-  border-radius: 16px;
+  height: 70px;
+  border-radius: 12px;
+}
+.bookFlightNeptune{
+  background-color:#e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-left: 3%;
+}
+
+.bookFlightNeptune:hover{
+  border-color: #e51728;
+  background-color:#ffffff;
+  color:#e51728;
+ 
 }
 
 .lineDivideAddInfoNept{
@@ -1656,5 +1651,575 @@ color: #e51728;
     font-weight: 400;
     font-style: normal;
     color:#ffffff8c;
-    font-size: 18px;
+    font-size: 16px;
+}
+/*Jupiter product card styling*/
+.bookJupiterFlight{
+  border: none;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jupiterFlightCard{
+  margin-top: 5%;
+  border: none;
+  margin-left: 2%;
+}
+.bookJupiterFlight img{
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+.jupiterFlightTitle{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color: #000000;
+
+}
+
+.jupiterPrice{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #00000082;
+}
+
+.lineDivideReviewJupiter{
+  width: 2px;
+  height: 30px;
+  background-color: #00000086;
+  margin: 0 15px;
+}
+
+.custReviewJupiter{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00000082;
+    font-size: 12px;
+}
+
+.jupiterFlightDesc{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#000000;
+    font-size: 16px;
+    width: 80%;
+}
+
+.numOfFlightsJupiter .btn{
+  background-color: #45016d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 70px;
+  border-radius: 12px;
+}
+.bookFlightJupiter{
+  background-color:#e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-left: 3%;
+}
+
+.bookFlightJupiter:hover{
+  border-color: #e51728;
+  background-color:#ffffff;
+  color:#e51728;
+ 
+}
+
+
+.lineDivideAddInfoJupiter{
+  border: none;
+    height: 1px;
+    background-color: #0000006a; 
+    margin: 20px 0;
+    
+}
+
+.addInfoJupiter{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#0000006a;
+    font-size: 16px;
+}
+
+.dividerInfo{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-left: 10%;
+}
+
+.addInfoValue{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  
+}
+
+.addInfoRow{
+  display: flex;
+  gap: 8px;
+}
+
+.addInfoLabel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;}
+
+
+/*Saturn Product Card styling*/
+.bookSaturnFlight{
+  height: 100vh;
+  border: none;
+  background-color:#45016d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookSaturnFlight{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookSaturnFlightIMG{
+  margin-left: 130px;
+  margin-right: auto;
+}
+.saturnFlightCard {
+  background-color: #45016d;
+  border: none;
+}
+
+.saturnFlightTitle{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color:#ffffff;
+}
+
+.saturnPrice{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color:#55daeb;
+}
+.lineDivideReviewSaturn{
+  width: 2px;
+  height: 30px;
+  background-color:#ffffff8c;
+  margin: 0 15px;
+}
+
+.saturnStarReviews{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  
+}
+.custReviewSaturn{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff8c;
+    font-size: 12px;
+}
+.saturnFlightDesc{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff;
+    font-size: 16px;
+    width: 80%;
+}
+
+.numOfFlightsSaturn .btn{
+  background-color:#55daeb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 70px;
+  border-radius: 12px;
+}
+.bookFlightSaturn{
+  background-color:#e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-left: 3%;
+}
+
+.bookFlightSaturn:hover{
+  border-color: #e51728;
+  background-color:#ffffff;
+  color:#e51728;
+ 
+}
+
+.lineDivideAddInfoSaturn{
+  border: none;
+    height: 1px;
+    background-color: #ffffff; 
+    margin: 20px 0;
+}
+.addInfoSaturn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff8c;
+    font-size: 16px;
+}
+
+/*Uranus Product Card Styling*/
+.bookUranusFlight{
+  border: none;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uranusFlightCard{
+  margin-top: 5%;
+  border: none;
+  margin-left: 2%;
+}
+.bookUranusFlight img{
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+.uranusFlightTitle{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color: #000000;
+
+}
+
+.uranusPrice{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #00000082;
+}
+
+
+
+.lineDivideReviewUranus{
+  width: 2px;
+  height: 30px;
+  background-color: #00000086;
+  margin: 0 15px;
+}
+
+.custReviewUranus{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00000082;
+    font-size: 12px;
+}
+
+.uranusFlightDesc{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#000000;
+    font-size: 16px;
+    width: 80%;
+}
+
+.numOfFlightsUranus .btn{
+  background-color: #45016d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 70px;
+  border-radius: 12px;
+}
+
+
+.bookFlightUranus:hover{
+  border-color: #e51728;
+  background-color:#ffffff;
+  color:#e51728;
+ 
+}
+
+.bookFlightUranus{
+  background-color:#e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-left: 3%;
+}
+
+
+.lineDivideAddInfo{
+  border: none;
+    height: 1px;
+    background-color: #0000006a; 
+    margin: 20px 0;
+    
+}
+
+.addInfoUranus{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#0000006a;
+    font-size: 16px;
+}
+
+.dividerInfo{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-left: 10%;
+}
+
+.addInfoValue{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  
+}
+
+.addInfoRow{
+  display: flex;
+  gap: 8px;
+}
+
+.addInfoLabel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
+}
+
+/*Moon flight Card styling*/
+.bookMoonFlight{
+  height: 100vh;
+  border: none;
+  background-color:#45016d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookMoonFlight{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookMoonFlightIMG{
+  margin-left: 130px;
+  margin-right: auto;
+}
+.moonFlightCard {
+  background-color: #45016d;
+  border: none;
+}
+
+.moonFlightTitle{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color:#ffffff;
+}
+
+.moonPrice{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color:#55daeb;
+}
+.lineDivideReviewMoon{
+  width: 2px;
+  height: 30px;
+  background-color:#ffffff8c;
+  margin: 0 15px;
+}
+
+.moonStarReviews{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  
+}
+.custReviewMoon{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff8c;
+    font-size: 12px;
+}
+.moonFlightDesc{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff;
+    font-size: 16px;
+    width: 80%;
+}
+
+.numOfFlightsMoon .btn{
+  background-color:#55daeb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 70px;
+  border-radius: 12px;
+}
+.bookFlightMoon{
+  background-color:#e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-left: 3%;
+}
+
+.bookFlightMoon:hover{
+  border-color: #e51728;
+  background-color:#ffffff;
+  color:#e51728;
+ 
+}
+
+.lineDivideAddInfoMoon{
+  border: none;
+    height: 1px;
+    background-color: #ffffff; 
+    margin: 20px 0;
+}
+.addInfoMoon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff8c;
+    font-size: 16px;
+}
+
+.viewCartButton{
+  background-color:#98111c;
+  border-color: #98111c;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  
+}
+
+.viewCartButtonBottom{
+  display: flex;
+  justify-content: right;
+  
+}
+
+.viewCartButton:hover{
+  background-color: #ffffff;
+  color: #98111c;
+  border-color: #98111c;
+}
+
+
+.d-block{
+  width: 609px;
+  height: 649px;
 }
