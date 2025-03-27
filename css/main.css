@@ -272,8 +272,7 @@ body{
 }
 
 .featuredTripHeader {
-  
-   
+  height: 100vh;
   background-color: #45016d;
 }
 
@@ -285,9 +284,11 @@ body{
   background-color: #45016d;
   margin-left: 8%;
   height: 100vh;
+  
 }
 
 .card-body{
+  margin-top: 8%;
   margin-left: 8%;
 }
 .marsFeaturedTrip{
