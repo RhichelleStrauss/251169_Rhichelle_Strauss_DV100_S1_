@@ -287,7 +287,7 @@ body{
   
 }
 
-.card-body{
+.marsExpCard{
   margin-top: 8%;
   margin-left: 8%;
 }
@@ -1523,6 +1523,7 @@ color: #e51728;
 .addInfoRow{
   display: flex;
   gap: 8px;
+  row-gap: 50px;
 }
 
 .addInfoLabel{
@@ -1543,13 +1544,15 @@ color: #e51728;
   align-items: center;
 }
 
-.bookNeptuneFlight{
-  margin-left: auto;
-  margin-right: auto;
+.col{
+  margin-left: 35px;
 }
 
+
 .bookNeptuneFlightIMG{
-  margin-left: 130px;
+
+  margin-top: 3%;
+  margin-left: 190px;
   margin-right: auto;
 }
 .neptuneFlightCard {
@@ -1558,6 +1561,7 @@ color: #e51728;
 }
 
 .neptuneFlightTitle{
+  
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
