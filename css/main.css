@@ -2272,7 +2272,55 @@ color: #e51728;
 }
 
 
-.d-block{
-  width: 609px;
-  height: 649px;
+#contact{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 80%;
+}
+
+.formVertical{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input{
+  margin: 1em;
+}
+
+.contactUsForm, textarea{
+margin: 1em;
+width: 100%;
+max-width: 100%;
+background-color: rgb(184, 241, 241);
+}
+
+.send-button{
+  margin: 1em;
+  height: 34px;
+  width: 100%;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+
+}
+
+.send-text{
+  display: block;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.altSendButton:hover{
+  transform: translate3d(0px, -35px, 0px);
 }
