@@ -1392,7 +1392,7 @@ color: #e51728;
   margin-left: 2%;
 }
 .bookMarsFlight img{
-  margin-left: 100px;
+  margin-left: 190px;
   margin-right: auto;
 }
 
@@ -1463,7 +1463,7 @@ color: #e51728;
 }
 
 
-.bookFlightMars{
+.bookFlightMarsBut{
   background-color:#e51728;
   border-color: #e51728;
 
@@ -1478,7 +1478,7 @@ color: #e51728;
   margin-left: 3%;
 }
 
-.bookFlightMars:hover{
+.bookFlightMarsBut:hover{
   border-color: #e51728;
   background-color:#ffffff;
   color:#e51728;
@@ -1523,7 +1523,7 @@ color: #e51728;
 .addInfoRow{
   display: flex;
   gap: 8px;
-  row-gap: 50px;
+  row-gap: 100px;
 }
 
 .addInfoLabel{
@@ -2064,6 +2064,7 @@ color: #e51728;
 .addInfoRow{
   display: flex;
   gap: 8px;
+  line-height: 40px;
 }
 
 .addInfoLabel{
@@ -2223,9 +2224,9 @@ color: #e51728;
   border-color: #98111c;
 }
 
-
+/*
 .contactUs{
-  height: 120vh;
+  height: 140vh;
 }
 .contactSocialMediaH1{
   font-family: "Poppins", sans-serif;
@@ -2249,7 +2250,31 @@ color: #e51728;
   gap: 18px;
 }
 
+.mapVisit1{
+  display: flex;
+  flex-direction: row;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+font-size: 18px;
+color: #55daeb;
+}
+
+.mapVisit2{
+  display: flex;
+  flex-direction: row;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #45016d;
+
+  
+}
+
 .contactMap{
   display: flex;
   
-}
+}*/
