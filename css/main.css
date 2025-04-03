@@ -1,193 +1,198 @@
-body{
+body {
   margin: 0;
   padding: 0%;
-  
+
 }
 
 
 .poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
-  @font-face{
-    font-family: 'PorterSans';
-    src: url(../assets/fonts/porter_sans_block/porter-sans-inline-block-webfont.woff);
-  }
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
 
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.poller-one-regular {
+  font-family: "Poller One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PorterSans';
+  src: url(../assets/fonts/porter_sans_block/porter-sans-inline-block-webfont.woff);
+}
 
 /* Nav Bar Styling*/
-  nav{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-  }
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
 
-  .navBarPages{
-    margin-top: 2em; 
-    width: 90%;
-    height: 80px;
-    
-    margin-left: auto;
-    margin-right: auto; 
-    border-radius: 30px; 
+.navBarPages {
+  margin-top: 2em;
+  width: 90%;
+  height: 80px;
 
-    display: flex;
-    align-items: center;
-    background-color: #ffffffa9;
-    
-  }
-  
-  .navBarFlights{
-    color: #000000a3;
-    
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18px;
-    padding-right: 10px;
-    width: 80%; 
-    
-    text-decoration: none;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
 
-  .navBarHome{
-    color: #000000a3;
-    
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18px;
-    width: 20%;
-    
-    text-decoration: none;
-  }
+  display: flex;
+  align-items: center;
+  background-color: #ffffffa9;
 
-  .navBarContact{
-    color: #000000a3;
-    
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18px;
-    width: 20%;
+}
 
-    text-decoration: none;
-  }
+.navBarFlights {
+  color: #000000a3;
 
-  .searchBarCart {
-    background: rgb(255, 255, 255); 
-    border: none;
-    padding: 8px ;
-    position: relative; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  padding-right: 10px;
+  width: 80%;
+
+  text-decoration: none;
+}
+
+.navBarHome {
+  color: #000000a3;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  width: 20%;
+
+  text-decoration: none;
+}
+
+.navBarContact {
+  color: #000000a3;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  width: 20%;
+
+  text-decoration: none;
+}
+
+.searchBarCart {
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 8px;
+  position: relative;
 }
 
 .cart {
- 
+
   min-width: 18px;
   top: -5px;
   right: 10px;
@@ -196,44 +201,45 @@ body{
 
 .searchBarMag {
   background: white;
-  border-right: none; 
-  
+  border-right: none;
+
 }
 
 .searchBarText {
-  border-left: none; 
-   width: 70px;
+  border-left: none;
+  width: 70px;
   font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: #000000;
-    font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
 }
 
-  .navBarCenter a:hover{
-    color: #e51728;
-  }
-
-.navBarCenter a.active{ 
+.navBarCenter a:hover {
   color: #e51728;
 }
-.active-link {
-  color:#e51728;
-  
+
+.navBarCenter a.active {
+  color: #e51728;
 }
 
+.active-link {
+  color: #e51728;
+
+}
+/*Home Page Section*/
 /* Red Planet Ventures home Hero Section styling*/
-.headerContainer{
+.headerContainer {
   height: 100vh;
-  
+
   position: relative;
   text-align: center;
 
 }
 
-.bottomTopLeft{
+.bottomTopLeft {
   position: absolute;
-  bottom: 100px;
+  bottom: 60px;
   left: 80px;
   width: 600px;
   word-wrap: break-word;
@@ -244,24 +250,23 @@ body{
   color: #e51728;
 }
 
-.bottomBotLeft{
-  
-  position:absolute;
-  bottom: 40px;
+.bottomBotLeft {
+
+  position: absolute;
+  bottom: 35px;
   left: 80px;
 
   text-align: left;
-  
 
-  font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-    color: #45016d;
+  font-family: "Poller One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #45016d;
 
 }
 
-.homeHeader{
+.homeHeader {
   height: 120vh;
   background-image: url(../assets/img/homePageHeader.png);
   background-color: #45016d;
@@ -278,41 +283,40 @@ body{
 
 
 /* Featured Product - The classic Mars experience styling on home page*/
-
-.tripHeaderCard{
+.tripHeaderCard {
   border: none;
   background-color: #45016d;
   margin-left: 8%;
   height: 100vh;
-  
+
 }
 
-.marsExpCard{
+.marsExpCard {
   margin-top: 8%;
   margin-left: 8%;
 }
-.marsFeaturedTrip{
-  
+
+.marsFeaturedTrip {
   font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
-    color: #55daeb;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #55daeb;
 }
 
-.marsClassicExp{
+.marsClassicExp {
   font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 48px;
-    color: #ffffff;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #ffffff;
 
   text-align: left;
   width: 600px;
   word-wrap: break-word
 }
 
-.marsFlightAbout{
+.marsFlightAbout {
   margin-left: 7%;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -323,11 +327,10 @@ body{
   text-align: left;
   width: 65%;
   word-wrap: break-word
-
 }
 
-.buttonBook{
-  
+.buttonBook {
+
   margin-left: 8%;
   width: 270px;
   height: 70px;
@@ -350,7 +353,7 @@ body{
   text-align: center;
 }
 
-.buttonBook:hover{
+.buttonBook:hover {
   background-color: #ffffff;
   color: #e51728;
   transition-duration: 0.4s;
@@ -358,7 +361,7 @@ body{
 }
 
 /*Shuttles and Shuttles description on home page styling*/
-.shuttlesHeader{
+.shuttlesHeader {
   height: 80vh;
   background-size: cover;
 
@@ -368,7 +371,7 @@ body{
   background-color: #ffffff;
 }
 
-.shuttlesHeader img{
+.shuttlesHeader img {
   position: absolute;
 
   top: 50px;
@@ -377,28 +380,28 @@ body{
   padding: 14px 16px;
 }
 
-.shuttles{
-  position:absolute;
+.shuttles {
+  position: absolute;
   top: 80px;
   left: 145px;
-  
+
   font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18px;
-    color: #55daeb;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #55daeb;
 }
 
-h2{
+h2 {
   position: absolute;
   top: 100px;
   left: 144px;
 
   font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 48px;
-    color: #45016d;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #45016d;
 
   text-align: left;
   width: 600px;
@@ -419,11 +422,10 @@ h2{
   text-align: left;
   width: 470px;
   word-wrap: break-word
-
 }
 
 /* Featured Products cards on home page styling*/
-.upcomingTripsHeader{
+.upcomingTripsHeader {
   position: relative;
   height: 120vh;
   width: 100%;
@@ -434,13 +436,13 @@ h2{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
+
   padding-top: 5px;
   padding-bottom: 5px;
 
 }
 
-.upcomingTrip{
+.upcomingTrip {
   position: absolute;
 
   top: 50px;
@@ -451,7 +453,7 @@ h2{
   color: #55daeb;
 }
 
-.upcomingTripLook{
+.upcomingTripLook {
   position: absolute;
   top: 80px;
 
@@ -467,21 +469,21 @@ h2{
   color: #ffffff;
 }
 
-.planetCardsMars{
+.planetCardsMars {
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
 }
 
-.classicMars{
+.classicMars {
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
 }
 
-.classicMars img{
+.classicMars img {
   width: 278px;
   height: 278px;
 
@@ -497,7 +499,7 @@ h2{
   justify-content: left;
 }
 
-h3{
+h3 {
   aspect-ratio: 1/1;
   position: absolute;
 
@@ -520,7 +522,7 @@ h3{
 
 }
 
-.classicMarsExp p{
+.classicMarsExp p {
   aspect-ratio: 1/1;
   position: absolute;
 
@@ -542,21 +544,21 @@ h3{
   color: #ffffff;
 }
 
-.planetCardsNept{
+.planetCardsNept {
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
 }
 
-.neptCosmic{
+.neptCosmic {
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
 }
 
-.neptCosmic img{
+.neptCosmic img {
   width: 278px;
   height: 278px;
 
@@ -572,14 +574,14 @@ h3{
   justify-content: left;
 }
 
-.neptCosmicFlight{
+.neptCosmicFlight {
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
 }
 
-h4{
+h4 {
   aspect-ratio: 1/1;
   position: absolute;
 
@@ -601,7 +603,7 @@ h4{
   color: #ffffff;
 }
 
-.neptCosmicFlight p{
+.neptCosmicFlight p {
   aspect-ratio: 1/1;
   position: absolute;
 
@@ -623,21 +625,21 @@ h4{
   color: #ffffff;
 }
 
-.planetCardsGiant{
+.planetCardsGiant {
   display: flex;
   flex-direction: column;
   align-items: right;
   justify-content: right;
 }
 
-.jupiterGiant{
+.jupiterGiant {
   display: flex;
   flex-direction: column;
   align-items: right;
   justify-content: right;
 }
 
-.jupiterGiant img{
+.jupiterGiant img {
   width: 278px;
   height: 278px;
 
@@ -653,14 +655,14 @@ h4{
   justify-content: right;
 }
 
-.giantJourney{
+.giantJourney {
   display: flex;
   flex-direction: column;
   align-items: right;
   justify-content: right;
 }
 
-h5{
+h5 {
   aspect-ratio: 1/1;
   position: absolute;
 
@@ -682,7 +684,7 @@ h5{
   color: #ffffff;
 }
 
-.giantJourney p{
+.giantJourney p {
   aspect-ratio: 1/1;
   position: absolute;
 
@@ -704,7 +706,7 @@ h5{
   color: #ffffff;
 }
 
-.planetCardsSaturn{
+.planetCardsSaturn {
   display: flex;
   flex-direction: column;
   align-items: right;
@@ -718,7 +720,7 @@ h5{
   justify-content: right;
 }
 
-.saturnRing img{
+.saturnRing img {
   width: 278px;
   height: 278px;
 
@@ -734,14 +736,14 @@ h5{
   justify-content: right;
 }
 
-.saturnRingFlight{
+.saturnRingFlight {
   display: flex;
   flex-direction: column;
   align-items: right;
   justify-content: right;
 }
 
-h6{
+h6 {
   aspect-ratio: 1/1;
   position: absolute;
 
@@ -763,7 +765,7 @@ h6{
   color: #ffffff;
 }
 
-.saturnRingFlight p{
+.saturnRingFlight p {
   aspect-ratio: 1/1;
   position: absolute;
 
@@ -786,7 +788,7 @@ h6{
 
 }
 
-.buttonBookTrip{
+.buttonBookTrip {
   position: absolute;
   bottom: 90px;
 
@@ -811,306 +813,21 @@ h6{
   text-align: center;
 }
 
-.buttonBookTrip:hover{
+.buttonBookTrip:hover {
   background-color: #ffffff;
   color: #e51728;
   transition-duration: 0.4s;
   cursor: pointer;
 }
-
-/* Footer for all pages styling*/
-.footerFlexContainer{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  position: relative;
-
-  background-color: #ffffff;
-  height: 40vh;
-  margin: 0%;
-}
-
-.logoFooter{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  
-}
-
-.logoFooter img{
-  width: 266px;
-  height: 48px;
+/*home page section styling complete*/
 
 
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-
-  top: 80px;
-  left: 100px;
-}
-
-.logoFooter p{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-
-  top: 150px;
-  left: 100px;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  color: #000000a3;
-
-  width: 15%;
-}
-
-.companyColumn{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  position: absolute;
-}
-
-.company{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-
-  top: 80px;
-  right: 22px;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 18px;
-  color: #000;
-}
-
-.footerCenter{
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-}
-
-#homeFooter{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-
-  top: 150px;
-  right: 65px;
-}
-
-#homeFooter a{
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
-  text-decoration: none;
-  color: #000000a3;
-  font-size: 16px;
-}
-
-#flightsFooter{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-
-  top: 190px;
-  right: 61px;
-}
-
-
-#flightsFooter a{
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
-  text-decoration: none;
-  color: #000000a3;
-  font-size: 16px;
-}
-
-#contactFooter{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-  
-
-  top: 230px;
-  right: 48px;
-}
-
-#contactFooter a{
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
-  text-decoration: none;
-  color: #000000a3;
-  font-size: 16px;
-  width: 150%;
-
-}
-
-.socialMedia{
-  display: flex;
-  flex-direction: row;
-  align-items: right;
-  justify-content: right;
-  position: absolute;
-
-  top: 140px;
-  right: 200px;
-}
-
-.socialMedia p{
-  display: flex;
-  flex-direction: row;
-  align-items: right;
-  justify-content: right;
-  position: absolute;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 18px;
-
-
-  bottom:  20px;
-  right: 200px;
-  width: 200px;
-}
-
-.socialMediaImg {
-  display: flex;
-  flex-direction: row;
-  align-items: right;
-  justify-content: right;
-  position: absolute;
-
-  gap: 18px;
-  top: 120px;
-  right: 208px;
-}
-.redPlanetVenturesFooter{
-  background-color: #ffffff;
-}
-.footerBottom{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  background-color: #ffffff;
-}
-
-hr{
-  width: 80%;
-  margin: 0 auto; 
-    border: 1px solid #00000086; 
-}
-
-.footerBottomLeft{
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  position: absolute;
-  
-  left: 100px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  color: #000000a3;
-  padding-top: 30px;
-
-}
-
-.footerBottomRight{
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
- position: relative;
-}
-
-
-.terms{
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  position: absolute;
-
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  color: #000000a3;
-  
-
-  left:  250px;
-  width: 200px;
-}
-
-.privacy{
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  position: absolute;
-
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  color: #000000a3;
-  
-  left:  450px;
-  width: 250px;
-}
-
-#homeFooter a:hover{
-  color: #e51728;
-}
-
-#homeFooter a.active{ 
-color: #e51728;
-}
-
-#flightsFooter a:hover{
-  color: #e51728;
-}
-
-#flightsFooter a.active{
-  color: #e51728;
-}
-
-#contactFooter a:hover{
-  color: #e51728;
-}
-
-#contactFooter a.active{
-  color: #e51728;
-}
-
+/*Flights Page Section*/
 /* Header/Hero image's styling for flights page*/
-.flightsHeader{
+.flightsHeader {
   height: 50vh;
   position: relative;
-  
+
   background-image: url(../assets/img/headerbackBack.png);
   background-color: #45016d;
   background-repeat: no-repeat;
@@ -1119,9 +836,9 @@ color: #e51728;
   overflow-x: hidden;
 }
 
-.flightsBook{
+.flightsBook {
   position: absolute;
-  
+
   font-family: 'PorterSans';
   font-size: 48px;
   color: #ffffff;
@@ -1132,23 +849,1594 @@ color: #e51728;
 }
 
 /* Contact Page header image styling*/
-.contactHeader{
+.contactHeader {
   height: 50vh;
   position: relative;
-  
+
   background-image: url(../assets/img/headerbackBack.png);
   background-color: #45016d;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden;
   overflow-x: hidden;
-  
+
+}
+
+/*ToolBar styling for the layout of the products/flights page styling*/
+.toolBar {
+  height: 15vh;
+  background-color: #45016d;
+}
+
+.sliderFilter {
+  background-color: #45016d;
+  border: none;
+
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.sliderFilter:hover {
+  background-color: #000000a3;
+}
+
+.sliderFilter img {
+  filter: brightness(0) invert(1);
+}
+
+.filter {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+
+.grid {
+  background-color: #45016d;
+  border: none;
+
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.grid:hover {
+  background-color: #000000a3;
+}
+
+.grid img {
+  filter: brightness(0) invert(1);
+}
+
+.listIcon {
+
+  background-color: #45016d;
+  border: none;
+
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.listIcon:hover {
+  background-color: #000000a3
+}
+
+.listIcon img {
+  filter: invert(15%) sepia(87%) saturate(4359%) hue-rotate(347deg) brightness(92%) contrast(96%);
+
+}
+
+.results-content {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+
+.lineDivide {
+  width: 4px;
+  height: 24px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 15px;
+}
+
+.show {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+
+.showNumButton {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #45016d;
+
+  height: 50px;
+  width: 50px;
+  border-radius: 6px;
+  border: none;
+
+  background-color: #ffffffa9;
+}
+
+.showNumButton:hover {
+  color: #45016d;
+  background-color: #000000a3;
+  border: #ffffffa9;
+}
+
+.sortBy {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+
+.defaultButton {
+
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: right;
+  padding-left: 20px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #45016d;
+
+  height: 50px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+
+  background-color: #ffffffa9;
+}
+
+.defaultButton:hover {
+  color: #45016d;
+  background-color: #000000a3;
+  border: #ffffffa9;
+}
+
+.rightToolBar {
+  margin-right: 80px;
+  margin-left: auto;
+}
+
+/*Mars Flight Product Cards Styling*/
+.bookMarsFlight {
+  height: 100vh;
+  border: none;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marsFlightCard {
+  height: 100vh;
+  border: none;
+
+}
+
+.bookMarsFlightIMG img {
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.bookMarsFlightIMG {
+  margin-top: 8%;
+  margin-bottom: 20px;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  margin-top: 3%;
+  margin-left: 190px;
+  margin-right: auto;
+
+  transform: translate3d(50px, -490px, 100px);
+
+  text-align: center;
+}
+
+.bookMarsFlightIMG:hover {
+  background-color: #00000098;
+}
+
+.bookMarsFlightIMGContainer:hover {
+  opacity: 0.9;
+}
+
+.bookMarsFlightIMGContainer:hover .middle {
+  opacity: 2;
+}
+
+.text {
+
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  width: 80%;
+}
+
+.bookMarsFlightIMGButton {
+  background-color: #e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-right: 95px;
+  margin-top: 20px;
+}
+
+.marsFlight {
+  margin-left: 30px;
+  margin-top: 5%;
+}
+
+.marsFlightTitle {
+  margin-top: 8%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color: #000000;
+
+}
+
+.marsPriceDiscounted {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #00000082;
+}
+
+.marsPriceNormal {
+  padding-left: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #00000082;
+  text-decoration: line-through;
+}
+
+.marsStarReviews {
+  margin-right: 10px;
+}
+
+.lineDivideReview {
+  width: 2px;
+  height: 30px;
+  background-color: #00000086;
+  margin: 0 15px;
+}
+
+.custReview {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #00000086;
+  font-size: 14px;
+}
+
+.marsFlightDesc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  width: 80%;
+}
+
+.numOfFlights .btn {
+  background-color: #45016d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 70px;
+  border-radius: 12px;
+}
+
+
+.bookFlightMarsBut {
+
+  background-color: #e51728;
+  height: 70px;
+  width: 270px;
+  margin-left: 25px;
+  border-radius: 12px;
+  color: #ffffff;
+  border: #e51728;
+  overflow: hidden;
+  transition: all .6s ease-in-out;
+
+}
+
+.send-text {
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.bookFlightMarsBut:hover {
+  height: 70px;
+  width: 270px;
+  background-color: #000000;
+  color: #000000;
+  border-color: #e51728;
+
+}
+
+.altSendButton:hover {
+  transform: translate3d(-5px, -25px, -35px);
+}
+
+.lineDivideAddInfo {
+  border: none;
+  height: 1px;
+  background-color: #0000006a;
+  margin: 20px 0;
+
+}
+
+.addInfoMars {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0000006a;
+  font-size: 16px;
+}
+
+.dividerInfo {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-left: 10%;
+}
+
+.addInfoValue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+
+.addInfoRow {
+  display: flex;
+  gap: 8px;
+  line-height: 40px;
+}
+
+.addInfoLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
+}
+
+/*Neptune's product cards*/
+.bookNeptuneFlight {
+  height: 100vh;
+  border: none;
+  background-color: #45016d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.neptuneFlightCard {
+  height: 100vh;
+  background-color: #45016d;
+  border: none;
+}
+
+
+.col {
+  margin-left: 35px;
+}
+
+.bookNeptuneFlightIMG img {
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.bookNeptuneFlightIMG {
+  margin-top: 6%;
+  margin-bottom: 20px;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.bookNeptuneFlightIMG:hover {
+  background-color: #00000098;
+}
+
+.bookNeptuneFlightIMGMiddle {
+  transition: .5s ease;
+  opacity: 0;
+  margin-top: 3%;
+  margin-left: 190px;
+  margin-right: auto;
+
+  transform: translate3d(50px, -550px, 100px);
+
+  text-align: center;
+}
+
+.bookNeptuneFlightIMG:hover {
+  opacity: 0.5;
+}
+
+.bookNeptuneFlightIMGContainer:hover .bookNeptuneFlightIMGMiddle {
+  opacity: 2;
+}
+
+.text {
+
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  width: 80%;
+}
+
+.bookNeptuneFlightIMGButton {
+  background-color: #e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-right: 95px;
+  margin-top: 20px;
+}
+
+.neptuneFlightCard {
+  height: 100vh;
+  background-color: #45016d;
+  border: none;
+}
+
+.neptuneFlight {
+  margin-top: 2%;
+}
+
+.neptuneFlightTitle {
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color: #ffffff;
+}
+
+.neptunePrice {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #55daeb;
+}
+
+.neptuneStarReviews {
+  margin-right: 20px;
+}
+
+.lineDivideReviewNeptune {
+  width: 2px;
+  height: 30px;
+  background-color: #ffffff8c;
+  margin: 0 15px;
+}
+
+.neptuneStarReviews {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+
+}
+
+.custReviewNeptune {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff8c;
+  font-size: 14px;
+}
+
+.neptuneFlightDesc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  width: 80%;
+}
+
+.neptunenumOfFlights .btn {
+  background-color: #55daeb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 70px;
+  border-radius: 12px;
+}
+
+.bookNeptuneBut {
+  background-color: #e51728;
+  height: 70px;
+  width: 270px;
+  margin-left: 25px;
+  border-radius: 12px;
+  color: #ffffff;
+  border: #e51728;
+  overflow: hidden;
+  transition: all .6s ease-in-out;
+
+}
+
+.send-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.bookNeptuneBut:hover {
+  height: 70px;
+  width: 270px;
+  background-color: #000000;
+  color: #000000;
+  border-color: #e51728;
+
+}
+
+.altSendButton:hover {
+  transform: translate3d(-5px, -25px, -35px);
+}
+
+
+.lineDivideAddInfoNept {
+  border: none;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 20px 0;
+}
+
+.addInfoNeptune {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff8c;
+  font-size: 16px;
+}
+
+/*Jupiter product card styling*/
+.bookJupiterFlight {
+  border: none;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jupiterFlightCard {
+  height: 100vh;
+  border: none;
+
+}
+
+.bookJupiterFlightIMG img {
+  margin-top: 8%;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.bookJupiterFlightIMG img {
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.bookJupiterFlightIMG {
+  margin-top: 6%;
+  margin-bottom: 20px;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.bookJupiterFlightIMG:hover {
+  background-color: #00000098;
+}
+
+.bookJupiterFlightIMGMiddle {
+  transition: .5s ease;
+  opacity: 0;
+  margin-top: 3%;
+  margin-left: 190px;
+  margin-right: auto;
+
+  transform: translate3d(50px, -550px, 100px);
+
+  text-align: center;
+}
+
+.bookJupiterFlightIMG:hover {
+  opacity: 0.9;
+}
+
+.bookJupiterFlightIMGContainer:hover .bookJupiterFlightIMGMiddle {
+  opacity: 2;
+}
+
+.text {
+
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  width: 80%;
+}
+
+.bookJupiterFlightIMGButton {
+  background-color: #e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-right: 95px;
+  margin-top: 20px;
+}
+
+.col {
+  margin-left: 35px;
+}
+
+.jupiterFlight {
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+.jupiterFlightTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color: #000000;
+
+}
+
+.jupiterPrice {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #00000082;
+}
+
+.jupiterStarReviews {
+  margin-right: 20px;
+}
+
+.lineDivideReviewJupiter {
+  width: 2px;
+  height: 30px;
+  background-color: #00000086;
+  margin: 0 15px;
+}
+
+.custReviewJupiter {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #00000082;
+  font-size: 14px;
+}
+
+.jupiterFlightDesc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  width: 80%;
+}
+
+.numOfFlightsJupiter .btn {
+  background-color: #45016d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 70px;
+  border-radius: 12px;
+}
+
+.bookJupiterBut {
+  background-color: #e51728;
+  height: 70px;
+  width: 270px;
+  margin-left: 25px;
+  border-radius: 12px;
+  color: #ffffff;
+  border: #e51728;
+  overflow: hidden;
+  transition: all .6s ease-in-out;
+
+}
+
+.send-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.bookJupiterBut:hover {
+  height: 70px;
+  width: 270px;
+  background-color: #000000;
+  color: #000000;
+  border-color: #e51728;
+
+}
+
+.altSendButton:hover {
+  transform: translate3d(-5px, -25px, -35px);
+}
+
+
+.lineDivideAddInfoJupiter {
+  border: none;
+  height: 1px;
+  background-color: #0000006a;
+  margin: 20px 0;
+
+}
+
+.addInfoJupiter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0000006a;
+  font-size: 16px;
+}
+
+.dividerInfo {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-left: 10%;
+}
+
+.addInfoValue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+
+.addInfoRow {
+  display: flex;
+  gap: 8px;
+}
+
+.addInfoLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
+}
+
+
+/*Saturn Product Card styling*/
+.bookSaturnFlight {
+
+
+  border: none;
+  background-color: #45016d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookSaturnFlight {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookSaturnFlightIMG img {
+  margin-top: 8%;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.bookSaturnFlightIMG img {
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.bookSaturnFlightIMG {
+  margin-top: 6%;
+  margin-bottom: 20px;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.bookSaturnFlightIMGMiddle {
+  transition: .5s ease;
+  opacity: 0;
+  margin-top: 3%;
+  margin-left: 190px;
+  margin-right: auto;
+
+  transform: translate3d(50px, -600px, 100px);
+
+  text-align: center;
+}
+
+.bookSaturnFlightIMG:hover {
+  border-radius: 12px;
+  opacity: 0.3;
+}
+
+.bookSaturnFlightIMGContainer:hover .bookSaturnFlightIMGMiddle {
+  opacity: 0.8;
+}
+
+.text {
+
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  width: 80%;
+}
+
+.bookSaturnFlightIMGButton {
+  background-color: #e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-right: 95px;
+  margin-top: 20px;
+}
+
+.saturnFlight {
+  margin-top: 26px;
+  margin-left: 30px;
+}
+
+.saturnFlightCard {
+  height: 100vh;
+
+  background-color: #45016d;
+  border: none;
+}
+
+.saturnFlightTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color: #ffffff;
+}
+
+.saturnPrice {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #55daeb;
+}
+
+.lineDivideReviewSaturn {
+  width: 2px;
+  height: 30px;
+  background-color: #ffffff8c;
+  margin: 0 15px;
+}
+
+.saturnStarReviews {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+
+}
+
+.custReviewSaturn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff8c;
+  font-size: 12px;
+}
+
+.saturnFlightDesc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  width: 80%;
+}
+
+.numOfFlightsSaturn .btn {
+  background-color: #55daeb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 70px;
+  border-radius: 12px;
+}
+
+.bookSaturnBut {
+  background-color: #e51728;
+  height: 70px;
+  width: 270px;
+  margin-left: 25px;
+  border-radius: 12px;
+  color: #ffffff;
+  border: #e51728;
+  overflow: hidden;
+  transition: all .6s ease-in-out;
+
+}
+
+.send-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.bookSaturnBut:hover {
+  height: 70px;
+  width: 270px;
+  background-color: #000000;
+  color: #000000;
+  border-color: #e51728;
+
+}
+
+.altSendButton:hover {
+  transform: translate3d(-5px, -25px, -35px);
+}
+
+.lineDivideAddInfoSaturn {
+  border: none;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 20px 0;
+}
+
+.addInfoSaturn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff8c;
+  font-size: 16px;
+}
+
+/*Uranus Product Card Styling*/
+.bookUranusFlight {
+  border: none;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uranusFlightCard {
+  height: 100vh;
+
+  border: none;
+
+}
+
+.bookUranusFlightIMG img {
+  margin-top: 8%;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.bookUranusFlightIMG img {
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.bookUranusFlightIMG {
+  margin-top: 6%;
+  margin-bottom: 20px;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.bookUranusFlightIMGMiddle {
+  transition: .5s ease;
+  opacity: 0;
+  margin-top: 3%;
+  margin-left: 190px;
+  margin-right: auto;
+
+  transform: translate3d(50px, -570px, 100px);
+
+  text-align: center;
+}
+
+.bookUranusFlightIMG:hover {
+  border-radius: 12px;
+  opacity: 0.5;
+}
+
+.bookUranusFlightIMGContainer:hover .bookUranusFlightIMGMiddle {
+  opacity: 0.9;
+}
+
+.text {
+
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  width: 80%;
+}
+
+.bookUranusFlightIMGButton {
+  background-color: #e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-right: 95px;
+  margin-top: 20px;
+}
+
+.uranusFlight {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.uranusFlightTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color: #000000;
+
+}
+
+.uranusPrice {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #00000082;
+}
+
+
+.uranusStarReviews {
+  margin-right: 2%;
+}
+
+.lineDivideReviewUranus {
+  width: 2px;
+  height: 30px;
+  background-color: #00000086;
+  margin: 0 15px;
+}
+
+.custReviewUranus {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #00000082;
+  font-size: 14px;
+}
+
+.uranusFlightDesc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  width: 80%;
+}
+
+.numOfFlightsUranus .btn {
+  background-color: #45016d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 70px;
+  border-radius: 12px;
+}
+
+
+.bookUranusBut {
+  background-color: #e51728;
+  height: 70px;
+  width: 270px;
+  margin-left: 25px;
+  border-radius: 12px;
+  color: #ffffff;
+  border: #e51728;
+  overflow: hidden;
+  transition: all .6s ease-in-out;
+
+}
+
+.send-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.bookUranusBut:hover {
+  height: 70px;
+  width: 270px;
+  background-color: #000000;
+  color: #000000;
+  border-color: #e51728;
+
+}
+
+.altSendButton:hover {
+  transform: translate3d(-5px, -25px, -35px);
+}
+
+.lineDivideAddInfo {
+  border: none;
+  height: 1px;
+  background-color: #0000006a;
+  margin: 20px 0;
+
+}
+
+.addInfoUranus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0000006a;
+  font-size: 16px;
+}
+
+.dividerInfo {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-left: 10%;
+}
+
+.addInfoValue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+
+.addInfoRow {
+  display: flex;
+  gap: 8px;
+  line-height: 40px;
+}
+
+.addInfoLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
+}
+
+/*Moon flight Card styling*/
+.bookMoonFlight {
+
+  border: none;
+  background-color: #45016d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookMoonFlight {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookMoonFlightIMG img {
+  margin-top: 8%;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.bookMoonFlightIMG img {
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.bookMoonFlightIMG {
+  margin-top: 6%;
+  margin-bottom: 20px;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.bookMoonFlightIMGMiddle {
+  transition: .5s ease;
+  opacity: 0;
+  margin-top: 3%;
+  margin-left: 190px;
+  margin-right: auto;
+
+  transform: translate3d(50px, -570px, 100px);
+
+  text-align: center;
+}
+
+.bookMoonFlightIMG:hover {
+  border-radius: 12px;
+  opacity: 0.3;
+}
+
+.bookMoonFlightIMGContainer:hover .bookMoonFlightIMGMiddle {
+  opacity: 0.8;
+}
+
+.text {
+
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  width: 80%;
+}
+
+.bookMoonFlightIMGButton {
+  background-color: #e51728;
+  border-color: #e51728;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  margin-right: 95px;
+  margin-top: 20px;
+}
+
+.moonFlightCard {
+  height: 110vh;
+  background-color: #45016d;
+  border: none;
+}
+
+.moonFlight {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.moonFlightTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+
+  color: #ffffff;
+}
+
+.moonPrice {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+  color: #55daeb;
+}
+
+.moonStarReviews {
+  margin-right: 20px;
+}
+
+.lineDivideReviewMoon {
+  width: 2px;
+  height: 30px;
+  background-color: #ffffff8c;
+  margin: 0 15px;
+}
+
+.moonStarReviews {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+
+}
+
+.custReviewMoon {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff8c;
+  font-size: 14px;
+}
+
+.moonFlightDesc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  width: 80%;
+}
+
+.numOfFlightsMoon .btn {
+  background-color: #55daeb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  width: 40px;
+  height: 70px;
+  border-radius: 12px;
+}
+
+.bookMoonBut {
+  background-color: #e51728;
+  height: 70px;
+  width: 270px;
+  margin-left: 25px;
+  border-radius: 12px;
+  color: #ffffff;
+  border: #e51728;
+  overflow: hidden;
+  transition: all .6s ease-in-out;
+
+}
+
+.send-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.bookMoonBut:hover {
+  height: 70px;
+  width: 270px;
+  background-color: #000000;
+  color: #000000;
+  border-color: #e51728;
+
+}
+
+.altSendButton:hover {
+  transform: translate3d(-5px, -25px, -35px);
+}
+
+.lineDivideAddInfoMoon {
+  border: none;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 20px 0;
+}
+
+.addInfoMoon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff8c;
+  font-size: 16px;
+}
+
+.viewCartButton {
+  background-color: #98111c;
+  border-color: #98111c;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+
+  overflow: hidden;
+  width: 270px;
+  height: 70px;
+  border-radius: 12px;
+  transition: all .2s ease-in-out;
+}
+
+.viewCartButtonBottom {
+  display: flex;
+  justify-content: right;
+  padding: auto;
+
+}
+
+.viewCartButton:hover {
+
+  background-color: #ffffff;
+  color: #ffffff;
+  border-color: #98111c;
+
+}
+
+
+
+.send-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.altSendButton:hover {
+  transform: translate3d(-5px, -25px, -35px);
+}
+/*Flights page styling complete*/
+
+/*Contact Page Section Styling*/
+/* Contact Page header image styling*/
+.contactHeader {
+  height: 50vh;
+  position: relative;
+
+  background-image: url(../assets/img/headerbackBack.png);
+  background-color: #45016d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
 }
 
 /* About us section styling on the contact page*/
-.contactUs{
+.contactUs {
   position: absolute;
-  
+
   font-family: 'PorterSans';
   font-size: 48px;
   color: #ffffff;
@@ -1165,7 +2453,7 @@ color: #e51728;
 
   padding: 50px;
   background-color: #ffffff;
-  
+
 }
 
 .aboutRedPlanetVentures {
@@ -1182,7 +2470,7 @@ color: #e51728;
 }
 
 .aboutUsHeading {
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
   margin-top: -20px;
 
   font-family: "Poppins", sans-serif;
@@ -1190,7 +2478,7 @@ color: #e51728;
   font-style: normal;
   font-size: 18px;
   color: #55daeb;
-  
+
 }
 
 .redPlanetVentures {
@@ -1213,1255 +2501,492 @@ color: #e51728;
 }
 
 .aboutImage {
-  width: 400px; 
+  width: 400px;
   height: auto;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 
-/*ToolBar styling for the layout of the products/flights page styling*/
-.toolBar{
-  height: 15vh;
-  background-color: #45016d;
-}
-
-.sliderFilter{
-  background-color: #45016d;
-  border: none;
-
-  padding: 10px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin-left: 100px;
-}
-
-.sliderFilter:hover{
-  background-color: #000000a3;
-}
-
-.sliderFilter img {
-  filter: brightness(0) invert(1);
-}
-
-.filter{
-  font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18px;
-
-    color: #ffffff;
-}
-
-.grid{
-  background-color: #45016d;
-  border: none;
-
-  padding: 10px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.grid:hover{
-  background-color: #000000a3;
-}
-
-.grid img {
-  filter: brightness(0) invert(1);
-}
-
-.listIcon{
-  background-color: #45016d;
-  border: none;
-
-  padding: 10px;
-  display: flex;
-  justify-content:left;
-  align-items: center;
-}
-
-.listIcon:hover{
-  background-color:#000000a3
-}
-
-.listIcon img {
-  filter: brightness(0) invert(1);
-}
-
-.results-content{
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 18px;
-
-  color: #ffffff;
-}
-
-.lineDivide {
-  width: 4px;
-  height: 24px;
-  background-color: rgb(255, 255, 255);
-  margin: 0 15px;
-}
-
-.show{
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 18px;
-
-  color: #ffffff;
-}
-
-.showNumButton{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    color: #45016d;
-
-    height: 50px;
-    width: 50px;
-    border-radius: 6px;
-    border: none;
-
-    background-color: #ffffffa9;
-}
-
-.showNumButton:hover{
-  color:#45016d;
-  background-color:#000000a3;
-  border: #ffffffa9;
-}
-
-.sortBy{
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 18px;
-
-  color: #ffffff;
-}
-
-.defaultButton{
-
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  text-align: right;
-  padding-left: 20px;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  color: #45016d;
-
-  height: 50px;
-  width: 200px;
-  border-radius: 6px;
-  border: none;
-
-  background-color: #ffffffa9;
-}
-
-.defaultButton:hover{
-  color:#45016d;
-  background-color:#000000a3;
-  border: #ffffffa9;
-}
-
-.rightToolBar {
-  margin-right: 80px;
-  margin-left: auto;
-}
-
-/*Mars Flight Product Cards Styling*/
-.bookMarsFlight{
-  height: 100vh;
-  border: none;
-  background-color: #ffffff;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.marsFlightCard{
-  
-  border: none;
- 
-}
-.bookMarsFlightIMG{
-  margin-top: 3%;
-  margin-left: 190px;
-  margin-right: auto;
-}
-
-.marsFlight{
-  margin-left: 30px;
-}
-
-.marsFlightTitle{
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 48px;
-
-  color: #000000;
-
-}
-
-.marsPriceDiscounted{
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 24px;
-
-  color: #00000082;
-}
-
-.marsPriceNormal{
-  padding-left: 50px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 24px;
-
-  color: #00000082;
-  text-decoration: line-through;
-}
-
-.marsStarReviews{
-  margin-right: 10px;
-}
-.lineDivideReview{
-  width: 2px;
-  height: 30px;
-  background-color:#00000086;
-  margin: 0 15px;
-}
-
-.custReview{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#00000086;
-    font-size: 14px;
-}
-
-.marsFlightDesc{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#000000;
-    font-size: 16px;
-    width: 80%;
-}
-
-.numOfFlights .btn{
-  background-color: #45016d;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 40px;
-  height: 70px;
-  border-radius: 12px;
-}
-
-
-.bookFlightMarsBut{
-  background-color:#e51728;
-  border-color: #e51728;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 270px;
-  height: 70px;
-  border-radius: 12px;
-  margin-left: 3%;
-}
-
-.bookFlightMarsBut:hover{
-  border-color: #e51728;
-  background-color:#ffffff;
-  color:#e51728;
- 
-}
-.lineDivideAddInfo{
-  border: none;
-    height: 1px;
-    background-color: #0000006a; 
-    margin: 20px 0;
-    
-}
-
-.addInfoMars{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
-
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#0000006a;
-    font-size: 16px;
-}
-
-.dividerInfo{
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin-left: 10%;
-}
-
-.addInfoValue{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  
-  
-}
-
-.addInfoRow{
-  display: flex;
-  gap: 8px;
-  line-height: 40px;
-}
-
-.addInfoLabel{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 10%;
-}
-
-/*Neptune's product cards*/
-.bookNeptuneFlight{
-  height: 100vh;
-  border: none;
-  background-color:#45016d;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.col{
-  margin-left: 35px;
-}
-
-
-.bookNeptuneFlightIMG{
-
-  margin-top: 3%;
-  margin-left: 190px;
-  margin-right: auto;
-}
-.neptuneFlightCard {
-  background-color: #45016d;
-  border: none;
-}
-
-.neptuneFlightTitle{
-  
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 48px;
-
-  color:#ffffff;
-}
-
-.neptunePrice{
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 24px;
-
-  color:#55daeb;
-}
-.neptuneStarReviews{
-  margin-right: 20px;
-}
-.lineDivideReviewNeptune{
-  width: 2px;
-  height: 30px;
-  background-color:#ffffff8c;
-  margin: 0 15px;
-}
-
-.neptuneStarReviews{
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  
-}
-.custReviewNeptune{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#ffffff8c;
-    font-size: 14px;
-}
-.neptuneFlightDesc{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#ffffff;
-    font-size: 16px;
-    width: 80%;
-}
-
-.neptunenumOfFlights .btn{
-  background-color:#55daeb;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 40px;
-  height: 70px;
-  border-radius: 12px;
-}
-.bookFlightNeptune{
-  background-color:#e51728;
-  border-color: #e51728;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 270px;
-  height: 70px;
-  border-radius: 12px;
-  margin-left: 3%;
-}
-
-.bookFlightNeptune:hover{
-  border-color: #e51728;
-  background-color:#ffffff;
-  color:#e51728;
- 
-}
-
-.lineDivideAddInfoNept{
-  border: none;
-    height: 1px;
-    background-color: #ffffff; 
-    margin: 20px 0;
-}
-.addInfoNeptune{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
-
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#ffffff8c;
-    font-size: 16px;
-}
-
-/*Jupiter product card styling*/
-.bookJupiterFlight{
-  border: none;
-  background-color: #ffffff;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.jupiterFlightCard{
-  height: 100vh;
-  border: none;
-  
-}
-.bookJupiterFlight img{
-  margin-top: 8%;
-  margin-left: 190px;
-  margin-right: auto;
-}
-
-.col{
-  margin-left: 35px;
-}
-.jupiterFlight{
-  margin-top: 35px;
-  margin-left: 30px;
-}
-
-.jupiterFlightTitle{
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 48px;
-
-  color: #000000;
-
-}
-
-.jupiterPrice{
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 24px;
-
-  color: #00000082;
-}
-.jupiterStarReviews{
-  margin-right: 20px;
-}
-.lineDivideReviewJupiter{
-  width: 2px;
-  height: 30px;
-  background-color: #00000086;
-  margin: 0 15px;
-}
-
-.custReviewJupiter{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #00000082;
-    font-size: 14px;
-}
-
-.jupiterFlightDesc{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#000000;
-    font-size: 16px;
-    width: 80%;
-}
-
-.numOfFlightsJupiter .btn{
-  background-color: #45016d;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 40px;
-  height: 70px;
-  border-radius: 12px;
-}
-.bookFlightJupiter{
-  background-color:#e51728;
-  border-color: #e51728;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 270px;
-  height: 70px;
-  border-radius: 12px;
-  margin-left: 3%;
-}
-
-.bookFlightJupiter:hover{
-  border-color: #e51728;
-  background-color:#ffffff;
-  color:#e51728;
- 
-}
-
-
-.lineDivideAddInfoJupiter{
-  border: none;
-    height: 1px;
-    background-color: #0000006a; 
-    margin: 20px 0;
-    
-}
-
-.addInfoJupiter{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
-
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#0000006a;
-    font-size: 16px;
-}
-
-.dividerInfo{
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin-left: 10%;
-}
-
-.addInfoValue{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  
-  
-}
-
-.addInfoRow{
-  display: flex;
-  gap: 8px;
-}
-
-.addInfoLabel{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 10%;}
-
-
-/*Saturn Product Card styling*/
-.bookSaturnFlight{
-  
- 
-  border: none;
-  background-color:#45016d;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bookSaturnFlight{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bookSaturnFlightIMG{
-  margin-top: 8%;
-  margin-left: 190px;
-  margin-right: auto;
-}
-.saturnFlight{
-  margin-top: 26px;
-  margin-left: 30px;
-}
-.saturnFlightCard {
-  height: 100vh;
- 
-  background-color: #45016d;
-  border: none;
-}
-
-.saturnFlightTitle{
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 48px;
-
-  color:#ffffff;
-}
-
-.saturnPrice{
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 24px;
-
-  color:#55daeb;
-}
-.lineDivideReviewSaturn{
-  width: 2px;
-  height: 30px;
-  background-color:#ffffff8c;
-  margin: 0 15px;
-}
-
-.saturnStarReviews{
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  
-}
-.custReviewSaturn{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#ffffff8c;
-    font-size: 12px;
-}
-.saturnFlightDesc{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#ffffff;
-    font-size: 16px;
-    width: 80%;
-}
-
-.numOfFlightsSaturn .btn{
-  background-color:#55daeb;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 40px;
-  height: 70px;
-  border-radius: 12px;
-}
-.bookFlightSaturn{
-  background-color:#e51728;
-  border-color: #e51728;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 270px;
-  height: 70px;
-  border-radius: 12px;
-  margin-left: 3%;
-}
-
-.bookFlightSaturn:hover{
-  border-color: #e51728;
-  background-color:#ffffff;
-  color:#e51728;
- 
-}
-
-.lineDivideAddInfoSaturn{
-  border: none;
-    height: 1px;
-    background-color: #ffffff; 
-    margin: 20px 0;
-}
-.addInfoSaturn{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
-
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#ffffff8c;
-    font-size: 16px;
-}
-
-/*Uranus Product Card Styling*/
-.bookUranusFlight{
-  border: none;
-  background-color: #ffffff;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.uranusFlightCard{
-  height: 100vh;
- 
-  border: none;
-  
-}
-.bookUranusFlight img{
-  margin-top: 8%;
-  margin-left: 190px;
-  margin-right: auto;
-}
-.uranusFlight{
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.uranusFlightTitle{
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 48px;
-
-  color: #000000;
-
-}
-
-.uranusPrice{
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 24px;
-
-  color: #00000082;
-}
-
-
-.uranusStarReviews{
-  margin-right: 2%;
-}
-.lineDivideReviewUranus{
-  width: 2px;
-  height: 30px;
-  background-color: #00000086;
-  margin: 0 15px;
-}
-
-.custReviewUranus{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #00000082;
-    font-size: 14px;
-}
-
-.uranusFlightDesc{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#000000;
-    font-size: 16px;
-    width: 80%;
-}
-
-.numOfFlightsUranus .btn{
-  background-color: #45016d;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 40px;
-  height: 70px;
-  border-radius: 12px;
-}
-
-
-.bookFlightUranus:hover{
-  border-color: #e51728;
-  background-color:#ffffff;
-  color:#e51728;
- 
-}
-
-.bookFlightUranus{
-  background-color:#e51728;
-  border-color: #e51728;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 270px;
-  height: 70px;
-  border-radius: 12px;
-  margin-left: 3%;
-}
-
-
-.lineDivideAddInfo{
-  border: none;
-    height: 1px;
-    background-color: #0000006a; 
-    margin: 20px 0;
-    
-}
-
-.addInfoUranus{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
-
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#0000006a;
-    font-size: 16px;
-}
-
-.dividerInfo{
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin-left: 10%;
-}
-
-.addInfoValue{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  
-  
-}
-
-.addInfoRow{
-  display: flex;
-  gap: 8px;
-  line-height: 40px;
-}
-
-.addInfoLabel{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 10%;
-}
-
-/*Moon flight Card styling*/
-.bookMoonFlight{
-  
-  border: none;
-  background-color:#45016d;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bookMoonFlight{
-
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bookMoonFlightIMG{
-  margin-top: 9%;
-  margin-left: 190px;
-  margin-right: auto;
-}
-.moonFlightCard {
-  height: 110vh;
-  background-color: #45016d;
-  border: none;
-}
-.moonFlight{
-  margin-top: 30px;
-  margin-left: 30px;
-}
-.moonFlightTitle{
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 48px;
-
-  color:#ffffff;
-}
-
-.moonPrice{
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 24px;
-
-  color:#55daeb;
-}
-.moonStarReviews{
-  margin-right: 20px;
-}
-.lineDivideReviewMoon{
-  width: 2px;
-  height: 30px;
-  background-color:#ffffff8c;
-  margin: 0 15px;
-}
-
-.moonStarReviews{
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  
-}
-.custReviewMoon{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#ffffff8c;
-    font-size: 14px;
-}
-.moonFlightDesc{
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#ffffff;
-    font-size: 16px;
-    width: 80%;
-}
-
-.numOfFlightsMoon .btn{
-  background-color:#55daeb;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 40px;
-  height: 70px;
-  border-radius: 12px;
-}
-.bookFlightMoon{
-  background-color:#e51728;
-  border-color: #e51728;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 270px;
-  height: 70px;
-  border-radius: 12px;
-  margin-left: 3%;
-}
-
-.bookFlightMoon:hover{
-  border-color: #e51728;
-  background-color:#ffffff;
-  color:#e51728;
- 
-}
-
-.lineDivideAddInfoMoon{
-  border: none;
-    height: 1px;
-    background-color: #ffffff; 
-    margin: 20px 0;
-}
-.addInfoMoon{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
-
-  font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#ffffff8c;
-    font-size: 16px;
-}
-
-.viewCartButton{
-  background-color:#98111c;
-  border-color: #98111c;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 270px;
-  height: 70px;
-  border-radius: 12px;
-  
-}
-
-.viewCartButtonBottom{
-  display: flex;
-  justify-content: right;
-  padding: auto;
-  
-}
-
-.viewCartButton:hover{
-  background-color: #ffffff;
-  color: #98111c;
-  border-color: #98111c;
-}
-
-.contactUsDetails{
+/*Contact Information, Map, and Form Styling*/
+.contactUsDetails {
   height: 130vh;
   border: none;
 }
-.contactSocialMediaH1{
+
+.contactSocialMediaH1 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
   margin-left: 90px;
   color: #55daeb;
-} 
-.contactSocialMediaH2{
+}
+
+.contactSocialMediaH2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
   margin-left: 90px;
-  color:#45016d
+  color: #45016d
 }
 
 
-.contactSocialMediaImg{
+.contactSocialMediaImg {
 
-display: flex;
-margin-left: 90px;
-
-
+  display: flex;
+  margin-left: 90px;
 }
 
 
-.mapVisit1{
-display: flex;
-flex-direction: row;
+.mapVisit1 {
+  display: flex;
+  flex-direction: row;
 
-margin-top: 100px;
-font-family: "Poppins", sans-serif;
-font-weight: 500;
-font-style: normal;
-font-size: 18px;
-color: #55daeb;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #55daeb;
 
-margin-left: 90px;
+  margin-left: 90px;
 }
 
-.mapVisit2{
-display: flex;
-flex-direction: row;
+.mapVisit2 {
+  display: flex;
+  flex-direction: row;
 
-font-family: "Poppins", sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 48px;
-color: #45016d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #45016d;
 
-margin-left: 90px;
+  margin-left: 90px;
 
 }
 
-.googleMap{
-border-radius: 12px;
-margin-left: 90px;
+.googleMap {
+  border-radius: 12px;
+  margin-left: 90px;
 }
 
-
+/*Form - this was rough..*/
 .contactFormCard {
-height: 900px; 
-width: 600px;
-display: flex;
-flex-direction: column;
+  height: 900px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
 
-border: none;
-padding: 20px;
-line-height: 35px;
+  border: none;
+  padding: 20px;
+  line-height: 35px;
 
-margin-left: 100px;
+  margin-left: 100px;
 
-background-color: #45016d;
-background-image: url(../assets/img/formBack.png);
-background-size: cover;
-background-repeat: no-repeat;
-border-radius: 30px;
+  background-color: #45016d;
+  background-image: url(../assets/img/formBack.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
 
 }
 
-.formHeading{
-font-family: "Poppins", sans-serif;
+.formHeading {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
-color: #ffffff;
-  
-}
-.formHeadingMessage{
+  color: #ffffff;
 
-margin-top: 20px;
-margin-left: 22px;
 }
 
-.nameContactForm{
-font-family: "Poppins", sans-serif;
+.formHeadingMessage {
+  margin-top: 20px;
+  margin-left: 22px;
+}
+
+.nameContactForm {
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
   margin-left: 10px;
   margin-top: 15px;
-  color:#ffffff;
+  color: #ffffff;
 }
 
-.emailContactForm{
-font-family: "Poppins", sans-serif;
-font-weight: 500;
-font-style: normal;
-font-size: 18px;
-margin-left: 10px;
-margin-top: 15px;
-color:#ffffff;
-}
-.emailContactFormControl{
-
-font-family: "Poppins", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-
-.form-control{
-line-height: 3;
-width: 490px;
-margin-left: 10px;
-}
-
-.subjectContactForm{
+.emailContactForm {
   font-family: "Poppins", sans-serif;
-font-weight: 500;
-font-style: normal;
-font-size: 18px;
-margin-left: 10px;
-margin-top: 15px;
-color:#ffffff;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #ffffff;
 }
 
-.messageContactForm{
+.emailContactFormControl {
   font-family: "Poppins", sans-serif;
-font-weight: 500;
-font-style: normal;
-font-size: 18px;
-margin-left: 10px;
-margin-top: 15px;
-color:#ffffff;
+  font-weight: 400;
+  font-style: normal;
 }
 
+.form-control {
+  line-height: 3;
+  width: 490px;
+  margin-left: 10px;
+}
 
+.subjectContactForm {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #ffffff;
+}
 
-.formButton{
-  
+.messageContactForm {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #ffffff;
+}
+ 
+.formButton {
   background-color: #e51728;
   height: 70px;
   width: 270px;
   margin-left: 25px;
   margin-top: 30px;
-  color:#ffffff;
+  color: #ffffff;
   border: #e51728;
   overflow: hidden;
   transition: all .6s ease-in-out;
 
 }
 
-.send-text{
+.send-text {
   display: block;
   margin-top: 15px;
-  
+
   font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
 }
 
-.altSubmitButton:hover{
+.altSubmitButton:hover {
   height: 70px;
   width: 270px;
   background-color: #ffffff;
   color: #ffffff;
   border-color: #e51728;
-  transform: translate3d(0px, -35px, -35px);
+  transform: translate3d(-12px, -22px, -25px);
 }
 
 
-.formGroupContact{
+.formGroupContact {
   line-height: 3;
   width: 490px;
   margin-left: 15px;
 }
+
+
+
+
+/* Footer for all pages styling*/
+.footerFlexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+
+  background-color: #ffffff;
+  height: 40vh;
+  margin: 0%;
+}
+
+.logoFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+}
+
+.logoFooter img {
+  width: 266px;
+  height: 48px;
+
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  top: 80px;
+  left: 100px;
+}
+
+.logoFooter p {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  top: 150px;
+  left: 100px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000a3;
+
+  width: 15%;
+}
+
+.companyColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+}
+
+.company {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  top: 80px;
+  right: 22px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #000;
+}
+
+.footerCenter {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+#homeFooter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+
+  top: 150px;
+  right: 65px;
+}
+
+#homeFooter a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  text-decoration: none;
+  color: #000000a3;
+  font-size: 16px;
+}
+
+#flightsFooter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+
+  top: 190px;
+  right: 61px;
+}
+
+
+#flightsFooter a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  text-decoration: none;
+  color: #000000a3;
+  font-size: 16px;
+}
+
+#contactFooter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+
+
+  top: 230px;
+  right: 48px;
+}
+
+#contactFooter a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  text-decoration: none;
+  color: #000000a3;
+  font-size: 16px;
+  width: 150%;
+
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+  position: absolute;
+
+  top: 140px;
+  right: 200px;
+}
+
+.socialMedia p {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+  position: absolute;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+
+
+  bottom: 20px;
+  right: 200px;
+  width: 200px;
+}
+
+.socialMediaImg {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+  position: absolute;
+
+  gap: 18px;
+  top: 120px;
+  right: 208px;
+}
+
+.redPlanetVenturesFooter {
+  background-color: #ffffff;
+}
+
+.footerBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #00000086;
+}
+
+.footerBottomLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: absolute;
+
+  left: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #000000a3;
+  padding-top: 30px;
+
+}
+
+.footerBottomRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  position: relative;
+}
+
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: absolute;
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #000000a3;
+
+
+  left: 250px;
+  width: 200px;
+}
+
+.privacy {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: absolute;
+
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #000000a3;
+
+  left: 450px;
+  width: 250px;
+}
+
+#homeFooter a:hover {
+  color: #e51728;
+}
+
+#homeFooter a.active {
+  color: #e51728;
+}
+
+#flightsFooter a:hover {
+  color: #e51728;
+}
+
+#flightsFooter a.active {
+  color: #e51728;
+}
+
+#contactFooter a:hover {
+  color: #e51728;
+}
+
+#contactFooter a.active {
+  color: #e51728;
+}
+/*My VSCode Pets kept me sane during this project <3 */
