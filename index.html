@@ -28,18 +28,28 @@
 <body>
 
     <header class="homeHeader">
-        <nav class="navBarPages navbar-expand-lg justify-content-center ">
+        <nav class="navBarPages navbar navbar-expand-lg  py-3">
+            <div class="navBarContainer container justify-content-between align-items-center px-4">
+              
 
-            <div class="navBarContainer container-fluid justify-content-center">
-
-                <div class="navBar collapse navbar-collapse flex-row" id="navbarSupportedContent">
-                    <a class="navBarLogo navbar-brand" href="index.html"><img src="assets/img/logo.png" height="48px"
+                
+                    <a class="navBarLogo navbar-brand" href="index.html">
+                        <img src="assets/img/logo.png" height="48px"
                             width="266px"> </a>
 
-                    <ul class="navBarCenter navbar-nav m-auto ">
+                            <button class="navBarHamBurger navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+
+
+
+                <div class="navBar collapse navbar-collapse flex-grow-1 justify-content-center" id="navbarSupportedContent">
+
+                    <ul class="navBarCenter navbar-nav mb-2 mb-lg-0">
                         <li class="navBarCenterHome nav-item mx-3">
                             <a class="navBarHome nav-link active-link" href="index.html">Home</a>
                         </li>
+
                         <li class="navBarCenterFlights nav-item mx-3">
                             <a class="navBarFlights nav-link" href="pages/flights.html">Flights</a>
                         </li>
@@ -47,9 +57,15 @@
                         <li class="navBarCenterContact nav-item mx-3">
                             <a class="navBarContact nav-link" href="pages/contact.html">Contact</a>
                         </li>
-                    </ul>
 
-                    <form class="d-flex" role="search" width="30">
+                        <li class="navBarCenterAbout nav-item mx-3">
+                            <a class="navBarAbout nav-link" href="pages/about.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                    <form class="searchBar d-flex" role="search" width="30">
                         <div class="searchBar input-group m-auto">
                             <span class="searchBarMag input-group-text">
                                 <img src="./assets/img/search.svg" width="16" height="16">
@@ -71,14 +87,13 @@
             </div>
         </nav>
 
-        <div class="headerContainer">
-
-            <div class="bottomTopLeft">Red Planet Ventures</div>
-            <div class="bottomBotLeft">EXPLORE THE SOLAR SYSTEM</div>
-        </div>
+         <div class="headerContainer">
+              <div class="bottomTopLeft">RED PLANET<br />VENTURES</div>
+              <div class="bottomBotLeft">EXPLORE THE SOLAR SYSTEM</div>
+            </div>
 
     </header>
-    <section class="featuredTripHeader">
+    <section class="featuredTripHeader container-fluid">
         <div class="tripHeaderCard card ">
 
             <div class="row mt-auto mb-auto">
@@ -117,7 +132,7 @@
                     </div>
 
                 </div>
-                <div class="col">
+                <div class="col-md-6 mb-2">
                     <div class="marsExpCard card-body">
 
                         <span class="marsFeaturedTrip card-title row mt-auto">FEATURED TRIP</span>
@@ -167,59 +182,68 @@
 
     </section>
 
-    <section class="upcomingTripsHeader">
-        <div class="upcomingTrip">UPCOMING TRIP SNEAK PEAK</div>
-        <div class="upcomingTripLook">Take A Look At Some Of Our Upcoming Trips</div>
+    <section class="upcomingTripsHeader container-fluid">
+        <div class="container  align-items-center mx-auto">
 
-        <div class="planetCardsMars">
-            <div class="classicMars">
-                <img src="assets/img/flighhtMars.png">
-
-                <div class="classicMarsExp">
-                    <h3>The Classic Mars Experience</h3>
-                    <p>Explore red deserts, ancient relics, low-gravity adventures on Mars.</p>
-
-                </div>
-            </div>
+            <div class="upcomingTrip row-lg-3 mt-4">OUR JOURNEY THROUGH THE STARS</div>
+            <div class="upcomingTripLook  row-lg-3">How all the magic started...</div>
         </div>
+    
+    
+        <div class="container-fluid mt-5 ">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="tripsCardDesc card" style="width: 18rem;">
+                  <img src="assets/img/flighhtMars.png" class="card-img-top">
+                  <div class="card-body">
+                    <span class="tripsCardTitle card-title">The Classic Mars Experience</span>
+                    <p class="tripsCardText card-text">
+                        Explore red deserts, ancient relics, low-gravity adventures on Mars.</p>
+                    
+                  </div> 
+                </div>
+              </div>
 
-        <div class="planetCardsNept">
-            <div class="neptCosmic">
-                <img src="assets/img/flightNeptune.png">
-
-                <div class="neptCosmicFlight">
-                    <h4>Neptune's Cosmic Dive</h4>
-                    <p>Experience Neptune's mysterious
+              <div class="col-lg-3">
+                <div class="tripsCardDesc card" style="width: 18rem;">
+                  <img src="assets/img/flightNeptune.png" class="card-img-top">
+                  <div class="card-body">
+                    <span class="tripsCardTitle card-title">TNeptune's Cosmic Dive</span>
+                    <p class="tripsCardText card-text">
+                        Experience Neptune's mysterious
                         depths in a celestial voyage.</p>
+                    
+                  </div> 
                 </div>
-            </div>
-        </div>
-
-        <div class="planetCardsGiant">
-            <div class="jupiterGiant">
-                <img src="assets/img/flightJupiter.png">
-
-                <div class="giantJourney">
-                    <h5>Jupiter: The Giant's Journey</h5>
-                    <p>Embark on Jupiter and witness the gas giant's majesty.</p>
+              </div>
+              
+              <div class="col-lg-3">
+                <div class="tripsCardDesc card" style="width: 18rem;">
+                  <img src="assets/img/flightJupiter.png" class="card-img-top">
+                  <div class="card-body">
+                    <span class="tripsCardTitle card-title">Jupiter: The Giant's Journey</span>
+                    <p class="tripsCardText card-text">
+                        Embark on Jupiter and witness the gas giant's majesty.</p>
+                    
+                  </div> 
                 </div>
-            </div>
-        </div>
 
-        <div class="planetCardsSaturn">
-            <div class="saturnRing">
-                <img src="assets/img/flightSaturn.png">
 
-                <div class="saturnRingFlight">
-                    <h6>Ring a Round a Saturn</h6>
-                    <p>Explore Saturn's rings, moons, and
+              </div><div class="col-lg-3">
+                <div class="tripsCardDesc card" style="width: 18rem;">
+                  <img src="assets/img/flightSaturn.png" class="card-img-top">
+                  <div class="card-body">
+                    <span class="tripsCardTitle card-title">Ring a Round a Saturn</span>
+                    <p class="tripsCardText card-text">
+                        Explore Saturn's rings, moons, and
                         enigmatic beauty on an odyssey.</p>
+                    
+                  </div> 
                 </div>
-            </div>
+              </div>
+              </div>
         </div>
-        <a href="pages/flights.html" class="buttonBookTrip" width="270px" height="70px">Book a Trip Now</a>
     </section>
-
 
 
     <section class="footer">

@@ -133,17 +133,13 @@ nav {
 }
 
 .navBarPages {
-  margin-top: 2em;
-  width: 90%;
-  height: 80px;
-
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 30px;
-
-  display: flex;
-  align-items: center;
-  background-color: #ffffffa9;
+  
+  background-color: rgba(255, 255, 255, 0.544);
+    margin-top: 20px;
+    border-radius: 35px;
+    margin: 20px auto;
+    width: 85%;
+    height: 80px;
 
 }
 
@@ -183,7 +179,17 @@ nav {
 
   text-decoration: none;
 }
+.navBarAbout{
+  color: #000000a3;
 
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  width: 50px;
+
+  text-decoration: none;
+}
 .searchBarCart {
   background: rgb(255, 255, 255);
   border: none;
@@ -229,21 +235,22 @@ nav {
 }
 /*Home Page Section*/
 /* Red Planet Ventures home Hero Section styling*/
-.headerContainer {
-  height: 100vh;
-
+.homeHeader {
+  background-image: url('../assets/img/homePageHeader.png');
+  background-color: #45016d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 120vh;
   position: relative;
-  text-align: center;
-
+  width: 100%;
 }
 
 .bottomTopLeft {
   position: absolute;
-  bottom: 60px;
-  left: 80px;
-  width: 600px;
-  word-wrap: break-word;
-  text-align: left;
+  bottom: 5rem;
+  left: 3rem;
 
   font-family: 'PorterSans';
   font-size: 48px;
@@ -253,11 +260,8 @@ nav {
 .bottomBotLeft {
 
   position: absolute;
-  bottom: 35px;
-  left: 80px;
-
-  text-align: left;
-
+  left: 3rem;
+  bottom: 3rem;
   font-family: "Poller One", serif;
   font-weight: 400;
   font-style: normal;
@@ -266,19 +270,13 @@ nav {
 
 }
 
-.homeHeader {
-  height: 120vh;
-  background-image: url(../assets/img/homePageHeader.png);
-  background-color: #45016d;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  width: 100%;
-}
+
 
 .featuredTripHeader {
   height: 100vh;
   background-color: #45016d;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -292,7 +290,7 @@ nav {
 }
 
 .marsExpCard {
-  margin-top: 8%;
+  margin-top: 4%;
   margin-left: 8%;
 }
 
@@ -2974,3 +2972,104 @@ hr {
   color: #e51728;
 }
 /*My VSCode Pets kept me sane during this project <3 */
+
+
+.aboutHeader {
+  height: 50vh;
+  
+
+  background-image: url(../assets/img/headerbackBack.png);
+  background-color: #45016d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.aboutUsTitle {
+  
+display: flex;
+align-items: center;
+justify-content: center;
+
+  font-family: 'PorterSans';
+  font-size: 48px;
+  color: #ffffff;
+
+ 
+  
+
+}
+
+.ourJourney{
+  background-color: #45016d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  height: 170vh;
+}
+
+.journeyTitle{
+  display: flex;
+align-items: center;
+justify-content: center;
+
+font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  color: #ffffff;
+  font-size: 38px;
+}
+
+.journeySubTitle{
+  display: flex;
+align-items: center;
+justify-content: center;
+
+font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+  color:#55daeb;
+  font-size: 24px;
+}
+.aboutUsCards{
+  background-color: #45016d;
+  border: #55daeb;
+  height: 460px;
+}
+.journeyCardTitle{
+  display: flex;
+align-items: center;
+justify-content: center;
+
+font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  color:#55daeb;
+  font-size: 16px;
+}
+
+.journeyCardText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  
+    color:#ffffff;
+    font-size: 12px;
+}
+
+.col-lg-3{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
