@@ -25,36 +25,59 @@
 
     <header class="contactHeader">
 
-        <nav class="navBarPages navbar-expand-lg justify-content-center ">
-            <div class="navBarContainer container-fluid justify-content-center">
-                <div class="navBar collapse navbar-collapse flex-row" id="navbarSupportedContent">
-                    <a class="navBarLogo navbar-brand" href="../index.html"><img src="../assets/img/logo.png"
-                            height="48px" width="266px"> </a>
-
-                    <ul class="navBarCenter navbar-nav m-auto ">
+        <nav class="navBarPages navbar navbar-expand-lg  py-3">
+            <div class="navBarContainer container justify-content-between align-items-center px-4">
+              
+    
+                
+                    <a class="navBarLogo navbar-brand" href="../index.html">
+                        <img src="../assets/img/logo.png" height="48px"
+                            width="266px"> </a>
+    
+                            <button class="navBarHamBurger navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+    
+    
+    
+                <div class="navBar collapse navbar-collapse flex-grow-1 justify-content-center" id="navbarSupportedContent">
+    
+                    <ul class="navBarCenter navbar-nav mb-2 mb-lg-0">
                         <li class="navBarCenterHome nav-item mx-3">
-                            <a class="navBarHome nav-link " href="../index.html">Home</a>
+                            <a class="navBarHome nav-link" href="../index.html">Home</a>
                         </li>
+    
                         <li class="navBarCenterFlights nav-item mx-3">
                             <a class="navBarFlights nav-link " href="../pages/flights.html">Flights</a>
                         </li>
-
+    
                         <li class="navBarCenterContact nav-item mx-3">
-                            <a class="navBarContact nav-link active-link" href="contact.html">Contact</a>
+                            <a class="navBarContact nav-link active-link" href="../pages/contact.html">Contact</a>
+                        </li>
+    
+                        <li class="navBarCenterAbout nav-item mx-3">
+                            <a class="navBarAbout nav-link" href="../pages/about.html">About</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <div class="searchBar input-group">
+                </div>
+    
+    
+                    <form class="searchBar d-flex" role="search" width="30">
+                        <div class="searchBar input-group m-auto">
                             <span class="searchBarMag input-group-text">
-
-                                <img src="../assets/img/search.svg" alt="Search" width="16" height="16">
+                                <img src="../assets/img/search.svg" width="16" height="16">
                             </span>
                             <input class="searchBarText form-control " type="search" placeholder="Search"
                                 aria-label="Search">
+    
+    
                             <span class="searchBarCart input-group-text">
                                 <img src="../assets/img/basket2-fill.svg" width="20" height="20">
+    
+    
                             </span>
                             </span>
+    
                         </div>
                     </form>
                 </div>
@@ -63,12 +86,14 @@
         <div class="contactUs">Contact Us</div>
     </header>
 
-    <section class="aboutUs">
-        <div class="aboutRedPlanetVentures">
-            <div class="textAbout">
-                <div class="aboutUsHeading">ABOUT</div>
-                <div class="redPlanetVentures">RED PLANET VENTURES</div>
-                <p>Welcome to Red Planet Ventures, where we are dedicated to turning
+    <section class="aboutUs container">
+        <div class="aboutRedPlanetVentures card ">
+            <div class="row align-items-center justify-content-between">
+    
+                <div class="aboutUsHeading col-lg-5 mx-5">
+                <span class="aboutUsTitleCard card-title mt-4 ">ABOUT</span>
+                <span class="redPlanetVentures card-text mt-2">RED PLANET VENTURES</span>
+                <p class="textAbout card-text mt-2">Welcome to Red Planet Ventures, where we are dedicated to turning
                     dreams of interplanetary exploration into exhilarating realities. As a
                     premier provider of space tourism experiences, we specialize in
                     crafting meticulously curated journeys to the diverse planets within
@@ -80,13 +105,21 @@
                     embarks on a voyage with us. Join us as we push the boundaries of
                     exploration and unlock the mysteries of the cosmos with Red Planet
                     Ventures.</p>
+                </div>
+            
+                
+            
+              <div class="aboutImage col-lg-6  ">
+                <img src="../assets/img/contactImage.png" class="img-fluid rounded-start" alt="...">
+              </div>
             </div>
-            <img src="../assets/img/contactImage.png">
         </div>
+          
     </section>
+   
 
-    <section class="contactUsDetails card mt-5">
-
+    <section class="contactUsDetails container card mt-5">
+<div class="contactDetails card">
         <div class="contactSocialMedia  row d-flex justify-content-between align-items-start ">
 
             <div class="col-md-6 d-flex flex-column">
@@ -126,7 +159,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 container">
                 <div class="contactFormCard card">
 
                     <div class="formHeadingMessage">
@@ -160,70 +193,77 @@
                 </div>
             </div>
         </div>
-
+    </div>
     </section>
 
 
 
 
-    <section class="footer">
-        <div class="footerFlexContainer">
-
-            <div class="socialMedia">
-                <p>Social Media Links</p>
-            </div>
+    <section class="footer py-5">
+        <div class="footerFlexContainer container">
+            <div class="row align-items-start">
 
 
-            <div class="logoFooter">
-                <img src="../assets/img/logo.png">
+
+            <div class="logoFooter col-md-4 mb-4 ">
+                <a href="../index.html">
+                    <img src="../assets/img/logo.png" class="img-fluid"></a>
                 <p>Offering unforgettable trips to
                     explore planets in our solar
                     system.</p>
             </div>
-            <div class="companyColumn">
-                <div class="company">Company</div>
+
+            <div class="companyColumn col-md-4 mb-4 align-items-center">
+                <div class="company mb-2">Company</div>
 
                 <div class="footerCenter">
                     <div id="homeFooter">
-                        <a href="../index.html">Home</a>
+                        <a  href="../index.html">Home</a>
                     </div>
 
                     <div id="flightsFooter">
-                        <a href="flights.html">Flights</a>
+                        <a href="../pages/flights.html">Flights</a>
                     </div>
 
                     <div id="contactFooter">
-                        <a class="active" href="contact.html">Contact Us</a>
+                        <a class="active" href="../pages/contact.html">Contact Us</a>
                     </div>
+                    <div id="contactFooter">
+                        <a href="../pages/about.html">About</a>
+                    </div>
+
                 </div>
             </div>
 
 
-            <div class="socialMediaImg">
+            <div class="socialMediaContainer col-md-4">
 
+                <div class="socialMedia">
+                    <p>Social Media Links</p>
+                </div>
 
-
+                <div class="socialMediaImg ">
                 <div class="instagram">
                     <a href="https://www.instagram.com/openwindowinstitute/?utm_source=ig_web_button_share_sheet">
-                        <img src="../assets/img/smInstagram.png" width="77px" height="77px">
+                        <img src="../assets/img/smInstagram.png" class="img-fluid" width="77px" height="77px">
                     </a>
                 </div>
 
                 <div class="twitterX">
                     <a href="https://x.com/open_window_">
-                        <img src="../assets/img/smX.png" width="77px" height="77px">
+                        <img src="../assets/img/smX.png" class="img-fluid" width="77px" height="77px">
                     </a>
                 </div>
 
                 <div class="tiktok">
                     <a href="https://www.tiktok.com/@open_window_?is_from_webapp=1&sender_device=pc">
-                        <img src="../assets/img/smTicktock.png" width="77px" height="77px">
+                        <img src="../assets/img/smTicktock.png" class="img-fluid" width="77px" height="77px">
                     </a>
                 </div>
 
                 <div class="facebook">
                     <a href="https://www.facebook.com/theopenwindow/">
-                        <img src="../assets/img/smFacebook.png" width="77px" height="77px">
+                        <img src="../assets/img/smFacebook.png" class="img-fluid" width="77px" height="77px">
 
                     </a>
                 </div>
@@ -231,18 +271,21 @@
 
             </div>
         </div>
-    </section>
-    <footer>
-        <hr>
-        <div class="footerBottom">
-            <div class="footerBottomLeft">All Rights Reserved @ Open Window 2024</div>
-            <div class="footerBottomRight">
+
+    
+   
+        <hr class="my-4">
+
+        <div class="footerBottom row ">
+
+            <div class="footerBottomLeft col-md-6">All Rights Reserved @ Open Window 2024</div>
+            <div class="footerBottomRight col-md-6 ">
                 <div class="terms">Terms & Conditions</div>
                 <div class="privacy">Privacy Policy</div>
             </div>
         </div>
         </div>
-    </footer>
+    </section>
 
 
     <script src="https://kit.fontawesome.com/b4ca9aaf81.js" crossorigin="anonymous"></script>
