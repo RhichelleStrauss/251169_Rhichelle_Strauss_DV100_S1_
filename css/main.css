@@ -130,8 +130,16 @@ nav {
   margin-right: auto;
   display: flex;
   align-items: center;
+  height: 12vh;
 }
-
+.navBarContainer{
+  
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  height: 12vh;
+}
 .navBarPages {
   
   background-color: rgba(255, 255, 255, 0.544);
@@ -139,8 +147,7 @@ nav {
     border-radius: 35px;
     margin: 20px auto;
     width: 85%;
-    height: 80px;
-
+    height:12vh;
 }
 
 .navBarFlights {
@@ -190,30 +197,51 @@ nav {
 
   text-decoration: none;
 }
-.searchBar{
+.searchBarNav{
+  background-color: #ffffff;
   display: flex;
   flex-direction: row;
+
   justify-content: end;
-  
+  height: 65%;
+border-radius: 10px;
+border: none;
+
+}
+
+.searchBar{
+  border: none;
 }
 .searchBarCart {
   background: rgb(255, 255, 255);
   border: none;
   padding: 8px;
-  position: relative;
+  padding-right: 18px;
+  border-radius: 10px;
 }
-
+.line{
+  width: 3px;
+  height: 30px;
+  background-color: #7d6b6b86;
+  margin: 0 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .cart {
 
   min-width: 18px;
   top: -5px;
-  right: 10px;
+  right: 5px;
   border: none;
+  margin-right: 10px;
 }
 
 .searchBarMag {
   background: white;
   border-right: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  
 
 }
 
@@ -2566,3 +2594,12 @@ font-family: "Poppins", sans-serif;
   justify-content: space-around;
 }
 
+
+.card-img-top{
+border-radius: 25px;
+height: 45%;
+
+object-fit: cover;
+  
+  
+}
