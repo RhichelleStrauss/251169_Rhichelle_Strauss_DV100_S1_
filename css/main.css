@@ -430,6 +430,12 @@ border: none;
   color: #55daeb;
 }
 
+/*percent for image - feedback application*/
+.shuttlesCardRight{
+height: 100%;
+width: 100%;
+}
+
 
 
 .aboutShuttles {
@@ -554,7 +560,7 @@ justify-content: center;
   border: none;
   border-radius: 12px;
   color: #ffffff;
-  padding: 0%;
+  padding: 0%; /*application of feedback*/
 
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -578,7 +584,7 @@ justify-content: center;
 .flightsHeader {
   
   
-  padding-bottom: 4%;
+  padding-bottom: 4%; /*application of feedback*/
 
   background-image: url(../assets/img/headerbackBack.png);
   background-color: #45016d;
@@ -593,7 +599,7 @@ justify-content: center;
 display: flex;
 justify-content: center;
 align-items: center;
-padding-top: 2%;
+padding-top: 2%; /*application of feedback*/
   font-family: 'PorterSans';
   font-size: 48px;
   color: #ffffff;
@@ -619,19 +625,21 @@ padding-top: 2%;
 /*ToolBar styling for the layout of the products/flights page styling*/
 .toolBar {
   padding-top: 1%;
-  padding-bottom: 1%;
+  padding-bottom: 1%; /*application of feedback*/
   background-color: #45016d;
+  flex-wrap: wrap;
 }
+
 
 .sliderFilter {
   background-color: #45016d;
   border: none;
 
-  padding: 10px;
+  padding: 2%;/*application of feedback*/
   display: flex;
   justify-content: left;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 20%;/*application of feedback*/
 }
 
 .sliderFilter:hover {
@@ -655,7 +663,7 @@ padding-top: 2%;
   background-color: #45016d;
   border: none;
 
-  padding: 10px;
+  
   display: flex;
   justify-content: left;
   align-items: center;
@@ -674,7 +682,7 @@ padding-top: 2%;
   background-color: #45016d;
   border: none;
 
-  padding: 10px;
+  
   display: flex;
   justify-content: left;
   align-items: center;
@@ -694,14 +702,17 @@ padding-top: 2%;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
+  width: 100%;/*application of feedback*/
+  white-space: nowrap;
 
   color: #ffffff;
 }
 
 .lineDivide {
-  width: 4px;
+  width: 6px;
   height: 24px;
-  background-color: rgb(255, 255, 255);
+  border-left: 1px solid #ccc;
+  
   margin: 0 15px;
 }
 
@@ -723,7 +734,7 @@ padding-top: 2%;
 
   height: 50px;
   width: 50px;
-  border-radius: 6px;
+  border-radius: 10px;
   border: none;
 
   background-color: #ffffffa9;
@@ -750,7 +761,7 @@ padding-top: 2%;
   align-content: center;
   flex-wrap: wrap;
   text-align: right;
-  padding-left: 20px;
+  padding-left: 5%;/*application of feedback*/
 
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -760,7 +771,7 @@ padding-top: 2%;
 
   height: 50px;
   width: 200px;
-  border-radius: 6px;
+  border-radius: 10px;
   border: none;
 
   background-color: #ffffffa9;
@@ -773,14 +784,14 @@ padding-top: 2%;
 }
 
 .rightToolBar {
-  margin-right: 80px;
-  margin-left: auto;
+  margin-right: 5%;
+  margin-left:32%;/*application of feedback*/
 }
 
 /*Mars Flight Product Cards Styling*/
 .bookMarsFlight {
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 5%;/*application of feedback*/
   border: none;
   background-color: #ffffff;
 
@@ -792,56 +803,18 @@ padding-top: 2%;
 .marsFlightCard {
   
   border: none;
-
-}
-
-.bookMarsFlightIMG img {
-  transition: .5s ease;
-  backface-visibility: hidden;
 }
 
 .bookMarsFlightIMG {
   margin-top: 8%;
-  margin-bottom: 20px;
-  margin-left: 190px;
+  margin-bottom: 5%;
+  margin-left: 33%; /*application of feedback*/
   margin-right: auto;
 }
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  margin-top: 3%;
-  margin-left: 190px;
-  margin-right: auto;
 
-  transform: translate3d(50px, -490px, 100px);
 
-  text-align: center;
-}
 
-.bookMarsFlightIMG:hover {
-  background-color: #00000098;
-}
-
-.bookMarsFlightIMGContainer:hover {
-  opacity: 0.9;
-}
-
-.bookMarsFlightIMGContainer:hover .middle {
-  opacity: 2;
-}
-
-.text {
-
-  border-radius: 20px;
-  color: rgb(0, 0, 0);
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
-  width: 80%;
-}
 
 .bookMarsFlightIMGButton {
   background-color: #e51728;
@@ -930,7 +903,7 @@ padding-top: 2%;
   font-style: normal;
   color: #ffffff;
 
-  width: 40px;
+  width: 50%;
   height: 70px;
   border-radius: 12px;
 }
@@ -1050,11 +1023,12 @@ padding-bottom: 5%;
 }
 
 .bookNeptuneFlightIMG {
-  margin-top: 6%;
-  margin-bottom: 20px;
-  margin-left: 190px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 33%; /*application of feedback*/
   margin-right: auto;
 }
+
 
 
 .neptuneFlightCard {
@@ -2239,8 +2213,67 @@ padding-top: 3%;
   margin-left: 15px;
 }
 
+.formPopup{
+  width: 400px;
+  height: fit-content;
+  background: #000000;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 2% 2%;
+  
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.4s ease, top 0.4s ease, opacity 0.4s ease;
+}
 
+.formPopup.openPopup {
+  visibility: visible;
+  top: 40%;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
 
+.formPopup img {
+  width: 25%;
+  margin-top: -12%;
+  margin-bottom: 2%;
+  box-shadow: 0 2px 5px rgba(00, 00, 00, 0.2);
+}
+
+.formPopup h6{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #55daeb;
+  margin-top: 5%;
+}
+
+.formPopup p{
+  margin-top: 5%;
+  color: #ccc;
+
+}
+
+.formPopup button{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #e51728;
+  height: 70px;
+  width: 270px;
+ border-radius: 10px;
+  color: #ffffff;
+  border: #e51728;
+
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
 
 /* Footer for all pages styling*/
 .footerFlexContainer {
