@@ -488,13 +488,20 @@ font-family: "Poppins", sans-serif;
 .tripsCardDesc{
   background-color: #45016d;
   border: #55daeb;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   
 }
+
 .upcomingTripsCards{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
 }
+
+/*APPLIED FEEDBACK: changed images height and width to be percentages*/
 .tripsCard img{
   object-fit: cover;
   height: 50%;
