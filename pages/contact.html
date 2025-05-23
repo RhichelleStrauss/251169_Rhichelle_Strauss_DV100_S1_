@@ -67,20 +67,54 @@
                     <button class="searchBarMag input-group-text">
                         <i class="fa-solid fa-magnifying-glass" style="color: #848a94;"></i>
                     </button>
-                    <input class="searchBar" type="search" placeholder="Search" aria-label="Search">
+                    <input class="searchBar" id="searchBar" type="search" placeholder="Search" aria-label="Search" onclick="displaySearchOptions()" onkeyup="filterSearchItems()">
+                    
+                    <ul class="searchBarList">
+                        
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#mars">Mars</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#neptune">Neptune</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#jupiter">Jupiter</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#saturn">Saturn</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#uranus">Uranus</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#moon">Moon</a></li>
+                        
+
+                    </ul>
 
 
 
 
                     <span class="line "></span>
-                    <button class="searchBarCart input-group-text">
+                    <button class="searchBarCart input-group-text" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartModal">
                         <i class="fa-solid fa-basket-shopping fa-lg"></i>
 
 
 
                     </button>
-                    </span>
+                    
+<!-- Button trigger modal -->
 
+<!-- Modal -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="cartModalHeader modal-header">
+        <h7 class="modal-title fs-5" id="exampleModalLabel">Your Shopping Cart</h7>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <a href="../pages/flights.html" type="button" class="cartModalCont btn" >Continue Shopping</a>
+        
+        <button type="button" class="cartModalClose btn" data-bs-dismiss="modal">Close</button> 
+        <!--Modal opens and closes when clicking on cart on the nav bar. 
+        EXTRA added function not mentioned in brief: Continue Shopping takes you back to the flights page to continue shopping  -->
+      </div>
+    </div>
+  </div>
+</div>
                 </div>
             </div>
             </div>
@@ -164,38 +198,46 @@
                 </div>
 
                 <div class="col-md-6 container">
-                    <div class="contactFormCard card">
+                    <div class="contactFormCard card" id="contactForm">
 
                         <div class="formHeadingMessage">
                             <span class="formHeading">SEND US A MESSAGE</span>
                         </div>
 
-                        <form onsubmit="openPopup()">
+                        <form id="contactForm" onsubmit="openPopup()">
                             <div class="formGroupContact mb-2">
-                                <label class="nameContactForm form-label">Your name</label>
-                                <input type="text" class="form-control" placeholder="Abc" required>
+                                <label class="nameContactForm form-label" id="nameContactForm">Your name</label>
+                                <input type="text" name="name" class="form-control" placeholder="Abc" required>
                             </div>
                             <div class="formGroupContact mb-2">
                                 <label class="emailContactForm form-label">Email address</label>
                                 <input type="email" class="form-control" placeholder="Abc@def.com" required>
                             </div>
                             <div class="formGroupContact mb-2">
-                                <label class="subjectContactForm form-label">Subject</label>
-                                <input type="text" class="form-control" placeholder="This is optional">
+                                <label class="subjectContactForm form-label" id="subjectContactForm">Subject</label>
+                                
+                                <input type="text" name="name" class="form-control" placeholder="This is optional">
                             </div>
                             <div class="formGroupContact mb-2">
                                 <label class="messageContactForm form-label">Message</label>
                                 <textarea class="form-control" rows="3" placeholder="Hi! I’d like to ask about..."
                                     required></textarea>
                             </div>
-                            <button type="submit" class="btn">
-                                Submit
+                            <button type="submit" name="submit" class="formButton btn">
+                                <div class="altSubmitButton">
+                                <span class="send-text">Submit</span>
+                                <i class="fa-solid fa-rocket fa-spin-pulse fa-2xl" style="color: #e51728;"></i>
                             </button>
                             <div class="formPopup" id="formPopup">
                                 <img src="../assets/img/checkmark_popup.png">
-                                <h6>Thank you!</h6>
-                                
-                                <p>Your details and messaged have successfully been submitted, you will hear from us soon!</p>
+                                  <div class="out">
+      <div class="code">
+        <p>Thank you,  </p>
+        <p>We will contact you soon about,  </p>
+        
+
+      </div>
+    </div>
                                 <button type="button" onclick="closePopup()">OK</button>
 
                             </div>

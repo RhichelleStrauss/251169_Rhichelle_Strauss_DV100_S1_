@@ -95,14 +95,56 @@ function Minus(planetString) {
 
 //thank you popup on form 
 
-window.addEventListener("DOMContentLoaded", () => {
-  const popup = document.getElementById("formPopup");
+const form = document.getElementById("contactForm");
+form.addEventListener ("submit", openPopup);
 
-  window.openPopup = function () {
-    popup.classList.add("openPopup");
-  };
+const popup = document.getElementById("formPopup");
 
-  window.closePopup = function () {
-    popup.classList.remove("openPopup");
-  };
-});
+function openPopup(e) {
+ e.preventDefault(); //stops STUPID refreshing due to "submit" on button type 
+  popup.classList.add("openPopup"); 
+}
+
+closePopup = function () {
+  popup.classList.remove("openPopup");
+}
+
+//search bar 
+const searchOptionDisplay = document.querySelector(".searchBarList");
+
+
+//visibility of search display
+function displaySearchOptions() {
+
+if (searchOptionDisplay.classList.contains("showOptions")) {
+  searchOptionDisplay.classList.remove("showOptions");
+} else{
+  searchOptionDisplay.classList.add("showOptions");
+}
+}
+
+function filterSearchItems () {
+
+  let input = document.getElementById("searchBar").value;
+  input = input.toLowerCase ();
+
+  let searchOptions = document.getElementsByClassName("searchItem");
+
+  let i = 0;
+
+  for (let i = 0; i < searchOptions.length; i++){
+    if (searchOptions[index].innerHTML.toLowerCase().includes(input)){
+      searchOptions[index].style.display = "";
+
+    }
+    else{
+      searchOptions[index].style.display = "none";
+    }
+  }
+}
+
+
+
+
+
+

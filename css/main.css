@@ -227,6 +227,46 @@ border: none;
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.searchBarList{
+  height: 80%;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.4s ease, top 0.4s ease, opacity 0.4s ease;
+
+}
+.showOptions{
+  display: block;
+  width: 25%;
+  height: max-content;
+  background-color: #45016d;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+    
+  
+  
+  border-radius: 10px;
+  position: absolute;
+ 
+
+  visibility: visible;
+ 
+  transform: translate(15%, 50%) scale(1);
+  opacity: 1;
+  pointer-events: auto
+}
+
+.searchItem{
+  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff;
+}
+
 .cart {
 
   min-width: 18px;
@@ -243,6 +283,60 @@ border: none;
   padding-left: 10px;
   
 
+}
+/*cart modal styling*/
+.cartModalHeader{
+  background: #45016d;
+}
+
+.cartModalCont{
+  width: 270px;
+  height: 70px;
+
+  background-color: #e51728;
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.cartModalClose{
+  width: 135px;
+  height: 70px;
+
+  background-color: #45016d;
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cartModalClose:hover{
+  background-color: #55daeb;
+ 
+  color: #000000;
+  border-width: 2px;
+}
+.cartModalCont:hover{
+  background-color: #98111c;
 }
 
 .searchBarText {
