@@ -1,3 +1,7 @@
+
+
+
+
 //button counters on flights page 
 let plus = document.querySelector("marsPlus"); //making mars the default plus, and reference back to html 
 let minus = document.querySelector("marsMinus"); //making mars the default minus, and reference back to html
@@ -95,13 +99,28 @@ function Minus(planetString) {
 
 //thank you popup on form 
 
-const form = document.getElementById("contactForm");
+const form = document.forms["contactForm"] 
 form.addEventListener ("submit", openPopup);
 
 const popup = document.getElementById("formPopup");
 
 function openPopup(e) {
- e.preventDefault(); //stops STUPID refreshing due to "submit" on button type 
+  e.preventDefault(); //stops STUPID refreshing due to "submit" on button type 
+  let formData = {
+    "name":this.name.value,
+    "subject":this.subject.value
+  }
+  let header=document.getElementById("popUpHeader");
+  let message=document.getElementById("popUpText");
+
+
+  header.innerHTML = `
+  <p id="popUpHeader">Thank you, <span>${formData.name}!</span></p>
+  `; //reads data from html to insert name value inserted into form
+  message.innerHTML = `
+  <p id="popUpText">We will contact you soon about,<span>${formData.subject}</span></p>
+  `; //reads data from html to insert subject value into form 
+  //form receives values and inserts name and subject value for more personal message - additional detail, NOT mentioned in brief
   popup.classList.add("openPopup"); 
 }
 
@@ -109,13 +128,24 @@ closePopup = function () {
   popup.classList.remove("openPopup");
 }
 
+
+
 //search bar 
-const searchOptionDisplay = document.querySelector(".searchBarList");
 
 
+//to close search bar click on search
+//clicking on the flight takes you to the exact flight - extra implementation, not mentioned in brief 
+//when you start typing the search filters - extra implementation
+function openSearchOptions(){
+  if (!searchOptionDisplay.classList.contains("showOptions")) {
+  searchOptionDisplay.classList.add("showOptions");
+}
+}
 //visibility of search display
 function displaySearchOptions() {
 
+  searchOptionDisplay = document.querySelector(".searchBarList");
+searchOptionDisplay = document.querySelector(".searchBarList");
 if (searchOptionDisplay.classList.contains("showOptions")) {
   searchOptionDisplay.classList.remove("showOptions");
 } else{
@@ -127,18 +157,19 @@ function filterSearchItems () {
 
   let input = document.getElementById("searchBar").value;
   input = input.toLowerCase ();
-
+  console.log(input);;
+  
   let searchOptions = document.getElementsByClassName("searchItem");
 
   let i = 0;
 
   for (let i = 0; i < searchOptions.length; i++){
-    if (searchOptions[index].innerHTML.toLowerCase().includes(input)){
-      searchOptions[index].style.display = "";
+    if (searchOptions[i].innerHTML.toLowerCase().includes(input)){
+      searchOptions[i].style.display = "";
 
     }
     else{
-      searchOptions[index].style.display = "none";
+      searchOptions[i].style.display = "none";
     }
   }
 }

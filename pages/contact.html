@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body onclick="closeSearchOptions()">
 
     <header class="contactHeader">
 
@@ -67,18 +67,18 @@
                     <button class="searchBarMag input-group-text">
                         <i class="fa-solid fa-magnifying-glass" style="color: #848a94;"></i>
                     </button>
-                    <input class="searchBar" id="searchBar" type="search" placeholder="Search" aria-label="Search" onclick="displaySearchOptions()" onkeyup="filterSearchItems()">
+                    <input class="searchBar" id="searchBar" type="search" placeholder="Search" aria-label="Search" onclick="displaySearchOptions()" onkeyup="filterSearchItems(); openSearchOptions()">
                     
                     <ul class="searchBarList">
                         
-                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#mars">Mars</a></li>
-                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#neptune">Neptune</a></li>
-                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#jupiter">Jupiter</a></li>
-                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#saturn">Saturn</a></li>
-                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#uranus">Uranus</a></li>
-                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#moon">Moon</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#mars">The Classic Mars Experience</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#neptune">Neptune's Cosmic Drive</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#jupiter">The Giant's Journey: Jupiter</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#saturn">Ring Around a Saturn</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#uranus">Uranus Uncharted</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#moon">Moonlight Meander</a></li>
                         
-
+                        
                     </ul>
 
 
@@ -87,6 +87,7 @@
                     <span class="line "></span>
                     <button class="searchBarCart input-group-text" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartModal">
                         <i class="fa-solid fa-basket-shopping fa-lg"></i>
+                        <span class="notiDot">2</span>
 
 
 
@@ -187,7 +188,7 @@
 
                         </div>
 
-                        <div class="mapVisit1 row">OR VISIT US AT OUR</div>
+                        <div class="mapVisit1 row ">OR VISIT US AT OUR</div>
                         <div class="mapVisit2 row">PHYSICAL LOCATION</div>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.3172632409846!2d28.20683857507076!3d-25.891938951328772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956608911ce097%3A0x519896b4b6eda40a!2sOpen%20Window%20-%20Centurion!5e0!3m2!1sen!2sza!4v1743529192254!5m2!1sen!2sza"
@@ -204,7 +205,7 @@
                             <span class="formHeading">SEND US A MESSAGE</span>
                         </div>
 
-                        <form id="contactForm" onsubmit="openPopup()">
+                        <form id="contactForm" name="contactForm" onsubmit="openPopup()">
                             <div class="formGroupContact mb-2">
                                 <label class="nameContactForm form-label" id="nameContactForm">Your name</label>
                                 <input type="text" name="name" class="form-control" placeholder="Abc" required>
@@ -216,7 +217,7 @@
                             <div class="formGroupContact mb-2">
                                 <label class="subjectContactForm form-label" id="subjectContactForm">Subject</label>
                                 
-                                <input type="text" name="name" class="form-control" placeholder="This is optional">
+                                <input type="text" name="subject" class="form-control" placeholder="Subject of your message " required>
                             </div>
                             <div class="formGroupContact mb-2">
                                 <label class="messageContactForm form-label">Message</label>
@@ -229,11 +230,12 @@
                                 <i class="fa-solid fa-rocket fa-spin-pulse fa-2xl" style="color: #e51728;"></i>
                             </button>
                             <div class="formPopup" id="formPopup">
-                                <img src="../assets/img/checkmark_popup.png">
-                                  <div class="out">
-      <div class="code">
-        <p>Thank you,  </p>
-        <p>We will contact you soon about,  </p>
+                                <div class="out">
+                                    <div class="code">
+                                <img src="../assets/img/tick popup.png">
+                                  
+                                    <p id="popUpHeader">Thank you,  </p>
+                                    <p id="popUpText">We will contact you soon about,  </p>
         
 
       </div>

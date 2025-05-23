@@ -284,6 +284,21 @@ border: none;
   
 
 }
+/*implemented feedback*/
+.notiDot {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 4%;
+  right: 1%;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 6px;
+  line-height: 1;
+}
 /*cart modal styling*/
 .cartModalHeader{
   background: #45016d;
@@ -910,29 +925,15 @@ padding-top: 2%; /*application of feedback*/
 
 
 
-.bookMarsFlightIMGButton {
-  background-color: #e51728;
-  border-color: #e51728;
 
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-
-  width: 270px;
-  height: 70px;
-  border-radius: 12px;
-  margin-right: 95px;
-  margin-top: 20px;
-}
 
 .marsFlight {
   margin-left: 30px;
-  margin-top: 5%;
+  margin-top: 5%;/*application of feedback*/
 }
 
 .marsFlightTitle {
-  margin-top: 8%;
+  margin-top: 8%;/*application of feedback*/
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -963,14 +964,14 @@ padding-top: 2%; /*application of feedback*/
 }
 
 .marsStarReviews {
-  margin-right: 10px;
+  margin-right: 2%;/*application of feedback*/
 }
 
 .lineDivideReview {
   width: 2px;
   height: 30px;
   background-color: #00000086;
-  margin: 0 15px;
+  margin: 0 2%; /*application of feedback*/
 }
 
 .custReview {
@@ -987,7 +988,7 @@ padding-top: 2%; /*application of feedback*/
   font-style: normal;
   color: #000000;
   font-size: 16px;
-  width: 80%;
+  width: 80%; /*application of feedback*/
 }
 
 .numOfFlights .btn {
@@ -997,7 +998,7 @@ padding-top: 2%; /*application of feedback*/
   font-style: normal;
   color: #ffffff;
 
-  width: 50%;
+  width: 50%; /*application of feedback*/
   height: 70px;
   border-radius: 12px;
 }
@@ -1008,7 +1009,7 @@ padding-top: 2%; /*application of feedback*/
   background-color: #e51728;
   height: 70px;
   width: 270px;
-  margin-left: 25px;
+  margin-left: 5%; /*application of feedback*/
   border-radius: 12px;
   color: #ffffff;
   border: #e51728;
@@ -1064,7 +1065,7 @@ padding-top: 2%; /*application of feedback*/
   display: flex;
   flex-direction: row;
   padding: 0;
-  margin-left: 10%;
+  margin-left: 10%; /*application of feedback*/
 }
 
 .addInfoValue {
@@ -1085,7 +1086,7 @@ padding-top: 2%; /*application of feedback*/
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 10%;
+  width: 10%; /*application of feedback*/
 }
 
 /*Neptune's product cards*/
@@ -1101,19 +1102,19 @@ padding-top: 2%; /*application of feedback*/
 
 .neptuneFlightCard {
 padding-top: 5%;
-padding-bottom: 5%;
+padding-bottom: 5%; /*application of feedback*/
   background-color: #45016d;
   border: none;
 }
 
 
 .col {
-  margin-left: 35px;
+  margin-left: 2%;
 }
 
 .bookNeptuneFlightIMG img {
   transition: .5s ease;
-  backface-visibility: hidden;
+  backface-visibility: hidden; /*Button animation - not mentioned in brief, additional detail.*/
 }
 
 .bookNeptuneFlightIMG {
@@ -1127,13 +1128,13 @@ padding-bottom: 5%;
 
 .neptuneFlightCard {
   padding-top: 3%;
-  padding-bottom:3%;
+  padding-bottom:3%;/*application of feedback*/
   background-color: #45016d;
   border: none;
 }
 
 .neptuneFlight {
-  margin-top: 2%;
+  margin-top: 2%;/*application of feedback*/
 }
 
 .neptuneFlightTitle {
@@ -1156,14 +1157,14 @@ padding-bottom: 5%;
 }
 
 .neptuneStarReviews {
-  margin-right: 20px;
+  margin-right: 2%;/*application of feedback*/
 }
 
 .lineDivideReviewNeptune {
   width: 2px;
   height: 30px;
   background-color: #ffffff8c;
-  margin: 0 15px;
+  margin: 0 2%;/*application of feedback*/
 }
 
 .neptuneStarReviews {
@@ -1187,11 +1188,11 @@ padding-bottom: 5%;
   font-style: normal;
   color: #ffffff;
   font-size: 16px;
-  width: 80%;
+  width: 80%; /*application of feedback*/
 }
 
 .neptunenumOfFlights .btn {
-  background-color: #55daeb;
+  
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -1211,7 +1212,7 @@ padding-bottom: 5%;
   color: #ffffff;
   border: #e51728;
   overflow: hidden;
-  transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out; /*Button animation - not mentioned in brief, additional detail.*/
 
 }
 
@@ -1227,12 +1228,12 @@ padding-bottom: 5%;
   width: 270px;
   background-color: #000000;
   color: #000000;
-  border-color: #e51728;
+  border-color: #e51728; /*Button animation - not mentioned in brief, additional detail.*/
 
 }
 
 .altSendButton:hover {
-  transform: translate3d(-5px, -25px, -35px);
+  transform: translate3d(-5px, -25px, -35px); /*Button animation - not mentioned in brief, additional detail.*/
 }
 
 
@@ -1268,22 +1269,18 @@ padding-bottom: 5%;
 
 .jupiterFlightCard {
   padding-top: 3%;
-  padding-bottom:3%;
+  padding-bottom:3%;/*application of feedback*/
   border: none;
 
 }
 
 
 
-.bookJupiterFlightIMG img {
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
 
 .bookJupiterFlightIMG {
-  margin-top: 8%;
-  margin-bottom: 20px;
-  margin-left: 190px;
+  margin-top: 8%; 
+  margin-bottom: 5%;
+  margin-left: 34%; /*application of feedback*/
   margin-right: auto;
 }
 
@@ -1293,12 +1290,12 @@ padding-bottom: 5%;
 
 
 .col {
-  margin-left: 35px;
+  margin-left: 4%; /*application of feedback*/
 }
 
 .jupiterFlight {
-  margin-top: 35px;
-  margin-left: 30px;
+  margin-top: 2%;
+  margin-left: 3%; /*application of feedback*/
 }
 
 .jupiterFlightTitle {
@@ -1321,14 +1318,14 @@ padding-bottom: 5%;
 }
 
 .jupiterStarReviews {
-  margin-right: 20px;
+  margin-right: 2%; /*application of feedback*/
 }
 
 .lineDivideReviewJupiter {
   width: 2px;
   height: 30px;
   background-color: #00000086;
-  margin: 0 15px;
+  margin: 0 2%; /*application of feedback*/
 }
 
 .custReviewJupiter {
@@ -1345,7 +1342,7 @@ padding-bottom: 5%;
   font-style: normal;
   color: #000000;
   font-size: 16px;
-  width: 80%;
+  width: 80%; /*application of feedback*/
 }
 
 .numOfFlightsJupiter .btn {
@@ -1369,7 +1366,7 @@ padding-bottom: 5%;
   color: #ffffff;
   border: #e51728;
   overflow: hidden;
-  transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out; /*button animation - extra work*/
 
 }
 
@@ -1462,21 +1459,21 @@ padding-bottom: 5%;
 
 
 .bookSaturnFlightIMG {
-  margin-top: 8%;
-  margin-bottom: 20px;
-  margin-left: 190px;
+  margin-top: 8%;  /*application of feedback*/
+  margin-bottom: 5%;
+  margin-left: 34%;
   margin-right: auto;
 }
 
 
 .saturnFlight {
-  margin-top: 26px;
-  margin-left: 30px;
+  margin-top: 2%;
+  margin-left: 3%; /*application of feedback*/
 }
 
 .saturnFlightCard {
   padding-top: 3%;
-  padding-bottom:3%;
+  padding-bottom:3%;/*application of feedback*/
 
   background-color: #45016d;
   border: none;
@@ -1528,7 +1525,7 @@ padding-bottom: 5%;
   font-style: normal;
   color: #ffffff;
   font-size: 16px;
-  width: 80%;
+  width: 80%;/*application of feedback*/
 }
 
 .numOfFlightsSaturn .btn {
@@ -1552,7 +1549,7 @@ padding-bottom: 5%;
   color: #ffffff;
   border: #e51728;
   overflow: hidden;
-  transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;/*additional work*/
 
 }
 
@@ -1608,7 +1605,7 @@ padding-bottom: 5%;
 
 .uranusFlightCard {
   padding-top: 3%;
-  padding-bottom:3%;
+  padding-bottom:3%; /*application of feedback*/
 
   border: none;
 
@@ -1618,16 +1615,16 @@ padding-bottom: 5%;
 
 .bookUranusFlightIMG {
   margin-top: 8%;
-  margin-bottom: 20px;
-  margin-left: 190px;
+  margin-bottom: 5%;
+  margin-left: 34%; /*application of feedback*/
   margin-right: auto;
 }
 
 
 
 .uranusFlight {
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 2%;
+  margin-left: 3%; /*application of feedback*/
 }
 
 .uranusFlightTitle {
@@ -1651,14 +1648,14 @@ padding-bottom: 5%;
 
 
 .uranusStarReviews {
-  margin-right: 2%;
+  margin-right: 2%; /*application of feedback*/
 }
 
 .lineDivideReviewUranus {
   width: 2px;
   height: 30px;
   background-color: #00000086;
-  margin: 0 15px;
+  margin: 0 2%; /*application of feedback*/
 }
 
 .custReviewUranus {
@@ -1675,7 +1672,7 @@ padding-bottom: 5%;
   font-style: normal;
   color: #000000;
   font-size: 16px;
-  width: 80%;
+  width: 80%; /*application of feedback*/
 }
 
 .numOfFlightsUranus .btn {
@@ -1749,7 +1746,7 @@ padding-bottom: 5%;
   display: flex;
   flex-direction: row;
   padding: 0;
-  margin-left: 10%;
+  margin-left: 10%; /*application of feedback*/
 }
 
 .addInfoValue {
@@ -1770,7 +1767,7 @@ padding-bottom: 5%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 10%;
+  width: 10%; /*application of feedback*/
 }
 
 /*Moon flight Card styling*/
@@ -1792,40 +1789,16 @@ padding-bottom: 5%;
 
 
 
-.bookMoonFlightIMG img {
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
 
 .bookMoonFlightIMG {
   margin-top: 8%;
-  margin-bottom: 20px;
-  margin-left: 190px;
-  margin-right: auto;
+  margin-bottom: 5%;
+  margin-left: 34%;
+  margin-right: auto;/*application of feedback*/
 }
 
 
 
-.bookMoonFlightIMG:hover {
-  border-radius: 12px;
-  opacity: 0.3;
-}
-
-.bookMoonFlightIMGContainer:hover .bookMoonFlightIMGMiddle {
-  opacity: 0.8;
-}
-
-.text {
-
-  border-radius: 20px;
-  color: rgb(0, 0, 0);
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
-  width: 80%;
-}
 
 .bookMoonFlightIMGButton {
   background-color: #e51728;
@@ -1845,14 +1818,14 @@ padding-bottom: 5%;
 
 .moonFlightCard {
   padding-top: 3%;
-  padding-bottom:3%;
+  padding-bottom:3%;/*application of feedback*/
   background-color: #45016d;
   border: none;
 }
 
 .moonFlight {
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 3%;
+  margin-left: 3%;/*application of feedback*/
 }
 
 .moonFlightTitle {
@@ -1874,14 +1847,14 @@ padding-bottom: 5%;
 }
 
 .moonStarReviews {
-  margin-right: 20px;
+  margin-right: 2%;/*application of feedback*/
 }
 
 .lineDivideReviewMoon {
   width: 2px;
   height: 30px;
   background-color: #ffffff8c;
-  margin: 0 15px;
+  margin: 0 2%; /*application of feedback*/
 }
 
 .moonStarReviews {
@@ -1905,7 +1878,7 @@ padding-bottom: 5%;
   font-style: normal;
   color: #ffffff;
   font-size: 16px;
-  width: 80%;
+  width: 80%; /*application of feedback*/
 }
 
 .numOfFlightsMoon .btn {
@@ -2037,7 +2010,7 @@ padding-bottom: 5%;
 .contactUs {
   display: flex;
   justify-content: center;
-padding-top: 3%;
+padding-top: 3%; /*application of feedback*/
   font-family: 'PorterSans';
   font-size: 48px;
   color: #ffffff;
@@ -2048,7 +2021,7 @@ padding-top: 3%;
 .aboutUs {
  
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 5%; /*application of feedback*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2072,7 +2045,7 @@ padding-top: 3%;
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 4%;
-  padding-right: 4%;
+  padding-right: 4%;/*application of feedback*/
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2102,7 +2075,7 @@ padding-top: 3%;
   font-style: normal;
   font-size: 18px;
   color: #00000086;
-  margin-top: 20px;
+  margin-top: 2%; /*application of feedback*/
   line-height: 1.6;
 }
 
@@ -2110,7 +2083,7 @@ padding-top: 3%;
   
   height: auto;
   flex-shrink: 0;
-  padding-left: 5%;
+  padding-left: 5%; /*application of feedback*/
 }
 
 /*Contact Information, Map, and Form Styling*/
@@ -2138,6 +2111,7 @@ padding-top: 3%;
   font-style: normal;
   font-size: 40px;
   
+  
   color: #45016d
 }
 
@@ -2153,7 +2127,7 @@ padding-top: 3%;
   display: flex;
   flex-direction: row;
 
-  margin-top: 100px;
+  margin-top: 16%; /*application of feedback*/
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -2179,12 +2153,13 @@ padding-top: 3%;
 .googleMap {
   border-radius: 12px;
   
+  
 }
 
 /*Form - this was rough..*/
 .contactFormCard {
-  height: 900px;
-  width: 600px;
+  height: 90%;
+  width: 90%; /*application of feedback*/
   display: flex;
   flex-direction: column;
 
@@ -2244,7 +2219,7 @@ padding-top: 3%;
 
 .form-control {
   line-height: 3;
-  width: 490px;
+  width: 100%; /*application of feedback*/
   margin-left: 10px;
 }
 
@@ -2303,14 +2278,14 @@ padding-top: 3%;
 
 .formGroupContact {
   line-height: 3;
-  width: 490px;
+  width: 90%; /*application of feedback*/
   margin-left: 15px;
 }
 
 .formPopup{
-  width: 400px;
+  width: 80%;
   height: fit-content;
-  background: #000000;
+  background: #45016d;
   border-radius: 10px;
   position: absolute;
   top: 0;
@@ -2324,7 +2299,7 @@ padding-top: 3%;
   pointer-events: none;
   transition: transform 0.4s ease, top 0.4s ease, opacity 0.4s ease;
 }
-
+/*created my own popup for the forms submit*/
 .formPopup.openPopup {
   visibility: visible;
   top: 40%;
@@ -2337,7 +2312,7 @@ padding-top: 3%;
   width: 25%;
   margin-top: -12%;
   margin-bottom: 2%;
-  box-shadow: 0 2px 5px rgba(00, 00, 00, 0.2);
+  
 }
 
 .formPopup h6{
@@ -2350,7 +2325,10 @@ padding-top: 3%;
 
 .formPopup p{
   margin-top: 5%;
-  color: #ccc;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 
 }
 

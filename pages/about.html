@@ -68,29 +68,62 @@
 
 
 
-        <div class="searchBarNav">
-          <button class="searchBarMag input-group-text">
-            <i class="fa-solid fa-magnifying-glass" style="color: #848a94;"></i>
-          </button>
-          <input class="searchBar" type="search" placeholder="Search" aria-label="Search">
+         <div class="searchBarNav">
+                    <button class="searchBarMag input-group-text">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #848a94;"></i>
+                    </button>
+                    <input class="searchBar" id="searchBar" type="search" placeholder="Search" aria-label="Search" onclick="displaySearchOptions()" onkeyup="filterSearchItems(); openSearchOptions()">
+                    
+                    <ul class="searchBarList">
+                        
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#mars">The Classic Mars Experience</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#neptune">Neptune's Cosmic Drive</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#jupiter">The Giant's Journey: Jupiter</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#saturn">Ring Around a Saturn</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#uranus">Uranus Uncharted</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#moon">Moonlight Meander</a></li>
+                        
+                        
+                    </ul>
 
 
 
 
-          <span class="line "></span>
-          <button class="searchBarCart input-group-text">
-            <i class="fa-solid fa-basket-shopping fa-lg"></i>
+                    <span class="line "></span>
+                    <button class="searchBarCart input-group-text" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartModal">
+                        <i class="fa-solid fa-basket-shopping fa-lg"></i>
+                        <span class="notiDot">2</span>
 
 
+                    </button>
+                    
+<!-- Button trigger modal -->
 
-          </button>
-          </span>
-
-        </div>
+<!-- Modal -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="cartModalHeader modal-header">
+        <h7 class="modal-title fs-5" id="exampleModalLabel">Your Shopping Cart</h7>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+        ...
       </div>
+      <div class="modal-footer">
+        <a href="../pages/flights.html" type="button" class="cartModalCont btn" >Continue Shopping</a>
+        
+        <button type="button" class="cartModalClose btn" data-bs-dismiss="modal">Close</button> 
+        <!--Modal opens and closes when clicking on cart on the nav bar. 
+        EXTRA added function not mentioned in brief: Continue Shopping takes you back to the flights page to continue shopping  -->
       </div>
-    </nav>
+    </div>
+  </div>
+</div>
+                </div>
+            </div>
+            </div>
+        </nav>
     <div class="aboutUsTitle">Our Story</div>
   </section>
 
@@ -235,7 +268,7 @@
       </div>
     </div>
 
-
+<!--IMPLEMENTED FEEDBACK: CHANGED IMAGES TO BETTER SUIT THE REST OF WEBSITE AND ROUNDED BORDERS -->
 
 
 
@@ -346,7 +379,7 @@
 
 
 
-
+<script src="../js/script.js"></script>
 <script src="https://kit.fontawesome.com/b4ca9aaf81.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

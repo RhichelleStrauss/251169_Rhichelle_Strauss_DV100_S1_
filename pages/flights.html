@@ -62,26 +62,59 @@
                     </ul>
                 </div>
 
-                <div class="searchBarNav">
+              <div class="searchBarNav">
                     <button class="searchBarMag input-group-text">
                         <i class="fa-solid fa-magnifying-glass" style="color: #848a94;"></i>
                     </button>
-                    <input class="searchBar" type="search" placeholder="Search" aria-label="Search">
+                    <input class="searchBar" id="searchBar" type="search" placeholder="Search" aria-label="Search" onclick="displaySearchOptions()" onkeyup="filterSearchItems(); openSearchOptions()">
+                    
+                    <ul class="searchBarList">
+                        
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#mars">The Classic Mars Experience</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#neptune">Neptune's Cosmic Drive</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#jupiter">The Giant's Journey: Jupiter</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#saturn">Ring Around a Saturn</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#uranus">Uranus Uncharted</a></li>
+                        <li class="searchItem"><a class="searchItem" href="../pages/flights.html#moon">Moonlight Meander</a></li>
+                        
+                        
+                    </ul>
 
 
 
 
                     <span class="line "></span>
-                    <button class="searchBarCart input-group-text">
+                    <button class="searchBarCart input-group-text" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartModal">
                         <i class="fa-solid fa-basket-shopping fa-lg"></i>
-
+                        <span class="notiDot">2</span>
 
 
                     </button>
-                    </span>
+                    
+<!-- Button trigger modal -->
 
+<!-- Modal -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="cartModalHeader modal-header">
+        <h7 class="modal-title fs-5" id="exampleModalLabel">Your Shopping Cart</h7>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <a href="../pages/flights.html" type="button" class="cartModalCont btn" >Continue Shopping</a>
+        
+        <button type="button" class="cartModalClose btn" data-bs-dismiss="modal">Close</button> 
+        <!--Modal opens and closes when clicking on cart on the nav bar. 
+        EXTRA added function not mentioned in brief: Continue Shopping takes you back to the flights page to continue shopping  -->
+      </div>
+    </div>
+  </div>
+</div>
                 </div>
-
             </div>
             </div>
         </nav>
@@ -255,13 +288,13 @@
                                 adventure awaits, blending luxury with cosmic exploration.</p>
                         </div>
                         <div class="d-flex align-items-center mt-4 gap-2">
-                            <div class="numOfFlights btn-group" role="group">
-                                <button class="neptuneMinus btn" onclick="Minus('neptune')">-</button>
-                                <button class="neptuneNum btn">0</button>
-                                <button class="neptunePlus btn" onclick="Plus('neptune')">+</button>
+                            <div class="numOfFlights btn-group"  role="group">
+                                <button class="neptuneMinus btn" style="background-color: #55daeb;" onclick="Minus('neptune')">-</button>
+                                <button class="neptuneNum btn" style="background-color: #55daeb;" >0</button>
+                                <button class="neptunePlus btn" style="background-color: #55daeb;" onclick="Plus('neptune')">+</button>
                             </div>
 
-                            <button class="bookNeptuneBut btn send-button">
+                            <button class="bookNeptuneBut btn send-button" >
                                 <div class="altSendButton">
                                     <span class="send-text">Book Now</span>
                                     <i class="fa-solid fa-rocket fa-fade fa-2xl" style="color: #e51728;"></i>
@@ -424,9 +457,9 @@
                         </div>
                         <div class="d-flex align-items-center mt-4">
                             <div class="numOfFlights btn-group" role="group">
-                                <button class="saturnMinus btn" onclick="Minus('saturn')">-</button>
-                                <button class="saturnNum btn">0</button>
-                                <button class="saturnPlus btn" onclick="Plus('saturn')">+</button>
+                                <button class="saturnMinus btn" style="background-color: #55daeb;" onclick="Minus('saturn')">-</button>
+                                <button class="saturnNum btn" style="background-color: #55daeb;" >0</button>
+                                <button class="saturnPlus btn" style="background-color: #55daeb;"onclick="Plus('saturn')">+</button>
                             </div>
                             <button class="bookSaturnBut btn send-button">
                                 <div class="altSendButton">
@@ -592,9 +625,9 @@
                         </div>
                         <div class="d-flex align-items-center mt-4">
                             <div class="numOfFlights btn-group" role="group">
-                                <button class="moonMinus btn" onclick="Minus('moon')">-</button>
-                                <button class="moonNum btn">0</button>
-                                <button class="moonPlus btn" onclick="Plus('moon')">+</button>
+                                <button class="moonMinus btn" style="background-color: #55daeb;"  onclick="Minus('moon')">-</button>
+                                <button class="moonNum btn" style="background-color: #55daeb;" >0</button>
+                                <button class="moonPlus btn" style="background-color: #55daeb;" onclick="Plus('moon')">+</button>
                             </div>
                             <button class="bookMoonBut btn send-button">
                                 <div class="altSendButton">
