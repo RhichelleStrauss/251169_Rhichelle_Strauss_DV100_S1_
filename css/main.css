@@ -310,6 +310,12 @@ border: none;
   column-gap: 20px;
 }
 
+.flightCartTitle{ 
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
 .flightPrice{
 font-family: "Poppins", sans-serif;
   font-weight: 500;
