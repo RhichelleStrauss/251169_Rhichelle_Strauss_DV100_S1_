@@ -275,15 +275,64 @@ border: none;
   border: none;
   margin-right: 10px;
 }
+.cartPlanetImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+}
 
+.cartRemove{ 
+height: 70px;
+width: 15%;
+background-color:#e51728;
+border-radius: 10px;
+border: none;
+}
+
+.cartModalInfo{
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5%;
+}
+
+.cartModalButtons{ 
+  display: flex;
+  align-self: self-end;
+  align-items: flex-end;
+  align-items: flex-end;
+  column-gap: 20px;
+}
+
+.flightPrice{
+font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  color: #45016d;
+  margin-top: 5%;
+
+}
+.marsCartCard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .searchBarMag {
   background: white;
   border-right: none;
   border-radius: 10px;
   padding-left: 10px;
-  
 
 }
+
+
 /*implemented feedback*/
 .notiDot {
   height: 20px;

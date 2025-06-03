@@ -104,7 +104,39 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+
+
+<!--mars card display-->
+<div class="cartModalFlights">
+ <div class="marsCartCard card flex mb-3" style="max-width: 100%;" justify-content-center align-items-center >
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../assets/img/flighhtMars.png" class="cartPlanetImg img-fluid rounded-start">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">The Classic Mars Experience</h5>
+        <p class="cartModalInfo card-text">Embark on a Mars vacation: red deserts, ancient relics, and towering
+                                canyons await. Enjoy low-gravity hiking, rover trips to Olympus Mons, and
+                                stargazing under Phobos and Deimos. Unforgettable adventures beckon
+                                on the rust-colored landscapes of the Red Planet.</p>
+        <p class="flightPrice">R25 000</p>
+                                <div class="cartModalButtons col-md-8 mt-5 flex">
+        <div class="numOfFlights btn-group" role="group">
+                                <button class="marsMinus btn" onclick="Minus('mars')">-</button>
+                                <button class="marsNum btn">0</button>
+                                <button class="marsPlus btn" onclick="Plus('mars')">+</button>
+                            </div>
+                            <button class="cartRemove"><i class="fa-solid fa-trash-can fa-lg" style="color: #ffffff;"></i></button>
+                                </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
       </div>
       <div class="modal-footer">
         <a href="../pages/flights.html" type="button" class="cartModalCont btn" >Continue Shopping</a>
