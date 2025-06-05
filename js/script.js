@@ -25,6 +25,8 @@ function SetSelector(planetString){
   minus = document.querySelector (`.${planetString}Minus`);
   num = document.querySelector (`.${planetString}Num`);
 
+  cartNum = document.querySelector (`.${planetString}NumCart`)
+
 }
 
 function Plus(planetString) {
@@ -33,30 +35,48 @@ function Plus(planetString) {
       marsCounter++;
       console.log(marsCounter);
       num.innerHTML = marsCounter;
+
+      if (cartNum) cartNum.innerHTML = marsCounter;
+
     } else if (planetString === "neptune") {
       neptuneCounter++;
       console.log(neptuneCounter);
       num.innerHTML = neptuneCounter;
+
+      if (cartNum) cartNum.innerHTML = neptuneCounter;
+
     }
     else if (planetString === "jupiter") {
       jupiterCounter++;
       console.log(jupiterCounter);
       num.innerHTML = jupiterCounter;
+
+      if (cartNum) cartNum.innerHTML = jupiterCounter;
+
     }
     else if (planetString === "saturn") {
       saturnCounter++;
       console.log(saturnCounter);
       num.innerHTML = saturnCounter;
+
+      if (cartNum) cartNum.innerHTML = saturnCounter;
+
     }
     else if (planetString === "uranus") {
       uranusCounter++;
       console.log(uranusCounter);
       num.innerHTML = uranusCounter;
+
+      if (cartNum) cartNum.innerHTML = uranusCounter;
+
     }
     else if (planetString === "moon") {
       moonCounter++;
       console.log(moonCounter);
       num.innerHTML = moonCounter;
+
+      if (cartNum) cartNum.innerHTML = moonCounter;
+
     }
 }//if runs through all code to check which planet is being counted and ensures they have seperate values 
 
@@ -68,30 +88,48 @@ function Minus(planetString) {
       marsCounter--;
       console.log(marsCounter);
       num.innerHTML = marsCounter;
+
+      if (cartNum) cartNum.innerHTML = marsCounter;
+
     } else if (planetString === "neptune" && neptuneCounter > 0) {
       neptuneCounter--;
       console.log(neptuneCounter);
       num.innerHTML = neptuneCounter;
+
+      if (cartNum) cartNum.innerHTML = neptuneCounter;
+
     }
     else if (planetString === "jupiter" && jupiterCounter > 0) {
       jupiterCounter--;
       console.log(jupiterCounter);
       num.innerHTML = jupiterCounter;
+
+      if (cartNum) cartNum.innerHTML = jupiterCounter;
+
     }
     else if (planetString === "saturn" && saturnCounter > 0) {
       saturnCounter--;
       console.log(saturnCounter);
       num.innerHTML = saturnCounter;
+
+      if (cartNum) cartNum.innerHTML = saturnCounter;
+
     }
     else if (planetString === "uranus" && uranusCounter > 0) {
       uranusCounter--;
       console.log(uranusCounter);
       num.innerHTML = uranusCounter;
+
+      if (cartNum) cartNum.innerHTML = uranusCounter;
+
     }
     else if (planetString === "moon" && moonCounter > 0) {
       moonCounter--;
       console.log(moonCounter);
       num.innerHTML = moonCounter;
+      
+      if (cartNum) cartNum.innerHTML = moonCounter;
+
     }
 }
 
@@ -210,6 +248,12 @@ const cartBody = document.getElementById("cartModalFlights");
 
 
 function DisplayMarsCart(){
+
+  if (document.getElementById("marsCartCard")){
+    return; //ensures that by clicking the book now button more than once, only one flight is added instead of multiple flight cards
+  }
+
+
   let displayMarsCart = `<div class="marsCartCard card flex mb-3" id="marsCartCard" style="max-width: 100%;"
                                             justify-content-center align-items-center>
                                             <div class="row g-0">
@@ -233,7 +277,7 @@ function DisplayMarsCart(){
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="marsMinus btn"
                                                                     onclick="Minus('mars')">-</button>
-                                                                <button class="marsNumCart btn">0</button>
+                                                                <button class="marsNumCart btn">${marsCounter}</button>
                                                                 <button class="marsPlus btn"
                                                                     onclick="Plus('mars')">+</button>
                                                             </div>
@@ -262,7 +306,13 @@ function RemoveMarsCart(cartRemove){
 
 
 function DisplayNeptuneCart(){
-  let displayNeptuneCart = `<div class="neptuneCartCard card flex mb-3" style="max-width: 100%;"
+
+if (document.getElementById("neptuneCartCard")){
+    return; //ensures that by clicking the book now button more than once, only one flight is added instead of multiple flight cards
+  }
+
+
+  let displayNeptuneCart = `<div class="neptuneCartCard card flex mb-3" id="neptuneCartCard" style="max-width: 100%;"
                                             justify-content-center align-items-center>
                                             <div class="row g-0">
                                                 <div class="col-md-4">
@@ -289,7 +339,7 @@ function DisplayNeptuneCart(){
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Minus('neptune')">-</button>
                                                                 <button class="neptuneNumCart btn"
-                                                                    style="background-color: #55daeb;">0</button>
+                                                                    style="background-color: #55daeb;">${neptuneCounter}</button>
                                                                 <button class="neptunePlus btn"
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Plus('neptune')">+</button>
@@ -320,7 +370,12 @@ function RemoveNeptuneCart(cartRemove){
 
 
 function DisplayJupiterCart(){
-let displayJupiterCart = `<div class="jupiterCartCard card flex mb-3" style="max-width: 100%;"
+
+if (document.getElementById("jupiterCartCard")){
+    return; //ensures that by clicking the book now button more than once, only one flight is added instead of multiple flight cards
+  }
+
+let displayJupiterCart = `<div class="jupiterCartCard card flex mb-3" id="jupiterCartCard" style="max-width: 100%;"
                                             justify-content-center align-items-center>
                                             <div class="row g-0">
                                                 <div class="col-md-4">
@@ -344,7 +399,7 @@ let displayJupiterCart = `<div class="jupiterCartCard card flex mb-3" style="max
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="jupiterMinus btn"
                                                                     onclick="Minus('jupiter')">-</button>
-                                                                <button class="jupiterNumCart btn">0</button>
+                                                                <button class="jupiterNumCart btn">${jupiterCounter}</button>
                                                                 <button class="jupiterPlus btn"
                                                                     onclick="Plus('jupiter')">+</button>
                                                             </div>
@@ -373,7 +428,14 @@ function RemoveJupiterCart(cartRemove){
 
 
 function DisplaySaturnCart(){
-  let displaySaturnCart = `<div class="saturnCartCard card flex mb-3" style="max-width: 100%;"
+
+
+  if (document.getElementById("saturnCartCard")){
+    return; //ensures that by clicking the book now button more than once, only one flight is added instead of multiple flight cards
+  }
+
+
+  let displaySaturnCart = `<div class="saturnCartCard card flex mb-3" id="saturnCartCard" style="max-width: 100%;"
                                             justify-content-center align-items-center>
                                             <div class="row g-0">
                                                 <div class="col-md-4">
@@ -401,7 +463,7 @@ function DisplaySaturnCart(){
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Minus('saturn')">-</button>
                                                                 <button class="saturnNumCart btn"
-                                                                    style="background-color: #55daeb;">0</button>
+                                                                    style="background-color: #55daeb;">${saturnCounter}</button>
                                                                 <button class="saturnPlus btn"
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Plus('saturn')">+</button>
@@ -434,7 +496,13 @@ function RemoveSaturnCart(cartRemove){
 
 
 function DisplayUranusCart(){
-  let displayUraunsCart = `<div class="uranusCartCard card flex mb-3" style="max-width: 100%;"
+
+if (document.getElementById("uranusCartCard")){
+    return; //ensures that by clicking the book now button more than once, only one flight is added instead of multiple flight cards
+  }
+
+
+  let displayUraunsCart = `<div class="uranusCartCard card flex mb-3" id="uranusCartCard" style="max-width: 100%;"
                                             justify-content-center align-items-center>
                                             <div class="row g-0">
                                                 <div class="col-md-4">
@@ -459,7 +527,7 @@ function DisplayUranusCart(){
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="uranusMinus btn"
                                                                     onclick="Minus('uranus')">-</button>
-                                                                <button class="uranusNumCart btn">0</button>
+                                                                <button class="uranusNumCart btn">${uranusCounter}</button>
                                                                 <button class="uranusPlus btn"
                                                                     onclick="Plus('uranus')">+</button>
                                                             </div>
@@ -492,7 +560,12 @@ function RemoveUranusCart(cartRemove){
 
 
 function DisplayMoonCart(){
-  let displayMoonCart = `<div class="moonCartCard card flex mb-3" style="max-width: 100%;"
+
+if (document.getElementById("moonCartCard")){
+    return; //ensures that by clicking the book now button more than once, only one flight is added instead of multiple flight cards
+  }
+
+  let displayMoonCart = `<div class="moonCartCard card flex mb-3" id="moonCartCard" style="max-width: 100%;"
                                             justify-content-center align-items-center>
                                             <div class="row g-0">
                                                 <div class="col-md-4">
@@ -520,7 +593,7 @@ function DisplayMoonCart(){
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Minus('moon')">-</button>
                                                                 <button class="moonNumCart btn"
-                                                                    style="background-color: #55daeb;">0</button>
+                                                                    style="background-color: #55daeb;">${moonCounter}</button>
                                                                 <button class="moonPlus btn"
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Plus('moon')">+</button>
