@@ -1,4 +1,4 @@
-console.log("Howdy");
+
 
 
 
@@ -7,6 +7,9 @@ console.log("Howdy");
 let plus = document.querySelector("marsPlus"); //making mars the default plus, and reference back to html 
 let minus = document.querySelector("marsMinus"); //making mars the default minus, and reference back to html
 let num = document.querySelector("marsNum"); //making mars the default num, and reference back to html
+
+
+
 
 let marsCounter = 0;
 let neptuneCounter = 0;
@@ -230,12 +233,12 @@ function DisplayMarsCart(){
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="marsMinus btn"
                                                                     onclick="Minus('mars')">-</button>
-                                                                <button class="marsNum btn">0</button>
+                                                                <button class="marsNumCart btn">0</button>
                                                                 <button class="marsPlus btn"
                                                                     onclick="Plus('mars')">+</button>
                                                             </div>
                                                             <button class="cartRemove" id="cartRemove" 
-                                                            onclick="removeFlightButton()"><i
+                                                            onclick="RemoveMarsCart(this)"><i
                                                                     class="fa-solid fa-trash-can fa-lg"
                                                                     style="color: #ffffff;"
                                                                     ></i></button>
@@ -247,6 +250,14 @@ function DisplayMarsCart(){
 
   `;
   cartBody.innerHTML += displayMarsCart;
+}
+
+function RemoveMarsCart(cartRemove){
+  const cartCard = cartRemove.closest(".marsCartCard");
+
+  if (cartCard){
+    cartCard.remove();
+  }
 }
 
 
@@ -277,15 +288,17 @@ function DisplayNeptuneCart(){
                                                                 <button class="neptuneMinus btn"
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Minus('neptune')">-</button>
-                                                                <button class="neptuneNum btn"
+                                                                <button class="neptuneNumCart btn"
                                                                     style="background-color: #55daeb;">0</button>
                                                                 <button class="neptunePlus btn"
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Plus('neptune')">+</button>
                                                             </div>
-                                                            <button class="cartRemove"><i
+                                                            <button class="cartRemove" id="cartRemove" 
+                                                            onclick="RemoveNeptuneCart(this)"><i
                                                                     class="fa-solid fa-trash-can fa-lg"
-                                                                    style="color: #ffffff;"></i></button>
+                                                                    style="color: #ffffff;"
+                                                                    ></i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -295,6 +308,16 @@ function DisplayNeptuneCart(){
   `; 
 cartBody.innerHTML += displayNeptuneCart;
 }
+
+function RemoveNeptuneCart(cartRemove){
+  const cartCard = cartRemove.closest(".neptuneCartCard");
+
+  if (cartCard){
+    cartCard.remove();
+  }
+}
+
+
 
 function DisplayJupiterCart(){
 let displayJupiterCart = `<div class="jupiterCartCard card flex mb-3" style="max-width: 100%;"
@@ -321,13 +344,15 @@ let displayJupiterCart = `<div class="jupiterCartCard card flex mb-3" style="max
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="jupiterMinus btn"
                                                                     onclick="Minus('jupiter')">-</button>
-                                                                <button class="jupiterNum btn">0</button>
+                                                                <button class="jupiterNumCart btn">0</button>
                                                                 <button class="jupiterPlus btn"
                                                                     onclick="Plus('jupiter')">+</button>
                                                             </div>
-                                                            <button class="cartRemove"><i
+                                                            <button class="cartRemove" id="cartRemove" 
+                                                            onclick="RemoveJupiterCart(this)"><i
                                                                     class="fa-solid fa-trash-can fa-lg"
-                                                                    style="color: #ffffff;"></i></button>
+                                                                    style="color: #ffffff;"
+                                                                    ></i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -337,6 +362,15 @@ let displayJupiterCart = `<div class="jupiterCartCard card flex mb-3" style="max
 
 cartBody.innerHTML += displayJupiterCart;
 }
+
+function RemoveJupiterCart(cartRemove){
+  const cartCard = cartRemove.closest(".jupiterCartCard");
+
+  if (cartCard){
+    cartCard.remove();
+  }
+}
+
 
 function DisplaySaturnCart(){
   let displaySaturnCart = `<div class="saturnCartCard card flex mb-3" style="max-width: 100%;"
@@ -366,15 +400,17 @@ function DisplaySaturnCart(){
                                                                 <button class="saturnMinus btn"
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Minus('saturn')">-</button>
-                                                                <button class="saturnNum btn"
+                                                                <button class="saturnNumCart btn"
                                                                     style="background-color: #55daeb;">0</button>
                                                                 <button class="saturnPlus btn"
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Plus('saturn')">+</button>
                                                             </div>
-                                                            <button class="cartRemove"><i
+                                                            <button class="cartRemove" id="cartRemove" 
+                                                            onclick="RemoveSaturnCart(this)"><i
                                                                     class="fa-solid fa-trash-can fa-lg"
-                                                                    style="color: #ffffff;"></i></button>
+                                                                    style="color: #ffffff;"
+                                                                    ></i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -385,6 +421,17 @@ function DisplaySaturnCart(){
   cartBody.innerHTML += displaySaturnCart; 
 
 }
+
+function RemoveSaturnCart(cartRemove){
+  const cartCard = cartRemove.closest(".saturnCartCard");
+
+  if (cartCard){
+    cartCard.remove();
+  }
+}
+
+
+
 
 function DisplayUranusCart(){
   let displayUraunsCart = `<div class="uranusCartCard card flex mb-3" style="max-width: 100%;"
@@ -412,13 +459,15 @@ function DisplayUranusCart(){
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="uranusMinus btn"
                                                                     onclick="Minus('uranus')">-</button>
-                                                                <button class="uranusNum btn">0</button>
+                                                                <button class="uranusNumCart btn">0</button>
                                                                 <button class="uranusPlus btn"
                                                                     onclick="Plus('uranus')">+</button>
                                                             </div>
-                                                            <button class="cartRemove"><i
+                                                            <button class="cartRemove" id="cartRemove" 
+                                                            onclick="RemoveUranusCart(this)"><i
                                                                     class="fa-solid fa-trash-can fa-lg"
-                                                                    style="color: #ffffff;"></i></button>
+                                                                    style="color: #ffffff;"
+                                                                    ></i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -430,6 +479,17 @@ function DisplayUranusCart(){
   cartBody.innerHTML += displayUraunsCart;
 
 }
+
+function RemoveUranusCart(cartRemove){
+  const cartCard = cartRemove.closest(".uranusCartCard");
+
+  if (cartCard){
+    cartCard.remove();
+  }
+}
+
+
+
 
 function DisplayMoonCart(){
   let displayMoonCart = `<div class="moonCartCard card flex mb-3" style="max-width: 100%;"
@@ -459,15 +519,17 @@ function DisplayMoonCart(){
                                                                 <button class="moonMinus btn"
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Minus('moon')">-</button>
-                                                                <button class="moonNum btn"
+                                                                <button class="moonNumCart btn"
                                                                     style="background-color: #55daeb;">0</button>
                                                                 <button class="moonPlus btn"
                                                                     style="background-color: #55daeb;"
                                                                     onclick="Plus('moon')">+</button>
                                                             </div>
-                                                            <button class="cartRemove"><i
+                                                            <button class="cartRemove" id="cartRemove" 
+                                                            onclick="RemoveMoonCart(this)"><i
                                                                     class="fa-solid fa-trash-can fa-lg"
-                                                                    style="color: #ffffff;"></i></button>
+                                                                    style="color: #ffffff;"
+                                                                    ></i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -478,4 +540,12 @@ function DisplayMoonCart(){
   `;
 
   cartBody.innerHTML += displayMoonCart;
+}
+
+function RemoveMoonCart(cartRemove){
+  const cartCard = cartRemove.closest(".moonCartCard");
+
+  if (cartCard){
+    cartCard.remove();
+  }
 }
