@@ -61,6 +61,7 @@ function Plus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${marsFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = marsCounter;
+      syncTotalCart(); 
 
     } else if (planetString === "neptune") {
       neptuneCounter++;
@@ -72,6 +73,7 @@ function Plus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${neptuneFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = neptuneCounter;
+      syncTotalCart(); 
 
     }
     else if (planetString === "jupiter") {
@@ -84,6 +86,7 @@ function Plus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${jupiterFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = jupiterCounter;
+      syncTotalCart(); 
 
     }
     else if (planetString === "saturn") {
@@ -96,6 +99,7 @@ function Plus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${saturnFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = saturnCounter;
+      syncTotalCart(); 
 
     }
     else if (planetString === "uranus") {
@@ -108,6 +112,7 @@ function Plus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${uranusFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = uranusCounter;
+      syncTotalCart(); 
 
     }
     else if (planetString === "moon") {
@@ -120,6 +125,7 @@ function Plus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${moonFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = moonCounter;
+      syncTotalCart(); 
 
     }
 }//if runs through all code to check which planet is being counted and ensures they have seperate values 
@@ -140,8 +146,9 @@ function Minus(planetString) {
 
 
       if (cartNum) cartNum.innerHTML = marsCounter;//live changes the cart and flights page counter
+      syncTotalCart(); 
 
-    } else if (planetString === "neptune" && neptuneCounter > 0) {
+    } else if (planetString === "neptune" && neptuneCounter > 1) {
       neptuneCounter--;
       console.log(neptuneCounter);
       num.innerHTML = neptuneCounter;
@@ -151,9 +158,10 @@ function Minus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${neptuneFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = neptuneCounter;
+      syncTotalCart(); 
 
     }
-    else if (planetString === "jupiter" && jupiterCounter > 0) {
+    else if (planetString === "jupiter" && jupiterCounter > 1) {
       jupiterCounter--;
       console.log(jupiterCounter);
       num.innerHTML = jupiterCounter;
@@ -163,9 +171,10 @@ function Minus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${jupiterFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = jupiterCounter;
+      syncTotalCart(); 
 
     }
-    else if (planetString === "saturn" && saturnCounter > 0) {
+    else if (planetString === "saturn" && saturnCounter > 1) {
       saturnCounter--;
       console.log(saturnCounter);
       num.innerHTML = saturnCounter;
@@ -175,9 +184,10 @@ function Minus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${saturnFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = saturnCounter;
+      syncTotalCart(); 
 
     }
-    else if (planetString === "uranus" && uranusCounter > 0) {
+    else if (planetString === "uranus" && uranusCounter > 1) {
       uranusCounter--;
       console.log(uranusCounter);
       num.innerHTML = uranusCounter;
@@ -187,9 +197,10 @@ function Minus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${uranusFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = uranusCounter;
+      syncTotalCart(); 
 
     }
-    else if (planetString === "moon" && moonCounter > 0) {
+    else if (planetString === "moon" && moonCounter > 1) {
       moonCounter--;
       console.log(moonCounter);
       num.innerHTML = moonCounter;
@@ -199,6 +210,7 @@ function Minus(planetString) {
       if (priceFlight) priceFlight.innerText = `R${moonFlightPrice.toLocaleString()}`;
       
       if (cartNum) cartNum.innerHTML = moonCounter;
+      syncTotalCart(); 
 
     }
 }
@@ -364,6 +376,8 @@ function DisplayMarsCart(){
 
   `;
   cartBody.innerHTML += displayMarsCart;
+
+  syncTotalCart(); 
 }
 
 function RemoveMarsCart(cartRemove){
@@ -372,6 +386,7 @@ function RemoveMarsCart(cartRemove){
   if (cartCard){
     cartCard.remove();
   }
+  syncTotalCart(); 
 }
 
 
@@ -427,6 +442,7 @@ if (document.getElementById("neptuneCartCard")){
 
   `; 
 cartBody.innerHTML += displayNeptuneCart;
+syncTotalCart(); 
 }
 
 function RemoveNeptuneCart(cartRemove){
@@ -435,6 +451,7 @@ function RemoveNeptuneCart(cartRemove){
   if (cartCard){
     cartCard.remove();
   }
+  syncTotalCart(); 
 }
 
 
@@ -486,6 +503,7 @@ let displayJupiterCart = `<div class="jupiterCartCard card flex mb-3" id="jupite
 `;
 
 cartBody.innerHTML += displayJupiterCart;
+syncTotalCart(); 
 }
 
 function RemoveJupiterCart(cartRemove){
@@ -494,6 +512,7 @@ function RemoveJupiterCart(cartRemove){
   if (cartCard){
     cartCard.remove();
   }
+  syncTotalCart(); 
 }
 
 
@@ -552,6 +571,7 @@ function DisplaySaturnCart(){
   `; 
   cartBody.innerHTML += displaySaturnCart; 
 
+  syncTotalCart(); 
 }
 
 function RemoveSaturnCart(cartRemove){
@@ -560,6 +580,7 @@ function RemoveSaturnCart(cartRemove){
   if (cartCard){
     cartCard.remove();
   }
+  syncTotalCart(); 
 }
 
 
@@ -615,6 +636,7 @@ if (document.getElementById("uranusCartCard")){
   `;
 
   cartBody.innerHTML += displayUraunsCart;
+  syncTotalCart(); 
 
 }
 
@@ -624,6 +646,7 @@ function RemoveUranusCart(cartRemove){
   if (cartCard){
     cartCard.remove();
   }
+  syncTotalCart(); 
 }
 
 
@@ -683,6 +706,7 @@ if (document.getElementById("moonCartCard")){
   `;
 
   cartBody.innerHTML += displayMoonCart;
+  syncTotalCart(); 
 }
 
 function RemoveMoonCart(cartRemove){
@@ -691,4 +715,44 @@ function RemoveMoonCart(cartRemove){
   if (cartCard){
     cartCard.remove();
   }
+  syncTotalCart(); 
+}
+
+
+//cart total
+function syncTotalCart(){
+  let totalCart = 0; 
+
+  if (document.getElementById("marsCartCard")){
+    totalCart += marsCounter * flightPrices.mars;
+
+  }
+
+  if (document.getElementById("neptuneCartCard")){
+    totalCart +=  neptuneCounter * flightPrices.neptune;
+
+  }
+
+  if (document.getElementById("jupiterCartCard")){
+    totalCart +=  jupiterCounter * flightPrices.jupiter;
+    
+  }
+
+  if (document.getElementById("saturnCartCard")){
+    totalCart +=  saturnCounter * flightPrices.saturn;
+    
+  }
+
+  if (document.getElementById("uranusCartCard")){
+    totalCart +=  uranusCounter * flightPrices.uranus;
+    
+  }
+
+  if (document.getElementById("moonCartCard")){
+    totalCart +=  moonCounter * flightPrices.moon;
+    
+  }
+
+document.getElementById("totalCart").innerHTML = `Total : R${totalCart.toLocaleString()}`;
+
 }
