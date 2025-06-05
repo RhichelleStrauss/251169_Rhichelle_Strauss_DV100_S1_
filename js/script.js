@@ -17,7 +17,17 @@ let jupiterCounter = 1;
 let saturnCounter = 1;
 let uranusCounter = 1;
 let moonCounter = 1;
-//num = 0 default on all counters 
+//num = 1 default on all counters 
+
+//flight prices declaration
+const flightPrices = {
+  mars: 25000,
+  neptune: 45000, 
+  jupiter: 65000, 
+  saturn: 40000, 
+  uranus: 50000, 
+  moon: 15000
+}
 
 //event listeners to search for correct planet 
 function SetSelector(planetString){
@@ -29,6 +39,16 @@ function SetSelector(planetString){
 
 }
 
+let marsFlightPrice = marsCounter * flightPrices.mars;
+let neptuneFlightPrice = neptuneCounter * flightPrices.neptune;
+let jupiterFlightPrice = jupiterCounter * flightPrices.jupiter;
+let saturnFlightPrice = saturnCounter * flightPrices.saturn;
+let uranusFlightPrice = uranusCounter * flightPrices.uranus;
+let moonFlightPrice = moonCounter * flightPrices.moon;
+
+
+
+
 function Plus(planetString) {
   SetSelector(planetString);
     if (planetString === "mars") {
@@ -36,12 +56,20 @@ function Plus(planetString) {
       console.log(marsCounter);
       num.innerHTML = marsCounter;
 
+      marsFlightPrice = marsCounter * flightPrices.mars;
+      const priceFlight = document.getElementById("marsFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${marsFlightPrice.toLocaleString()}`;
+
       if (cartNum) cartNum.innerHTML = marsCounter;
 
     } else if (planetString === "neptune") {
       neptuneCounter++;
       console.log(neptuneCounter);
       num.innerHTML = neptuneCounter;
+
+      neptuneFlightPrice = neptuneCounter * flightPrices.neptune;
+      const priceFlight = document.getElementById("neptuneFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${neptuneFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = neptuneCounter;
 
@@ -51,6 +79,10 @@ function Plus(planetString) {
       console.log(jupiterCounter);
       num.innerHTML = jupiterCounter;
 
+      jupiterFlightPrice = jupiterCounter * flightPrices.jupiter;
+      const priceFlight = document.getElementById("jupiterFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${jupiterFlightPrice.toLocaleString()}`;
+
       if (cartNum) cartNum.innerHTML = jupiterCounter;
 
     }
@@ -58,6 +90,10 @@ function Plus(planetString) {
       saturnCounter++;
       console.log(saturnCounter);
       num.innerHTML = saturnCounter;
+
+      saturnFlightPrice = saturnCounter * flightPrices.saturn;
+      const priceFlight = document.getElementById("saturnFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${saturnFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = saturnCounter;
 
@@ -67,6 +103,10 @@ function Plus(planetString) {
       console.log(uranusCounter);
       num.innerHTML = uranusCounter;
 
+      uranusFlightPrice = uranusCounter * flightPrices.uranus;
+      const priceFlight = document.getElementById("uranusFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${uranusFlightPrice.toLocaleString()}`;
+
       if (cartNum) cartNum.innerHTML = uranusCounter;
 
     }
@@ -74,6 +114,10 @@ function Plus(planetString) {
       moonCounter++;
       console.log(moonCounter);
       num.innerHTML = moonCounter;
+
+      moonFlightPrice = moonCounter * flightPrices.moon;
+      const priceFlight = document.getElementById("moonFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${moonFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = moonCounter;
 
@@ -84,17 +128,27 @@ function Plus(planetString) {
 
 function Minus(planetString) {
   SetSelector(planetString);
-    if (planetString === "mars" && marsCounter > 0) { //ensures minus doesnt go beyond 0
+  
+    if (planetString === "mars" && marsCounter > 1) { //ensures minus doesnt go beyond 0
       marsCounter--;
       console.log(marsCounter);
       num.innerHTML = marsCounter;
 
-      if (cartNum) cartNum.innerHTML = marsCounter;
+      marsFlightPrice = marsCounter * flightPrices.mars;
+      const priceFlight = document.getElementById("marsFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${marsFlightPrice.toLocaleString()}`;
+
+
+      if (cartNum) cartNum.innerHTML = marsCounter;//live changes the cart and flights page counter
 
     } else if (planetString === "neptune" && neptuneCounter > 0) {
       neptuneCounter--;
       console.log(neptuneCounter);
       num.innerHTML = neptuneCounter;
+
+      neptuneFlightPrice = neptuneCounter * flightPrices.neptune;
+      const priceFlight = document.getElementById("neptunwFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${neptuneFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = neptuneCounter;
 
@@ -104,6 +158,10 @@ function Minus(planetString) {
       console.log(jupiterCounter);
       num.innerHTML = jupiterCounter;
 
+      jupiterFlightPrice = jupiterCounter * flightPrices.jupiter;
+      const priceFlight = document.getElementById("jupiterFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${jupiterFlightPrice.toLocaleString()}`;
+
       if (cartNum) cartNum.innerHTML = jupiterCounter;
 
     }
@@ -111,6 +169,10 @@ function Minus(planetString) {
       saturnCounter--;
       console.log(saturnCounter);
       num.innerHTML = saturnCounter;
+
+      saturnFlightPrice = saturnCounter * flightPrices.saturn;
+      const priceFlight = document.getElementById("saturnFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${saturnFlightPrice.toLocaleString()}`;
 
       if (cartNum) cartNum.innerHTML = saturnCounter;
 
@@ -120,6 +182,10 @@ function Minus(planetString) {
       console.log(uranusCounter);
       num.innerHTML = uranusCounter;
 
+      uranusFlightPrice = uranusCounter * flightPrices.uranus;
+      const priceFlight = document.getElementById("uranusFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${uranusFlightPrice.toLocaleString()}`;
+
       if (cartNum) cartNum.innerHTML = uranusCounter;
 
     }
@@ -127,6 +193,10 @@ function Minus(planetString) {
       moonCounter--;
       console.log(moonCounter);
       num.innerHTML = moonCounter;
+
+      moonFlightPrice = moonCounter * flightPrices.moon;
+      const priceFlight = document.getElementById("moonFlightPrice");
+      if (priceFlight) priceFlight.innerText = `R${moonFlightPrice.toLocaleString()}`;
       
       if (cartNum) cartNum.innerHTML = moonCounter;
 
@@ -272,7 +342,7 @@ function DisplayMarsCart(){
                                                             stargazing under Phobos and Deimos. Unforgettable adventures
                                                             beckon
                                                             on the rust-colored landscapes of the Red Planet.</p>
-                                                        <p class="flightPrice">R25,000.00</p>
+                                                        <p class="flightPrice" id="marsFlightPrice">R${marsFlightPrice}</p>
                                                         <div class="cartModalButtons col-md-8 mt-5 flex">
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="marsMinus btn"
@@ -332,7 +402,7 @@ if (document.getElementById("neptuneCartCard")){
                                                             phenomena, and savor gourmet space cuisine. An unforgettable
                                                             adventure awaits, blending luxury with cosmic exploration.
                                                         </p>
-                                                        <p class="flightPrice">R45,000.00</p>
+                                                        <p class="flightPrice" id="neptuneFlightPrice">R${neptuneFlightPrice}</p>
                                                         <div class="cartModalButtons col-md-8 mt-5 flex">
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="neptuneMinus btn"
@@ -394,7 +464,7 @@ let displayJupiterCart = `<div class="jupiterCartCard card flex mb-3" id="jupite
                                                             surfing, comet chasing, and space excursions. Experience
                                                             cosmic wonder
                                                             in luxury, blending exploration with adventure.</p>
-                                                        <p class="flightPrice">R65,000.00</p>
+                                                        <p class="flightPrice" id="jupiterFlightPrice">R${jupiterFlightPrice}</p>
                                                         <div class="cartModalButtons col-md-8 mt-5 flex">
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="jupiterMinus btn"
@@ -456,7 +526,7 @@ function DisplaySaturnCart(){
                                                             amidst luxurious accommodations, where the thrill of
                                                             discovery
                                                             intertwines seamlessly with the excitement of adventure.</p>
-                                                        <p class="flightPrice">R40,000.00</p>
+                                                        <p class="flightPrice" id="saturnFlightPrice">R${saturnFlightPrice}</p>
                                                         <div class="cartModalButtons col-md-8 mt-5 flex">
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="saturnMinus btn"
@@ -522,7 +592,7 @@ if (document.getElementById("uranusCartCard")){
                                                             accommodations and expert guides, discover the wonders of
                                                             Uranus in a
                                                             journey of a lifetime.</p>
-                                                        <p class="flightPrice">R50,000.00</p>
+                                                        <p class="flightPrice" id="uranusFlightPrice">R${uranusFlightPrice}</p>
                                                         <div class="cartModalButtons col-md-8 mt-5 flex">
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="uranusMinus btn"
@@ -586,7 +656,7 @@ if (document.getElementById("moonCartCard")){
                                                             glow. Immerse yourself in luxury accommodations amidst the
                                                             tranquility
                                                             of space.</p>
-                                                        <p class="flightPrice">R15,000.00</p>
+                                                        <p class="flightPrice" id="moonFlightPrice">R${moonFlightPrice}</p>
                                                         <div class="cartModalButtons col-md-8 mt-5 flex">
                                                             <div class="numOfFlights btn-group" role="group">
                                                                 <button class="moonMinus btn"

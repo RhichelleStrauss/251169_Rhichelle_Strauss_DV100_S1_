@@ -361,6 +361,14 @@ font-family: "Poppins", sans-serif;
 .cartModalHeader{
   background: #45016d;
 }
+.totalCart{
+  margin-left: auto;
+font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  color: #000000a9;
+}
 
 .cartModalCont{
   margin-right: auto;
@@ -1019,7 +1027,7 @@ padding-top: 2%; /*application of feedback*/
 
 }
 
-.marsPriceDiscounted {
+.marsFlightPrice {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -1224,7 +1232,7 @@ padding-bottom: 5%; /*application of feedback*/
   color: #ffffff;
 }
 
-.neptunePrice {
+.neptuneFlightPrice {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -1385,7 +1393,7 @@ padding-bottom: 5%; /*application of feedback*/
 
 }
 
-.jupiterPrice {
+.jupiterFlightPrice {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -1565,7 +1573,7 @@ padding-bottom: 5%; /*application of feedback*/
   color: #ffffff;
 }
 
-.saturnPrice {
+.saturnFlightPrice {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -1714,7 +1722,7 @@ padding-bottom: 5%; /*application of feedback*/
 
 }
 
-.uranusPrice {
+.uranusFlightPrice {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -1914,7 +1922,7 @@ padding-bottom: 5%; /*application of feedback*/
   color: #ffffff;
 }
 
-.moonPrice {
+.moonFlightPrice {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
