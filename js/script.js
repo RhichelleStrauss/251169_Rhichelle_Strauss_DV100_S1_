@@ -722,9 +722,13 @@ function RemoveMoonCart(cartRemove){
 //cart total
 function syncTotalCart(){
   let totalCart = 0; 
+  let totalFlights =0 ;
+
 
   if (document.getElementById("marsCartCard")){
     totalCart += marsCounter * flightPrices.mars;
+
+    totalFlights += marsCounter;
 
   }
 
@@ -754,5 +758,16 @@ function syncTotalCart(){
   }
 
 document.getElementById("totalCart").innerHTML = `Total : R${totalCart.toLocaleString()}`;
+
+
+const cartFlightCounter = document.getElementById("cartFlightCountDot");
+  cartFlightCounter.textContent = totalFlights;
+
+  
+  if (totalFlights === 0) {
+    cartFlightCounter.style.display = "none";
+  } else {
+    cartFlightCounter.style.display = "inline-block";
+  }
 
 }
