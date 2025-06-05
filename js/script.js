@@ -11,12 +11,12 @@ let num = document.querySelector("marsNum"); //making mars the default num, and 
 
 
 
-let marsCounter = 0;
-let neptuneCounter = 0;
-let jupiterCounter = 0;
-let saturnCounter = 0;
-let uranusCounter = 0;
-let moonCounter = 0;
+let marsCounter = 1;
+let neptuneCounter = 1;
+let jupiterCounter = 1;
+let saturnCounter = 1;
+let uranusCounter = 1;
+let moonCounter = 1;
 //num = 0 default on all counters 
 
 //event listeners to search for correct planet 
