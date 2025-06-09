@@ -340,7 +340,17 @@ font-family: "Poppins", sans-serif;
   padding-left: 10px;
 
 }
+.thankYouPurchase{
+  display: none;
+}
 
+.thankYouPopup{ 
+  display: block;
+  background-color: #55daeb;
+  height: 50%;
+  width: 50%;
+  color: #000000;
+}
 
 /*implemented feedback*/
 .notiDot {

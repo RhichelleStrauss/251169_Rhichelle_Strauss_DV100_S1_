@@ -2,6 +2,15 @@
 
 
 
+let marsCounter = parseInt(localStorage.getItem("marsCounter")) || 1; 
+let neptuneCounter = parseInt(localStorage.getItem("neptuneCounter")) || 1;
+let jupiterCounter = parseInt(localStorage.getItem("jupiterCounter")) || 1;
+let saturnCounter = parseInt(localStorage.getItem("saturnCounter")) || 1;
+let uranusCounter = parseInt(localStorage.getItem("uranusCounter")) || 1;
+let moonCounter = parseInt(localStorage.getItem("moonCounter")) || 1;
+
+
+
 
 //button counters on flights page 
 let plus = document.querySelector("marsPlus"); //making mars the default plus, and reference back to html 
@@ -11,12 +20,12 @@ let num = document.querySelector("marsNum"); //making mars the default num, and 
 
 
 
-let marsCounter = 1;
-let neptuneCounter = 1;
-let jupiterCounter = 1;
-let saturnCounter = 1;
-let uranusCounter = 1;
-let moonCounter = 1;
+//let marsCounter = 1;
+//let neptuneCounter = 1;
+//let jupiterCounter = 1;
+//let saturnCounter = 1;
+//let uranusCounter = 1;
+//let moonCounter = 1;
 //num = 1 default on all counters 
 
 //flight prices declaration
@@ -324,6 +333,8 @@ function filterSearchItems () {
 
 //cart visibility 
  
+
+
 
 const cartBody = document.getElementById("cartModalFlights");
 
@@ -718,6 +729,23 @@ function RemoveMoonCart(cartRemove){
   syncTotalCart(); 
 }
 
+let cart = {
+  mars: marsCounter,
+  neptune: neptuneCounter,
+  jupiter: jupiterCounter,
+  saturn: saturnCounter,
+  uranus: uranusCounter,
+  moon: moonCounter
+
+}
+
+let saveCart = JSON.parse(localStorage.getItem("cartInfo")) || {};
+marsCounter = saveCart.mars || 0; 
+neptuneCounter = saveCart.neptune || 0;
+jupiterCounter = saveCart.jupiter|| 0;
+saturnCounter = saveCart.saturn || 0;
+uranusCounter = saveCart.uranus|| 0;
+moonCounter = saveCart.moon || 0;
 
 //cart total
 function syncTotalCart(){
@@ -759,15 +787,14 @@ function syncTotalCart(){
 
 document.getElementById("totalCart").innerHTML = `Total : R${totalCart.toLocaleString()}`;
 
-
+totalFlights = marsCounter, uranusCounter, jupiterCounter, saturnCounter, moonCounter, neptuneCounter;
 const cartFlightCounter = document.getElementById("cartFlightCountDot");
   cartFlightCounter.textContent = totalFlights;
 
   
-  if (totalFlights === 0) {
-    cartFlightCounter.style.display = "none";
-  } else {
-    cartFlightCounter.style.display = "inline-block";
+ 
+  
+    cartFlightCounter.style.display = "inline-block"; 
   }
+  
 
-}

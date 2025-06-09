@@ -92,7 +92,7 @@
                     <span class="line "></span>
                     <button class="searchBarCart input-group-text" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartModal">
                         <i class="fa-solid fa-basket-shopping fa-lg"></i>
-                        <span class="notiDot">2</span>
+                        <span class="notiDot" id="cartFlightCountDot">0</span>
 
 
                     </button>
@@ -100,26 +100,34 @@
 <!-- Button trigger modal -->
 
 <!-- Modal -->
-<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
-      <div class="cartModalHeader modal-header">
-        <h7 class="modal-title fs-5" id="exampleModalLabel">Your Shopping Cart</h7>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <a href="../pages/flights.html" type="button" class="cartModalCont btn" >Continue Shopping</a>
-        
-        <button type="button" class="cartModalClose btn" data-bs-dismiss="modal">Close</button> 
-        <!--Modal opens and closes when clicking on cart on the nav bar. 
-        EXTRA added function not mentioned in brief: Continue Shopping takes you back to the flights page to continue shopping  -->
-      </div>
-    </div>
-  </div>
-</div>
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="cartModalHeader modal-header">
+                                    <h7 class="modal-title fs-5" id="exampleModalLabel">Your Shopping Cart</h7>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="cartModalFlights">
+                                    </div>
+                                </div>
+                                <div class="totalCart" id="totalCart">
+                                    <span>Total : R0.00</span>
+                                </div>
+                                 <div class="modal-footer">
+                              
+
+                                <button type="button" class="cartModalCont btn" data-bs-dismiss="modal">Continue Shopping</button>
+                                <!--Modal opens and closes when clicking on cart on the nav bar.   -->
+
+                                <a href="../index.html" type="button" class="cartModalCheckout btn">Checkout</a>
+                            </div>
+                            </div>
+                           
+                        </div>
+                    </div>
                 </div>
             </div>
             </div>
